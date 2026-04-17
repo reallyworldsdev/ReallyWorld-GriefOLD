@@ -1,0 +1,3100 @@
+menu_title: '&fꈁꀀꈂꍁꈂꀁ&0ꈃꄒ'
+open_requirement:
+ requirements:
+   open_req:
+     type: has permission
+     permission: 'quest.2okay'
+     deny_commands:
+     - '[message] &6Квесты &7» &cТы еще не готов к этим квестам.'
+size: 53
+items:
+  'quest_reward_1_no':
+    material: pink_shulker_box
+    slot: 17
+    priority: 9999
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&aНажмите, чтобы забрать свой приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questNEW22226.reward.1'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &6Джамшут &7» &aВаша награда была выдана. Спасибо за прохождение этапа.'
+      - '[refresh]'
+      - '[console] case give %player_name% djamshut 1'
+      - '[console] lp user %player_name% permission set questNEW22226.reward.1 false'
+      - '[refresh]'
+  'quest_reward_1_yes':
+    material: pink_shulker_box
+    slot: 17
+    priority: 100000
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&cПройдите этап, чтобы забрать приз'
+    
+    #
+    #
+    #
+    #
+    # ПРИЗ 2
+    #
+    #
+    #
+    #
+    
+  'quest_reward_2_no':
+    material: lime_shulker_box
+    slot: 26
+    priority: 9999
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&aНажмите, чтобы забрать свой приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questNEW22226.reward.2'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &6Джамшут &7» &aВаша награда была выдана. Спасибо за прохождение этапа.'
+      - '[refresh]'
+      - '[console] case give %player_name% djamshut 1'
+      - '[console] lp user %player_name% permission set questNEW22226.reward.2 false'
+      - '[refresh]'
+  'quest_reward_2_yes':
+    material: lime_shulker_box
+    slot: 26
+    priority: 100000
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&cПройдите этап, чтобы забрать приз'
+    
+    #
+    #
+    #
+    #
+    # ПРИЗ 3
+    #
+    #
+    #
+    #
+    
+  'quest_reward_3_no':
+    material: yellow_shulker_box
+    slot: 35
+    priority: 9999
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&aНажмите, чтобы забрать свой приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questNEW22226.reward.3'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &6Джамшут &7» &aВаша награда была выдана. Спасибо за прохождение этапа.'
+      - '[refresh]'
+      - '[console] case give %player_name% djamshut 1'
+      - '[console] lp user %player_name% permission set questNEW22226.reward.3 false'
+      - '[refresh]'
+  'quest_reward_3_yes':
+    material: yellow_shulker_box
+    slot: 35
+    priority: 100000
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&cПройдите этап, чтобы забрать приз'
+    
+    #
+    #
+    #
+    #
+    # ПРИЗ 4
+    #
+    #
+    #
+    #
+  'quest_reward_4_no':
+    material: light_blue_shulker_box
+    slot: 44
+    priority: 9999
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&aНажмите, чтобы забрать свой приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questNEW22226.reward.4'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &6Джамшут &7» &aВаша награда была выдана. Спасибо за прохождение этапа.'
+      - '[refresh]'
+      - '[console] case give %player_name% djamshut 1'
+      - '[console] lp user %player_name% permission set questNEW22226.reward.4 false'
+      - '[refresh]'
+  'quest_reward_4_yes':
+    material: light_blue_shulker_box
+    slot: 44
+    priority: 100000
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&cПройдите этап, чтобы забрать приз'
+    
+  'quest_reward_5_no':
+    material: magenta_shulker_box
+    slot: 53
+    priority: 9999
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&aНажмите, чтобы забрать свой приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'questNEW22226.reward.5'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &6Джамшут &7» &aВаша награда была выдана. Спасибо за прохождение этапа.'
+      - '[refresh]'
+      - '[console] p give %player_name% 2000'
+      - '[console] case give %player_name% djamshut 1'
+      - '[console] lp user %player_name% permission set questNEW22226.reward.5 false'
+      - '[console] lp user %player_name% permission set quest2.end true'
+      - '[console] lp user %player_name% permission set quest.3okay true'
+      - '[refresh]'
+  'quest_reward_5_yes':
+    material: magenta_shulker_box
+    slot: 53
+    priority: 100000
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&cПройдите этап, чтобы забрать приз'
+    
+    #
+    #
+    #
+    #
+    # ПРИЗ 4
+    #
+    #
+    #
+    #
+    
+  'quest_1_unlocked':
+    slot: 9
+    priority: 0
+    material: sugar_cane
+    display_name: '&6Сахарный тростник'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Сахарный тростник'
+      - ''
+      - '&7Прогресс: &60&7/&6320'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 41 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.1
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: sugar_cane
+          amount: 320
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.1'
+      - '[console] minecraft:clear %player_name% minecraft:sugar_cane 320'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  #
+  #   Квест #1 выполнен. Выполняйте следующий
+  #
+  'quest_1_done':
+    slot: 9
+    priority: 1
+    material: sugar_cane
+    display_name: '&6Сахарный тростник'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Сахарный тростник'
+      - ''
+      - '&7Прогресс: &6320&7/&6320'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.1
+  #
+  #   Квест #2 заблокирован. Выполните Квест #1
+  #
+  'quest_2_locked':
+    slot: 10
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.1
+  #
+  #   Квест #2 разблокирован. Выполните его
+  #
+  'quest_2_unlocked':
+    slot: 10
+    priority: 1
+    material: iron_ingot
+    display_name: '&6Железный слиток'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Железный слиток'
+      - ''
+      - '&7Прогресс: &60&7/&61024'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 42 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.2
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: iron_ingot
+          amount: 1024
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.2'
+      - '[console] minecraft:clear %player_name% iron_ingot 1024'
+      - '[message] &6┏'
+      - '[message]  &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message]  &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  #
+  #   Квест #2 выполнен. Выполняйте следующий. И так далее...
+  #
+  'quest_2_done':
+    slot: 10
+    priority: 2
+    material: iron_ingot
+    display_name: '&6Железный слиток'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Железный слиток'
+      - ''
+      - '&7Прогресс: &61024&7/&61024'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.2
+  'quest_3_locked':
+    slot: 11
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.2
+  'quest_3_unlocked':
+    slot: 11
+    priority: 1
+    hide_attributes: true
+    material: terracotta
+    display_name: '&6Терракота'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Терракота'
+      - ''
+      - '&7Прогресс: &60&7/&62045'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 43 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.3
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: terracotta
+          amount: 2045
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.3'
+      - '[console] minecraft:clear %player_name% terracotta 2045'
+      - '[message] &6┏'
+      - '[message]  &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message]  &6| &fСледующее задание разблокировано'
+      - '[message]  &6| &fПодробнее - &6/quest'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_3_done':
+    slot: 11
+    priority: 2
+    hide_attributes: true
+    material: terracotta
+    display_name: '&6Терракота'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Терракота'
+      - ''
+      - '&7Прогресс: &62045&7/&62045'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.3
+  'quest_4_locked':
+    slot: 12
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.3
+  'quest_4_unlocked':
+    slot: 12
+    priority: 1
+    hide_attributes: true
+    material: birch_fence
+    display_name: '&6Берёзовый забор'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Берёзовый забор'
+      - ''
+      - '&7Прогресс: &60&7/&61000'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 44 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.4
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: birch_fence
+          amount: 1000
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.4'
+      - '[console] minecraft:clear %player_name% birch_fence 1000'
+      - '[message]  &6┎'
+      - '[message]  &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message]  &6| &fСледующее задание разблокировано'
+      - '[message]  &6| &fПодробнее - &6/quest'
+      - '[message]  &6┕'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_4_done':
+    slot: 12
+    priority: 2
+    hide_attributes: true
+    material: birch_fence
+    display_name: '&6Берёзовый забор'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Берёзовый забор'
+      - ''
+      - '&7Прогресс: &61000&7/&61000'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.4
+  'quest_5_locked':
+    slot: 13
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.4
+  'quest_5_unlocked':
+    slot: 13
+    priority: 1
+    material: redstone_ore
+    display_name: '&6Редстоуновая руда'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Редстоуновая руда'
+      - ''
+      - '&7Прогресс: &60&7/&61'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 45 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.5
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: redstone_ore
+          amount: 1
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.5'
+      - '[console] minecraft:clear %player_name% redstone_ore 1'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6| &fПодробнее - &6/quest'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_5_done':
+    slot: 13
+    priority: 2
+    material: redstone_ore
+    display_name: '&6Редстоуновая руда'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Редстоуновая руда'
+      - ''
+      - '&7Прогресс: &61&7/&61'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.5
+          
+    
+  'quest_10_locked':
+    slot: 14
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.5
+  'quest_10_unlocked':
+    slot: 14
+    priority: 1
+    material: granite
+    display_name: '&6Гранит'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Гранит'
+      - ''
+      - '&7Прогресс: &60&7/&61222'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 46 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.6
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: granite
+          amount: 1222
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.6'
+      - '[console] minecraft:clear %player_name% granite 1222'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  #
+  #   Квест #1 выполнен. Выполняйте следующий
+  #
+  'quest_10_done':
+    slot: 14
+    priority: 2
+    material: granite
+    display_name: '&6Гранит'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Гранит'
+      - ''
+      - '&7Прогресс: &61222&7/&61222'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.6
+  #
+  #   Квест #2 заблокирован. Выполните Квест #1
+  #
+  'quest_20_locked':
+    slot: 15
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.6
+  #
+  #   Квест #2 разблокирован. Выполните его
+  #
+  'quest_20_unlocked':
+    slot: 15
+    priority: 1
+    material: NAME_TAG
+    display_name: '&6Бирка'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Бирка'
+      - ''
+      - '&7Прогресс: &60&7/&616'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 47 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.7
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: NAME_TAG
+          amount: 16
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.7'
+      - '[console] minecraft:clear %player_name% name_tag 16'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  #
+  #   Квест #2 выполнен. Выполняйте следующий. И так далее...
+  #
+  'quest_20_done':
+    slot: 15
+    priority: 2
+    material: name_tag
+    display_name: '&6Бирка'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Бирка'
+      - ''
+      - '&7Прогресс: &616&7/&616'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.7
+          
+  'quest_2s0_locked':
+    slot: 16
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.7
+  #
+  #   Квест #2 разблокирован. Выполните его
+  #
+  'quest_2s0_unlocked':
+    slot: 16
+    priority: 1
+    material: bricks
+    display_name: '&6Кирпичи'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Кирпичи'
+      - ''
+      - '&7Прогресс: &60&7/&61423'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 48 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.8
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: bricks
+          amount: 1423
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.8'
+      - '[console] lp user %player_name% permission set questNEW22226.reward.1'
+      - '[console] minecraft:clear %player_name% bricks 1423'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  #
+  #   Квест #2 выполнен. Выполняйте следующий. И так далее...
+  #
+  'quest_2s0_done':
+    slot: 16
+    priority: 2
+    material: bricks
+    display_name: '&6Кирпичи'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Кирпичи'
+      - ''
+      - '&7Прогресс: &61423&7/&61423'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.8
+          
+  'quest_30_locked':
+    slot: 18
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.8
+          
+  'quest_30_unlocked':
+    slot: 18
+    priority: 1
+    material: netherrack
+    display_name: '&6Незерак'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Незерак'
+      - ''
+      - '&7Прогресс: &60&7/&61800'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 49 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.9
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: netherrack
+          amount: 1800
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.9'
+      - '[console] lp user %player_name% permission set quest2.8'
+      - '[console] minecraft:clear %player_name% netherrack 1800'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6| &fПодробнее - &6/quest'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_30_done':
+    slot: 18
+    priority: 2
+    material: netherrack
+    display_name: '&6Незерак'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Незерак'
+      - ''
+      - '&7Прогресс: &61800&7/&61800'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.9
+          
+  'quest_4ss0_locked':
+    slot: 19
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.9
+  'quest_40_unlocked':
+    slot: 19
+    priority: 1
+    material: basalt
+    display_name: '&6Базальт'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Базальт'
+      - ''
+      - '&7Прогресс: &60&7/&6504'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 50 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.10
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: basalt
+          amount: 504
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.10'
+      - '[console] minecraft:clear %player_name% basalt 504'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_40_done':
+    slot: 19
+    priority: 2
+    material: basalt
+    display_name: '&6Базальт'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Базальт'
+      - ''
+      - '&7Прогресс: &6504&7/&6504'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.10
+  'quest_50_locked':
+    slot: 20
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.10
+  'quest_50_unlocked':
+    slot: 20
+    priority: 1
+    material: furnace
+    display_name: '&6Печь'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Печь'
+      - ''
+      - '&7Прогресс: &60&7/&62003'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 51 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.11
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: furnace
+          amount: 2003
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.11'
+      - '[console] minecraft:clear %player_name% minecraft:furnace 2003'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_50_done':
+    slot: 20
+    priority: 2
+    material: furnace
+    display_name: '&6Печь'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Печь'
+      - ''
+      - '&7Прогресс: &62003&7/&62003'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.11
+  'quest_100_locked':
+    slot: 21
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.11
+  'quest_100_unlocked':
+    slot: 21
+    priority: 1
+    material: magma_block
+    display_name: '&6Магма'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Магма'
+      - ''
+      - '&7Прогресс: &60&7/&6340'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 52 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.12
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: magma_block
+          amount: 340
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.12'
+      - '[console] minecraft:clear %player_name% magma_block 340'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  #
+  #   Квест #1 выполнен. Выполняйте следующий
+  #
+  'quest_100_done':
+    slot: 21
+    priority: 2
+    material: magma_block
+    display_name: '&6Магма'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Магма'
+      - ''
+      - '&7Прогресс: &6340&7/&6340'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.12
+  'quest_480_locked':
+    slot: 22
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.12
+  'quest_408_unlocked':
+    slot: 22
+    priority: 1
+    material: nether_quartz_ore
+    display_name: '&6Незер-кварцевая руда'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Незер-кварцевая руда'
+      - ''
+      - '&7Прогресс: &60&7/&6120'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 53 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.13
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: nether_quartz_ore
+          amount: 120
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.13'
+      - '[console] minecraft:clear %player_name% minecraft:nether_quartz_ore 120'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_408_done':
+    slot: 22
+    priority: 2
+    material: nether_quartz_ore
+    display_name: '&6Незер-кварцевая руда'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Незер-кварцевая руда'
+      - ''
+      - '&7Прогресс: &6120&7/&6120'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.13
+  #
+  #   Квест #2 заблокирован. Выполните Квест #1
+  #
+  'quest_200_locked':
+    slot: 23
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.13
+  #
+  #   Квест #2 разблокирован. Выполните его
+  #
+  'quest_200_unlocked':
+    slot: 23
+    priority: 1
+    material: GLOWSTONE
+    display_name: '&6Светокамень'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Светокамень'
+      - ''
+      - '&7Прогресс: &60&7/&6444'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 54 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.14
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: glowstone
+          amount: 444
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.14'
+      - '[console] minecraft:clear %player_name% glowstone 444'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  #
+  #   Квест #2 выполнен. Выполняйте следующий. И так далее...
+  #
+  'quest_200_done':
+    slot: 23
+    priority: 2
+    material: GLOWSTONE
+    display_name: '&6Светокамень'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Светокамень'
+      - ''
+      - '&7Прогресс: &6444&7/&6444'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.14
+  'quest_300_locked':
+    slot: 24
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.14
+  'quest_300_unlocked':
+    slot: 24
+    priority: 1
+    material: zombified_piglin_spawn_egg
+    hide_enchantments: true
+    display_name: '&6Зомбифицированный пиглин'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно убить'
+      - '&6Зомбифицированный пиглин'
+      - ''
+      - '&7Прогресс: &6%statistic_kill_entity:zombified_piglin%&7/&6200'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 55 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.15
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: javascript
+          expression: '%statistic_kill_entity:zombified_piglin% >= 200' 
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.15'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_300_done':
+    slot: 24
+    priority: 2
+    material: zombified_piglin_spawn_egg
+    display_name: '&6Зомбифицированный пиглин'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно убить'
+      - '&6Зомбифицированный пиглин'
+      - ''
+      - '&7Прогресс: &6200&7/&6200'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.15
+          
+          
+  'quest_3ss_locked':
+    slot: 25
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.15
+  'quest_3ss_unlocked':
+    slot: 25
+    priority: 1
+    material: magma_cube_spawn_egg
+    hide_enchantments: true
+    display_name: '&6Магмовый куб'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно убить'
+      - '&6Магмовый куб'
+      - ''
+      - '&7Прогресс: &6%statistic_kill_entity:magma_cube%&7/&633'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 56 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.16
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: javascript
+          expression: '%statistic_kill_entity:magma_cube% >= 33' 
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.16'
+      - '[console] lp user %player_name% permission set questNEW22226.reward.2'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_3ss_done':
+    slot: 25
+    priority: 2
+    material: magma_cube_spawn_egg
+    hide_enchantments: true
+    display_name: '&6Магмовый куб'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно убить'
+      - '&6Магмовый куб'
+      - ''
+      - '&7Прогресс: &633&7/&633'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.16
+          
+          
+          
+          
+          
+  'quest_400_locked':
+    slot: 27
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.16
+  'quest_400_unlocked':
+    slot: 27
+    priority: 1
+    material: nether_bricks
+    display_name: '&6Незерские кирпичи'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Незерские кирпичи'
+      - ''
+      - '&7Прогресс: &60&7/&61500'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 57 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.17
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: nether_bricks
+          amount: 1500
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.17'
+      - '[console] clear %player_name% nether_bricks 1500'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_400_done':
+    slot: 27
+    priority: 2
+    material: nether_bricks
+    display_name: '&6Незерские кирпичи'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Незерские кирпичи'
+      - ''
+      - '&7Прогресс: &61500&7/&61500'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.17
+  'quest_500_locked':
+    slot: 28
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.17
+  'quest_500_unlocked':
+    slot: 28
+    priority: 1
+    material: NETHER_BRICK_FENCE
+    display_name: '&6Незерский забор'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Незерский забор'
+      - ''
+      - '&7Прогресс: &60&7/&6250'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 58 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.18
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: nether_brick_fence
+          amount: 250
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.18'
+      - '[console] minecraft:clear %player_name% nether_brick_fence 250'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_500_done':
+    slot: 28
+    priority: 2
+    material: nether_brick_fence
+    display_name: '&6Незерский забор'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Незерский забор'
+      - ''
+      - '&7Прогресс: &6250&7/&6250'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.18
+  'quest_600_locked':
+    slot: 29
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.18
+  'quest_600_unlocked':
+    slot: 29
+    priority: 1
+    material: BONE_BLOCK
+    display_name: '&6Костный блок'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Костный блок'
+      - ''
+      - '&7Прогресс: &60&7/&640'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 59 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.19
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: bone_block
+          amount: 40
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.19'
+      - '[console] minecraft:clear %player_name% bone_block 40'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_600_done':
+    slot: 29
+    priority: 2
+    material: BONE_BLOCK
+    display_name: '&6Костный блок'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Костный блок'
+      - ''
+      - '&7Прогресс: &640&7/&640'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.19
+  'quest_700_locked':
+    slot: 30
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.19
+  'quest_700_unlocked':
+    slot: 30
+    priority: 1
+    hide_attributes: true
+    material: soul_sand
+    display_name: '&6Песок душ'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Песок душ'
+      - ''
+      - '&7Прогресс: &60&7/&6678'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 60 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.20
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: soul_sand
+          amount: 678
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.20'
+      - '[console] minecraft:clear %player_name% soul_sand 678'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_700_done':
+    slot: 30
+    priority: 2
+    hide_attributes: true
+    material: soul_sand
+    display_name: '&6Песок душ'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Песок душ'
+      - ''
+      - '&7Прогресс: &6678&7/&6678'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.20
+          
+  'quest_800_locked':
+    slot: 31
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.20
+  'quest_800_unlocked':
+    slot: 31
+    priority: 1
+    hide_attributes: true
+    material: golden_chestplate
+    display_name: '&6Золотой нагрудник'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно скрафтить'
+      - '&6Золотой нагрудник'
+      - ''
+      - '&7Прогресс: &6%statistic_craft_item:golden_chestplate%&7/&625'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 61 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.21
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: javascript
+          expression: '%statistic_craft_item:golden_chestplate% >= 25' 
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.21'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_800_done':
+    slot: 31
+    priority: 2
+    hide_attributes: true
+    material: golden_chestplate
+    display_name: '&6Золотой нагрудник'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно скрафтить'
+      - '&6Золотой нагрудник'
+      - ''
+      - '&7Прогресс: &625&7/&625'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.21
+  'quest_900_locked':
+    slot: 32
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.21
+  'quest_900_unlocked':
+    slot: 32
+    priority: 1
+    hide_attributes: true
+    material: GHAST_SPAWN_EGG
+    display_name: '&6Гаст'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно убить'
+      - '&6Гаст'
+      - ''
+      - '&7Прогресс: &6%statistic_kill_entity:ghast%&7/&65'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 62 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.22
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: javascript
+          expression: '%statistic_kill_entity:ghast% >= 5' 
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.22'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_900_done':
+    slot: 32
+    priority: 2
+    hide_attributes: true
+    material: GHAST_SPAWN_EGG
+    display_name: '&6Гаст'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно убить'
+      - '&6Гаст'
+      - ''
+      - '&7Прогресс: &65&7/&65'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.22
+          
+  'quest_1000_locked':
+    slot: 33
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.22
+  'quest_1000_unlocked':
+    slot: 33
+    priority: 1
+    hide_attributes: true
+    material: spruce_log
+    display_name: '&6Еловое бревно'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Еловое бревно'
+      - ''
+      - '&7Прогресс: &60&7/&6493'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 63 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.23
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: spruce_log
+          amount: 493
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.23'
+      - '[console] minecraft:clear %player_name% spruce_log 493'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_1000_done':
+    slot: 33
+    priority: 2
+    hide_attributes: true
+    material: spruce_log
+    display_name: '&6Еловое бревно'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Еловое бревно'
+      - ''
+      - '&7Прогресс: &6493&7/&6493'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.23
+          
+          
+          
+  'quest_10s00_locked':
+    slot: 34
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.23
+  'quest_10s00_unlocked':
+    slot: 34
+    priority: 1
+    hide_attributes: true
+    material: CRYING_OBSIDIAN
+    display_name: '&6Плачущий обсидиан'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Плачущий обсидиан'
+      - ''
+      - '&7Прогресс: &60&7/&632'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 64 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.24
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: crying_obsidian
+          amount: 32
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.24'
+      - '[console] lp user %player_name% permission set questNEW22226.reward.3'
+      - '[console] minecraft:clear %player_name% crying_obsidian 32'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_10s00_done':
+    slot: 34
+    priority: 2
+    hide_attributes: true
+    material: CRYING_OBSIDIAN
+    display_name: '&6Плачущий обсидиан'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Плачущий обсидиан'
+      - ''
+      - '&7Прогресс: &632&7/&632'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.24
+          
+          
+          
+          
+  'quest_10000_locked':
+    slot: 36
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.24
+  'quest_10000_unlocked':
+    slot: 36
+    priority: 1
+    hide_attributes: true
+    material: END_STONE
+    display_name: '&6Эндерняк'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Эндерняк'
+      - ''
+      - '&7Прогресс: &60&7/&61500'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 65 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.25
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: end_stone
+          amount: 1500
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.25'
+      - '[console] minecraft:clear %player_name% end_stone 1500'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_10000_done':
+    slot: 36
+    priority: 2
+    hide_attributes: true
+    material: end_stone
+    display_name: '&6Эндерняк'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Эндерняк'
+      - ''
+      - '&7Прогресс: &61500&7/&61500'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.25
+  'quest_13000_locked':
+    slot: 37
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.25
+  'quest_13000_unlocked':
+    slot: 37
+    priority: 1
+    hide_attributes: true
+    material: END_ROD
+    display_name: '&6Стержень энда'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Стержень энда'
+      - ''
+      - '&7Прогресс: &60&7/&6300'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 66 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.26
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: end_rod
+          amount: 300
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.26'
+      - '[console] minecraft:clear %player_name% end_rod 300'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_13000_done':
+    slot: 37
+    priority: 2
+    hide_attributes: true
+    material: end_rod
+    display_name: '&6Стержень энда'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Стержень энда'
+      - ''
+      - '&7Прогресс: &6300&7/&6300'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.26
+          
+  'quest_14000_locked':
+    slot: 38
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.26
+  'quest_14000_unlocked':
+    slot: 38
+    priority: 1
+    hide_attributes: true
+    material: END_CRYSTAL
+    display_name: '&6Кристалл Энда'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Кристалл Энда'
+      - ''
+      - '&7Прогресс: &60&7/&6111'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 67 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.27
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: end_crystal
+          amount: 111
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.27'
+      - '[console] minecraft:clear %player_name% end_crystal 111'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_14000_done':
+    slot: 38
+    priority: 2
+    hide_attributes: true
+    material: end_crystal
+    display_name: '&6Кристалл Энда'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Кристалл Энда'
+      - ''
+      - '&7Прогресс: &6111&7/&6111'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.27
+  'quest_16000_locked':
+    slot: 39
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.27
+  'quest_16000_unlocked':
+    slot: 39
+    priority: 1
+    hide_attributes: true
+    material: dragon_breath
+    display_name: '&6Драконье дыхание'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Драконье дыхание'
+      - ''
+      - '&7Прогресс: &60&7/&6256'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 68 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.28
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: dragon_breath
+          amount: 256
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.28'
+      - '[console] minecraft:clear %player_name% dragon_breath 256'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_16000_done':
+    slot: 39
+    priority: 2
+    hide_attributes: true
+    material: dragon_breath
+    display_name: '&6Драконье дыхание'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Драконье дыхание'
+      - ''
+      - '&7Прогресс: &6256&7/&6256'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.28
+  'quest_17000_locked':
+    slot: 40
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.28
+  'quest_17000_unlocked':
+    slot: 40
+    priority: 1
+    hide_attributes: true
+    material: purpur_block
+    display_name: '&6Пурпур'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Пурпур'
+      - ''
+      - '&7Прогресс: &60&7/&6999'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 69 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.29
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: purpur_block
+          amount: 999
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.29'
+      - '[console] minecraft:clear %player_name% purpur_block 999'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_17000_done':
+    slot: 40
+    priority: 2
+    hide_attributes: true
+    material: purpur_block
+    display_name: '&6Пурпур'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Пурпур'
+      - ''
+      - '&7Прогресс: &6999&7/&6999'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.29
+  'quest_18000_locked':
+    slot: 41
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.29
+  'quest_18000_unlocked':
+    slot: 41
+    priority: 1
+    hide_attributes: true
+    material: elytra
+    display_name: '&6Элитры'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Элитры'
+      - ''
+      - '&7Прогресс: &60&7/&65'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 70 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.30
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: elytra
+          amount: 5
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.30'
+      - '[console] minecraft:clear %player_name% elytra 5'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_18000_done':
+    slot: 41
+    priority: 2
+    hide_attributes: true
+    material: elytra
+    display_name: '&6Элитры'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Элитры'
+      - ''
+      - '&7Прогресс: &65&7/&65'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.30
+  'quest_19000_locked':
+    slot: 42
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.30
+  'quest_19000_unlocked':
+    slot: 42
+    priority: 1
+    hide_attributes: true
+    material: ENDERMAN_SPAWN_EGG
+    display_name: '&6Эндермен'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно убить'
+      - '&6Эндермен'
+      - ''
+      - '&7Прогресс: &6%statistic_kill_entity:enderman%&7/&6125'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 71 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.31
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: javascript
+          expression: '%statistic_kill_entity:enderman% >= 125'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.31'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_19000_done':
+    slot: 42
+    priority: 2
+    hide_attributes: true
+    material: ENDERMITE_SPAWN_EGG
+    display_name: '&6Эндермит'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно убить'
+      - '&6Эндермен'
+      - ''
+      - '&7Прогресс: &6125&7/&6125'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.31
+          
+          
+          
+  'quest_1s9000_locked':
+    slot: 43
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.31
+  'quest_1s9000_unlocked':
+    slot: 43
+    priority: 1
+    hide_attributes: true
+    material: DRAGON_EGG
+    display_name: '&6Эндер-Дракон'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно убить'
+      - '&6Эндер-Дракон'
+      - ''
+      - '&7Прогресс: &6%statistic_kill_entity:ender_dragon%&7/&65'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 72 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.32
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: javascript
+          expression: '%statistic_kill_entity:ender_dragon% >= 5'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.32'
+      - '[console] lp user %player_name% permission set questNEW22226.reward.4'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_1s9000_done':
+    slot: 43
+    priority: 2
+    hide_attributes: true
+    material: DRAGON_EGG
+    display_name: '&6Эндер-Дракон'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно убить'
+      - '&6Эндер-Дракон'
+      - ''
+      - '&7Прогресс: &65&7/&65'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.32
+          
+          
+          
+  'quest_100000_locked':
+    slot: 45
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.32
+  'quest_100000_unlocked':
+    slot: 45
+    priority: 1
+    hide_attributes: true
+    material: sea_lantern
+    display_name: '&6Морской фонарь'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Морской фонарь'
+      - ''
+      - '&7Прогресс: &60&7/&62031'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 73 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.33
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: sea_lantern
+          amount: 2031
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.33'
+      - '[console] minecraft:clear %player_name% sea_lantern 2031'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_100000_done':
+    slot: 45
+    priority: 2
+    hide_attributes: true
+    material: sea_lantern
+    display_name: '&6Морской фонарь'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Морской фонарь'
+      - ''
+      - '&7Прогресс: &62031&7/&62031'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.33
+          
+  'quest_200000_locked':
+    slot: 46
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.33
+  'quest_200000_unlocked':
+    slot: 46
+    priority: 1
+    hide_attributes: true
+    material: wandering_trader_spawn_egg
+    display_name: '&6Странствующий торговец'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно убить'
+      - '&6Странствующий торговец'
+      - ''
+      - '&7Прогресс: &6%statistic_kill_entity:wandering_trader%&7/&63'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 74 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.34
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: javascript
+          expression: '%statistic_kill_entity:wandering_trader% >= 3'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.34'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_200000_done':
+    slot: 46
+    priority: 2
+    hide_attributes: true
+    material: wandering_trader_spawn_egg
+    display_name: '&6Странствующий торговец'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно убить'
+      - '&6Странствующий торговец'
+      - ''
+      - '&7Прогресс: &63&7/&63'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.34
+          
+  'quest_300000_locked':
+    slot: 47
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.34
+  'quest_300000_unlocked':
+    slot: 47
+    priority: 1
+    hide_attributes: true
+    material: TOTEM_OF_UNDYING
+    display_name: '&6Бессмертен'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Бессмертен'
+      - ''
+      - '&7Прогресс: &60&7/&625'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 75 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.35
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: totem_of_undying
+          amount: 25
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.35'
+      - '[console] minecraft:clear %player_name% totem_of_undying 25'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_300000_done':
+    slot: 47
+    priority: 2
+    hide_attributes: true
+    material: TOTEM_OF_UNDYING
+    display_name: '&6Бессмертен'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Бессмертен'
+      - ''
+      - '&7Прогресс: &625&7/&625'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.35
+          
+  'quest_400000_locked':
+    slot: 48
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.35
+  'quest_400000_unlocked':
+    slot: 48
+    priority: 1
+    hide_attributes: true
+    material: GOLDEN_APPLE
+    display_name: '&6Золотое яблоко'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Золотое яблоко'
+      - ''
+      - '&7Прогресс: &60&7/&6200'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 76 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.36
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: golden_apple
+          amount: 200
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.36'
+      - '[console] minecraft:clear %player_name% golden_apple 200'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_400000_done':
+    slot: 48
+    priority: 2
+    hide_attributes: true
+    material: GOLDEN_APPLE
+    display_name: '&6Золотое яблоко'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Золотое яблоко'
+      - ''
+      - '&7Прогресс: &6200&7/&6200'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.36
+         
+  'quest_500000_locked':
+    slot: 49
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.36
+  'quest_500000_unlocked':
+    slot: 49
+    priority: 1
+    hide_attributes: true
+    material: ENCHANTED_GOLDEN_APPLE
+    display_name: '&6Зачарованное золотое яблоко'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Зачарованное золотое яблоко'
+      - ''
+      - '&7Прогресс: &60&7/&610'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 77 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.37
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: enchanted_golden_apple
+          amount: 10
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.37'
+      - '[console] minecraft:clear %player_name% enchanted_golden_apple 10'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_500000_done':
+    slot: 49
+    priority: 2
+    hide_attributes: true
+    material: ENCHANTED_GOLDEN_APPLE
+    display_name: '&6Зачарованное золотое яблоко'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Зачарованное золотое яблоко'
+      - ''
+      - '&7Прогресс: &610&7/&610'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.37
+          
+  'quest_600000_locked':
+    slot: 50
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.37
+  'quest_600000_unlocked':
+    slot: 50
+    priority: 1
+    hide_attributes: true
+    material: NETHERITE_CHESTPLATE
+    display_name: '&6НезеритовыЙ нагрудник'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6НезеритовыЙ нагрудник'
+      - ''
+      - '&7Прогресс: &60&7/&630'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 78 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.38
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: netherite_chestplate
+          amount: 30
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.38'
+      - '[console] minecraft:clear %player_name% netherite_chestplate 30'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_600000_done':
+    slot: 50
+    priority: 2
+    hide_attributes: true
+    material: NETHERITE_CHESTPLATE
+    display_name: '&6НезеритовыЙ нагрудник'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6НезеритовыЙ нагрудник'
+      - ''
+      - '&7Прогресс: &630&7/&630'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.38
+          
+  'quest_700000_locked':
+    slot: 51
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.38
+  'quest_700000_unlocked':
+    slot: 51
+    priority: 1
+    hide_attributes: true
+    material: OAK_LEAVES
+    display_name: '&6Дубовые листья'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Дубовые листья'
+      - ''
+      - '&7Прогресс: &60&7/&61900'
+      - '&7Статус: &cНе выполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 79 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.39
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: oak_leaves
+          amount: 1900
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.39'
+      - '[console] clear %player_name% oak_leaves 1900'
+      - '[message] &6┏'
+      - '[message] &6| &6&lЗАДАНИЕ ВЫПОЛНЕНО'
+      - '[message] &6| &fСледующее задание разблокировано'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_700000_done':
+    slot: 51
+    priority: 2
+    hide_attributes: true
+    material: OAK_LEAVES
+    display_name: '&6Дубовые листья'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Дубовые листья'
+      - ''
+      - '&7Прогресс: &61900&7/&61900'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.39
+          
+          
+          
+  'quest_700s000_locked':
+    slot: 52
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.39
+  'quest_700s000_unlocked':
+    slot: 52
+    priority: 1
+    hide_attributes: true
+    material: SUNFLOWER
+    display_name: '&6Подсолнух'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Подсолнух'
+      - ''
+      - '&7Прогресс: &60&7/&61000'
+      - '&7Статус: &cНе выполнено'
+      - '' 
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6/skipquest 80 &7(Осталось %gemseconomy_balance_3% раз)'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.40
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: SUNFLOWER
+          amount: 1000
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.40'
+      - '[console] lp user %player_name% permission set questNEW22226.reward.5'
+      - '[console] lp user %player_name% permission set quest.3okay true'
+      - '[console] minecraft:clear %player_name% sunflower 1000'
+      - '[message] &6┏'
+      - '[message] &6| &6&lКВЕСТ ОКНОЧЕН'
+      - '[message] &6| &fЗаберите свой подарок'
+      - '[message] &6┗'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_700s000_done':
+    slot: 52
+    priority: 2
+    hide_attributes: true
+    material: sunflower
+    display_name: '&6Подсолнух'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6Подсолнух'
+      - ''
+      - '&7Прогресс: &61000&7/&61000'
+      - '&7Статус: &aВыполнено'
+      - ''
+      - '&7Вы можете пропустить квест с помощью &6RW+'
+      - '&6Вы уже прошли квест'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.40

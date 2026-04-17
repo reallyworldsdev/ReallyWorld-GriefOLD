@@ -1,0 +1,30 @@
+location: spawn:-13.522:51.000:25.438
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6⚡ &e&lГроу Гарден &6⚡'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&b◆  &f&lОбменяй опыт на награды &b◆ '
+    height: 0.3
+  - content: ''
+    height: 0.1
+  - content: '&7Играй и получай опыт'
+    height: 0.3
+  - content: ''
+    height: 0.1
+  - content: '&7выбирай лучшие награды'
+    height: 0.3
+  actions:
+    LEFT:
+    - COMMAND:/growgarden
+    RIGHT:
+    - COMMAND:/growgarden
+    SHIFT_LEFT:
+    - COMMAND:/growgarden

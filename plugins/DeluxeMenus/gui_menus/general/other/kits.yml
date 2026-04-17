@@ -1,0 +1,227 @@
+menu_title: '&fꈁꀀꈂꌹꈂꀁ&0ꈃꄑ'
+open_command:
+- kit
+- kits
+size: 54
+items: 
+  # Вернуться.
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    click_commands:
+    - '[openguimenu] generalMainMenu'
+  # Наборы.
+  'start':
+    material: light_gray_shulker_box
+    slot: 12
+    display_name: '&7Начальный набор'
+    lore:
+    - ''
+    - '  &7Доступен: &aВсем' 
+    - ''
+    click_commands:
+    - '[player] kit start'
+    - '[close]'
+  'hero':
+    material: blue_shulker_box
+    slot: 13
+    display_name: '&7Набор &fꔄ&7'
+    lore:
+    - ''
+    - '  &7Доступен: &fꔄ&7' 
+    - ''
+    click_commands:
+    - '[player] kit hero'
+    - '[close]'
+  'titan':
+    material: yellow_shulker_box
+    slot: 14
+    display_name: '&7Набор &fꔈ'
+    lore:
+    - ''
+    - '  &7Доступен: &fꔈ' 
+    - ''
+    click_commands:
+    - '[player] kit titan'
+    - '[close]'
+  'avenger':
+    material: lime_shulker_box
+    slot: 20
+    display_name: '&7Набор &fꔒ&7'
+    lore:
+    - ''
+    - '  &7Доступен: &fꔒ&7' 
+    - ''
+    click_commands:
+    - '[player] kit avenger'
+    - '[close]' 
+  'overlord':
+    material: cyan_shulker_box
+    slot: 21
+    display_name: '&7Набор &fꔖ'
+    lore:
+    - ''
+    - '  &7Доступен: &fꔖ' 
+    - ''
+    click_commands:
+    - '[player] kit overlord'
+    - '[close]'
+  'magister':
+    material: orange_shulker_box
+    slot: 22
+    display_name: '&7Набор &fꔠ'
+    lore:
+    - ''
+    - '  &7Доступен: &fꔠ' 
+    - ''
+    click_commands:
+    - '[player] kit magister'
+    - '[close]'
+  'imperator':
+    material: red_shulker_box
+    slot: 23
+    display_name: '&7Набор &fꔤ'
+    lore:
+    - ''
+    - '  &7Доступен: &fꔤ' 
+    - ''
+    click_commands:
+    - '[player] kit imperator'
+    - '[close]'
+  'dragon':
+    material: purple_shulker_box
+    slot: 24
+    display_name: '&7Набор &fꔨ'
+    lore:
+    - ''
+    - '  &7Доступен: &fꔨ' 
+    - ''
+    click_commands:
+    - '[player] kit dragon'
+    - '[close]'
+  'plus':
+    material: orange_shulker_box
+    slot: 29
+    display_name: '&7Набор &6&lPLUS'
+    lore:
+    - ''
+    - '  &7Доступен: &6&lPLUS' 
+    - ''
+    click_commands:
+    - '[player] kit plus'
+    - '[close]'
+  'pluspro':
+    material: red_shulker_box
+    slot: 30
+    display_name: '&7Набор &4&lPLUSPRO'
+    lore:
+    - ''
+    - '  &7Доступен: &4&lPLUSPRO' 
+    - ''
+    click_commands:
+    - '[player] kit pluspro'
+    - '[close]'
+    right_click_commands:
+    - '[player] kit preview pluspro'
+    - '[close]' 
+  'bull':
+    material: brown_shulker_box
+    slot: 31
+    display_name: '&7Набор &fꔲ'
+    lore:
+    - ''
+    - '  &7Доступен: &fꔲ' 
+    - ''
+    click_commands:
+    - '[player] kit bull'
+    - '[close]'
+  'rabbit':
+    material: white_shulker_box
+    slot: 32
+    display_name: '&7Набор &fꕒ'
+    lore:
+    - ''
+    - '  &7Доступен: &fꕒ' 
+    - ''
+    click_commands:
+    - '[player] kit rabbit'
+    - '[close]'
+  'fury':
+    material: orange_shulker_box
+    slot: 33
+    display_name: '&7Набор &fꔰ'
+    lore:
+    - ''
+    - '  &7Доступен: &fꔰ' 
+    - ''
+    click_commands:
+    - '[player] kit fury'
+    - '[close]'
+  'dhelper':
+    material: orange_shulker_box
+    slot: 37
+    display_name: '&7Набор &fꕠ'
+    lore:
+    - ''
+    - '  &7Доступен: &fꕠ' 
+    - ''
+    click_commands:
+    - '[player] kit dhelper'
+    - '[close]'
+  'bunny':
+    material: black_shulker_box
+    slot: 38
+    display_name: '&7Набор &fꕖ'
+    lore:
+    - ''
+    - '  &7Доступен: &fꕖ' 
+    - ''
+    click_commands:
+    - '[player] kit bunny'
+    - '[close]'
+  'hydra':
+    material: green_shulker_box
+    slot: 39
+    display_name: '&7Набор &fꕀ'
+    lore:
+    - ''
+    - '  &7Доступен: &fꕀ' 
+    - ''
+    click_commands:
+    - '[player] kit hydra'
+    - '[close]'
+  'cobra':
+    material: lime_shulker_box
+    slot: 41
+    display_name: '&7Набор &fꕈ'
+    lore:
+    - ''
+    - '  &7Доступен: &fꕈ' 
+    - ''
+    click_commands:
+    - '[player] kit cobra'
+    - '[close]'
+  'god':
+    material: orange_shulker_box
+    slot: 42
+    display_name: '&7Набор &fꔸ'
+    lore:
+    - ''
+    - '  &7Доступен: &fꔸ' 
+    - ''
+    click_commands:
+    - '[player] kit god'
+    - '[close]'
+  'dadmin':
+    material: red_shulker_box
+    slot: 43
+    display_name: '&7Набор &fꕗ'
+    lore:
+    - ''
+    - '  &7Доступен: &fꕗ' 
+    - ''
+    click_commands:
+    - '[player] kit dadmin'
+    - '[close]'

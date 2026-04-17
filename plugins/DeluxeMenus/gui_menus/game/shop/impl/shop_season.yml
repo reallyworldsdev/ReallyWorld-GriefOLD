@@ -1,0 +1,484 @@
+menu_title: '§fꈁꀀꈂꍑꈂꀁ§0ꈃꄅ'
+size: 54
+items:  
+  # Вернуться.
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    click_commands:
+    - '[openguimenu] gameShopDonateshop'
+  # Информация.
+  'info':
+    display_name: '&#ffaa00ИНФОРМАЦИЯ'
+    slot: 53
+    model_data: 10001
+    material: structure_void
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &x&F&F&B&A&0&0ꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6wardworld.fun'
+    click_commands:
+    - '[close]'
+  # Магазин.
+  # Сфера.
+  'sphere_grinch':
+    display_name: '&2&lГолова Гринча'
+    slot: 12
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIyYjFkYWIzOWRkY2E1MGUzY2VmMTEwODlhMjdkYmJkMWFlNjNiNDhhYjdkMTJmNzNlYWVjNTZmOTNmYjJiIn19fQ==
+    lore:
+    - '&#ff5555Проклятие утраты '
+    - ''
+    - '&#aaaaaaПри экипировке в левой руке:'
+    - '&#5555ff +2 Броня'
+    - '&#5555ff +0.2 Скорость атаки'
+    - '&#5555ff +30% Скорость передвижения'
+    - '&#5555ff -4 Макс. здоровье'
+    - ''
+    - '&#ffffffЦена: &#ffaa00179 &#ffffffꐃ'
+    - ''
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 179
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 179'
+    - '[console] ei give %player_name% sphere_grinch'
+  'sphere_santa':
+    display_name: '&f&lГолова Санты'
+    slot: 13
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc2ODdmYTc4YWVlZmNhMGMwNmM1YzlkZjU1YWJlNWVmYjQ5ZmRkNmVlOTRhZWIwNjg5ZDM5ZDIxMGM2OSJ9fX0=
+    lore:
+    - '&#ff5555Проклятие утраты '
+    - ''
+    - '&#aaaaaaПри экипировке в левой руке:'
+    - '&#5555ff +4 Прочность брони'
+    - '&#5555ff +0.2 Сопротивление отбрасыванию'
+    - '&#5555ff -0.3 Скорость атаки'
+    - '&#5555ff +6 Макс. здоровье'
+    - ''
+    - '&#ffffffЦена: &#ffaa00129 &#ffffffꐃ'
+    - ''
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 129
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 129'
+    - '[console] ei give %player_name% sphere_santa'
+  'sphere_bell':
+    display_name: '&e&lКолокольчик'
+    slot: 14
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5YzliZjFkNWVkY2NkY2ZhZmZkN2ZhODk0ZmMxMzI0MGUzZDJjN2E4Y2E4ZTUzMDAzN2U0MTNmYjExZDVhZCJ9fX0=
+    lore:
+    - '&#ff5555Проклятие утраты '
+    - ''
+    - '&#aaaaaaПри экипировке в левой руке:'
+    - '&#5555ff +2 Броня'
+    - '&#5555ff +-15% Скорость передвижения'
+    - '&#5555ff +8 Макс. здоровье'
+    - ''
+    - '&#ffffffЦена: &#ffaa00169 &#ffffffꐃ'
+    - ''
+    hide_attributes: true
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 169
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 169'
+    - '[console] ei give %player_name% sphere_bell'
+  'sphere_nutcracker':
+    display_name: '&6&lГолова Щелкунчика'
+    slot: 20
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDFjOTA1ZDg3OTM1MzFhNDNkZDUzNDAyODEyYmMzYWQ2YmM5NWM1OWRjNWIzMTgxMWZiZGY5ZmEwIn19fQ==
+    lore:
+    - '&#ff5555Проклятие утраты '
+    - ''
+    - '&#aaaaaaПри экипировке в левой руке:'
+    - '&#5555ff +0.3 Скорость атаки'
+    - '&#5555ff -8 Макс. здоровье'
+    - '&#5555ff +2 Урон атаки'
+    - ''
+    - '&#ffffffЦена: &#ffaa00189 &#ffffffꐃ'
+    - ''
+    hide_attributes: true
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 189
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 189'
+    - '[console] ei give %player_name% sphere_nutcracker'
+  'sphere_penguin':
+    display_name: '&b&lГолова Пингвина'
+    slot: 21
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVhNzU5Zjk3OWI5YjhlYTgzMWNhN2UyZDY2ZGYxNDgyOTNmMWE1MTQ3OTgzYjUyYzQ4ZWZlMmMzMTVlIn19fQ==
+    lore:
+    - '&#ff5555Проклятие утраты '
+    - ''
+    - '&#aaaaaaПри экипировке в левой руке:'
+    - '&#5555ff +3 Броня'
+    - '&#5555ff +-30% Скорость передвижения'
+    - '&#5555ff +3 Урон атаки'
+    - ''
+    - '&#ffffffЦена: &#ffaa00159 &#ffffffꐃ'
+    - ''
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 159
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 159'
+    - '[console] ei give %player_name% sphere_penguin'
+  'sphere_elf':
+    display_name: '&a&lГолова Эльфа'
+    slot: 22
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGIyMDUwNmJkNzUyYzA4MDFjYjZhMmJlNTc1MWUzZDZlNjIwOGNjOTMzODcwYzNhYThlMzgxM2UxMWJhZjgifX19
+    lore:
+    - '&#ff5555Проклятие утраты '
+    - ''
+    - '&#aaaaaaПри экипировке в левой руке:'
+    - '&#5555ff +1.5 Броня'
+    - '&#5555ff +30% Скорость передвижения'
+    - '&#5555ff +10 Макс. здоровье'
+    - ''
+    - '&#ffffffЦена: &#ffaa00169 &#ffffffꐃ'
+    - ''
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 169
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 169'
+    - '[console] ei give %player_name% sphere_elf'
+  'sphere_rudolf':
+    display_name: '&c&lГолова Рудольфа'
+    slot: 23
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2EzMDY0YWFkMjJlZWYyOWY3NWUwZWI2NzYxNzg2MDQzY2E1NDhlN2ExNWNhODVkNjUwYjU0Y2ZlZTI5ZTZkYiJ9fX0=
+    lore:
+    - '&#ff5555Проклятие утраты '
+    - ''
+    - '&#aaaaaaПри экипировке в левой руке:'
+    - '&#5555ff +3.5 Броня'
+    - '&#5555ff -0.4 Скорость атаки'
+    - '&#5555ff +20 Макс. здоровье'
+    - ''
+    - '&#ffffffЦена: &#ffaa00179 &#ffffffꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 179
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 179'
+    - '[console] ei give %player_name% sphere_rudolf'
+  'sphere_gingerbread':
+    display_name: '&6&lГолова Пряника'
+    slot: 24
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RiNTQ0MjlkZWM1YjNmN2VmNDBlOGJjM2ZmMTk5NWNlZjY5NmEzNTAyOGY3ODJmNjM5MWMyYjU1MTFiYmUifX19
+    lore:
+    - '&#ff5555Проклятие утраты '
+    - '&#aaaaaa'
+    - ''
+    - '&#aaaaaaПри экипировке в левой руке:'
+    - '&#5555ff +0.4 Скорость атаки'
+    - '&#5555ff -6 Макс. здоровье'
+    - '&#5555ff +2.5 Урон атаки'
+    - ''
+    - '&#ffffffЦена: &#ffaa00199 &#ffffffꐃ'
+    - ''
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 199
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 199'
+    - '[console] ei give %player_name% sphere_gingerbread'
+  # Зелья.
+  'potion_newyear':
+    display_name: '&f&lНовогодний ужас'
+    slot: 37
+    material: splash_potion
+    lore:
+    - '&#5555ffУсталость (00:15)'
+    - '&#5555ffНеудача (00:15)'
+    - '&#5555ffОтравление (00:15)'
+    - '&#5555ffТошнота (00:15)'
+    - ''
+    - '&#ffffffЦена: &#ffaa0070 &#ffffffꐃ'
+    - ''
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 70
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 70'
+    - '[console] ei give %player_name% potion_newyear'
+  'potion_polar':
+    display_name: '&1&lЗелье Полярной Ловкости'
+    slot: 38
+    material: potion
+    lore:
+    - '&#5555ffЗелье скорости'
+    - '&#5555ffСила III (00:45)'
+    - '&#5555ffУдача (00:45)'
+    - ''
+    - '&#ffffffЦена: &#ffaa0079 &#ffffffꐃ'
+    - ''
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] ei give %player_name% potion_polar'
+  'potion_fortress':
+    display_name: '&5&lЗелье Ледяной Крепости'
+    slot: 39
+    material: potion
+    lore:
+    - '&#5555ffСопротивление (00:50)'
+    - '&#5555ffПрибавка здоровья IV (00:50)'
+    - '&#5555ffПоглощение (00:50)'
+    - '&#5555ffМедлительность III (00:50)'
+    - '&#5555ffИссушение (00:30)'
+    - ''
+    - '&#ffffffЦена: &#ffaa0089 &#ffffffꐃ'
+    - ''
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 89
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 89'
+    - '[console] ei give %player_name% potion_fortress'
+  'potion_vortex':
+    display_name: '&b&lСнежный вихрь'
+    slot: 40
+    material: potion
+    lore:
+    - '&#5555ffУсталость III (00:40)'
+    - '&#5555ffСкорость III (00:40)'
+    - '&#5555ffНевидимость (01:15)'
+    - '&#5555ffРегенерация (01:15)'
+    - ''
+    - '&#ffffffЦена: &#ffaa0049 &#ffffffꐃ'
+    - ''
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 49
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 49'
+    - '[console] ei give %player_name% potion_vortex'
+  'potion_essence':
+    display_name: '&d&lЭссенция Кромешника'
+    slot: 41
+    material: splash_potion
+    lore:
+    - '&#5555ffНеизготавливаемое зелье'
+    - '&#5555ffМедлительность III (01:00)'
+    - '&#5555ffМгновенный урон (∞)'
+    - '&#5555ffТошнота (01:00)'
+    - '&#5555ffСлепота (00:45)'
+    - '&#5555ffИссушение (00:45)'
+    - ''
+    - '&#ffffffЦена: &#ffaa0059 &#ffffffꐃ'
+    - ''
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 59
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 59'
+    - '[console] ei give %player_name% potion_essence'
+  'potion_grinch':
+    display_name: '&2&lЗелье Гринча'
+    slot: 42
+    material: splash_potion
+    lore:
+    - '&#5555ffНеизготавливаемое зелье'
+    - '&#5555ffМедлительность (00:35)'
+    - '&#5555ffУсталость (00:20)'
+    - '&#5555ffТошнота (00:35)'
+    - ''
+    - '&#ffffffЦена: &#ffaa0039 &#ffffffꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 39
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 39'
+    - '[console] ei give %player_name% potion_grinch'
+  'potion_elf':
+    display_name: '&b&lЗелье Эльфа'
+    slot: 43
+    material: potion
+    lore:
+    - '&#5555ffНеизготавливаемое зелье'
+    - '&#5555ffСкорость III (01:30)'
+    - '&#5555ffСила III (01:30)'
+    - '&#5555ffСопротивление (00:35)'
+    - ''
+    - '&#ffffffЦена: &#ffaa0089 &#ffffffꐃ'
+    - ''
+    hide_attributes: true
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 89
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] points take %player_name% 89'
+    - '[console] ei give %player_name% potion_elf'

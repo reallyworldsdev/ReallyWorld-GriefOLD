@@ -1,0 +1,22 @@
+location: spawn:-3.502:68.000:-36.492
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&5&lЗащита особняка'
+    height: 0.3
+  - content: '&bКаждый день &6и каждый &bчас'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&dОдолейте &bРигурда &dи его &bбанду гоблинов&d!'
+    height: 0.3
+  - content: '&dдля входа на арену используйте &6/siege join'
+    height: 0.3
+  - content: '&dИли &bкликните &dна NPC'
+    height: 0.3
+  actions: {}

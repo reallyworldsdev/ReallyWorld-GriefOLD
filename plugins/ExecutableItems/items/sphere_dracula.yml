@@ -1,0 +1,77 @@
+name: §c§lГолова Дракулы
+glow: false
+lore:
+- §7Когда во второй руке
+- §cВампиризм
+- §c +8 Максимальное здоровье
+- §c +4.5 Броня
+- §c +1.5 Урон
+material: PLAYER_HEAD
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+headValue: ewogICJ0aW1lc3RhbXAiIDogMTY2NzAwNTExMDk4MCwKICAicHJvZmlsZUlkIiA6ICI1YjcyYmU5MGZiYjg0OGNiODFiZTNhMGVlNmNlOGUzZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb3JuZSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZTlhYzBjYzA1ZjUyODA1MTBmOTE2NzIxZDc4ODI5NTVjNjgzMTRjODkxNzBkZTgzNWQzZDMxNjQwNjAzZTliIgogICAgfQogIH0KfQ==
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+usageFeatures:
+  usage: 1
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments: {}
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-place: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute0:
+    attribute: GENERIC_MAX_HEALTH
+    operation: ADD_NUMBER
+    amount: 8.0
+    slot: OFF_HAND
+    name: minecraft:generic.max_health
+    uuid: ee90499b-7d58-4198-ac87-9a0621421632
+  attribute2:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 1.5
+    slot: OFF_HAND
+    name: minecraft:generic.attack_damage
+    uuid: 4020b175-26e7-4ebb-9a97-60b54b77a6ae
+  attribute4:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 4.5
+    slot: OFF_HAND
+    name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+    uuid: 7b185ffb-9492-451d-83bb-6001f65e139d

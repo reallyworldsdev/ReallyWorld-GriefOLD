@@ -1,0 +1,135 @@
+# Список ID ваших кабинок, которые будут описаны ниже
+rooms_config_ids:
+  - pvp_alzxmpic1
+  - pvp_alzxmpic2
+
+rooms:
+  pvp_alzxmpic1:
+    # Определение региона кабинки по двум точкам
+    region:
+      world: spawn
+      pos1:
+        x: 6
+        y: 59
+        z: -65
+      pos2:
+        x: 18
+        y: 66
+        z: -57
+    
+    # Блоки для закрытия кабинки
+    closure_block_material: LIGHT_GRAY_STAINED_GLASS
+    closure_blocks:
+      - spawn;6;60;-59
+      - spawn;6;60;-60
+      - spawn;6;60;-61
+      - spawn;6;60;-62
+      - spawn;6;60;-63
+      - spawn;6;61;-59
+      - spawn;6;61;-60
+      - spawn;6;61;-61
+      - spawn;6;61;-62
+      - spawn;6;61;-63
+      - spawn;6;62;-59
+      - spawn;6;62;-60
+      - spawn;6;62;-61
+      - spawn;6;62;-62
+      - spawn;6;62;-63
+      - spawn;6;63;-59
+      - spawn;6;63;-60
+      - spawn;6;63;-61
+      - spawn;6;63;-62
+      - spawn;6;63;-63
+      - spawn;6;64;-59
+      - spawn;6;64;-60
+      - spawn;6;64;-61
+      - spawn;6;64;-62
+      - spawn;6;64;-63
+      - spawn;6;65;-59
+      - spawn;6;65;-60
+      - spawn;6;65;-61
+      - spawn;6;65;-62
+      - spawn;6;65;-63
+      
+    teleport:
+      world: spawn
+      x: -0.50
+      y: 60
+      z: -59
+      
+  pvp_alzxmpic2:
+    # Определение региона кабинки по двум точкам
+    region:
+      world: spawn
+      pos1:
+        x: -21
+        y: 59
+        z: -65
+      pos2:
+        x: -8
+        y: 66
+        z: -57
+    
+    # Блоки для закрытия кабинки
+    closure_block_material: LIGHT_GRAY_STAINED_GLASS
+    closure_blocks:
+      - spawn;-8;60;-59
+      - spawn;-8;60;-60
+      - spawn;-8;60;-61
+      - spawn;-8;60;-62
+      - spawn;-8;60;-63
+      - spawn;-8;61;-59
+      - spawn;-8;61;-60
+      - spawn;-8;61;-61
+      - spawn;-8;61;-62
+      - spawn;-8;61;-63
+      - spawn;-8;62;-59
+      - spawn;-8;62;-60
+      - spawn;-8;62;-61
+      - spawn;-8;62;-62
+      - spawn;-8;62;-63
+      - spawn;-8;63;-59
+      - spawn;-8;63;-60
+      - spawn;-8;63;-61
+      - spawn;-8;63;-62
+      - spawn;-8;63;-63
+      - spawn;-8;64;-59
+      - spawn;-8;64;-60
+      - spawn;-8;64;-61
+      - spawn;-8;64;-62
+      - spawn;-8;64;-63
+      - spawn;-8;65;-59
+      - spawn;-8;65;-60
+      - spawn;-8;65;-61
+      - spawn;-8;65;-62
+      - spawn;-8;65;-63
+      
+    teleport:
+      world: spawn
+      x: -0.50
+      y: 60
+      z: -59
+      
+
+# Команды, запрещенные внутри PvP-кабинок
+deny-commands:
+  - spawn
+  - home
+  - sethome
+  - clan
+  - ah
+  - setwarp
+  - tp
+  - tpa
+  - rtp
+
+# Сообщения для игроков
+messages:
+  enter_room: "&6FuryWorld &7» &fВы вошли в PVP кабинку!"
+  exit_room: "&6FuryWorld &7» &fВы покинули PVP кабинку."
+  room_closed_with_two: "&6FuryWorld &7» &fPVP началось!"
+  only_one_left: "&6FuryWorld &7» &fВы выиграли своего аппонента."
+  countdown: "&6FuryWorld &7» &fУ вас осталось &6%time% &fсек. чтобы подобрать ресурсы."
+  room_closed: "&6FuryWorld &7» &fЭта PVP кабинка уже занята!"
+  too_many_players: "&6FuryWorld &7» &fЭта PVP кабинка уже занята!"
+  room_reset: " "

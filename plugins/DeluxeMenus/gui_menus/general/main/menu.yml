@@ -1,0 +1,51 @@
+menu_title: '&fꈁꀀꈂꌁꈂꀁ&0ꈃꄀ'
+open_command: menu
+size: 54
+items:
+  # Главное.
+  'gameGuidesNavigation':
+    material: writable_book
+    slot: 22
+    display_name: '&7⚠ &6Путеводитель'
+    click_commands:
+    - '[openguimenu] gameGuidesNavigation'
+  'generalWebCase':
+    material: paper
+    slot: 31
+    display_name: '&7⎙ &6Префиксы'
+  'generalWebDonate':
+    material: emerald
+    slot: 13
+    display_name: '&7☀ &6Донат'
+    click_commands:
+    - '[openguimenu] generalWebDonate'
+  'generalOtherJobs':
+    material: iron_pickaxe
+    slot: 32
+    display_name: '&7⚒ &6Работы'
+    click_commands:
+    - '[openguimenu] generalOtherJobs'
+  'generalOtherKits':
+    material: chest
+    slot: 40
+    display_name: '&7۞ &6Киты'
+    click_commands:
+    - '[openguimenu] generalOtherKits'
+  'gameGuidesWarpSelector':
+    material: compass
+    slot: 21
+    display_name: '&7⟰ &6Телепорты'
+    click_commands:
+    - '[openguimenu] gameGuidesWarpSelector'
+  'gameShopDonateshop':
+    material: book
+    slot: 30
+    display_name: '&eР &6Донат магазин'
+    click_commands:
+    - '[openguimenu] gameShopDonateshop'
+  'gameNpcContract':
+    material: basehead-ewogICJ0aW1lc3RhbXAiIDogMTcyMjIxOTg4NTE1MiwKICAicHJvZmlsZUlkIiA6ICJhNjZhYTBmNDEyZWM0NDExODBmYWE2ZmM4OWQ3MGVkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb25pa0J1bWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI4ZWJiMDc3NTQyOGI2Y2I5M2ZmMDZjNTExMDBlOTMxNzk3M2Y5YjFmZjA1YWYyYWJhNjEyNzAwYzI3MzNkOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+    slot: 23
+    display_name: '&7⚑ &6Контракты'
+    click_commands:
+    - '[openguimenu] gameNpcContract'

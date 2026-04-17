@@ -1,0 +1,14 @@
+location: spawn:-0.519:63.500:17.470
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fНайди и собери все &bНовогодние подарки'
+    height: 0.3
+  - content: '&fи получи &b&l3 Новогодних Кейса'
+    height: 0.3
+  actions: {}

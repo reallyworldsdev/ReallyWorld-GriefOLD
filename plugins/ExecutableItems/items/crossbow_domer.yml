@@ -1,0 +1,67 @@
+name: §6Арбалет Домера
+glow: false
+lore: []
+material: CROSSBOW
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+usageFeatures:
+  usage: 1
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment0:
+    enchantment: Mending
+    level: 1
+  enchantment1:
+    enchantment: Multishot
+    level: 1
+  enchantment2:
+    enchantment: Piercing
+    level: 6
+  enchantment3:
+    enchantment: Power
+    level: 5
+  enchantment4:
+    enchantment: Quick_charge
+    level: 3
+  enchantment5:
+    enchantment: Unbreaking
+    level: 3
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

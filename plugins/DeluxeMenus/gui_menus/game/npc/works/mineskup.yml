@@ -1,0 +1,367 @@
+menu_title: '§fꈁꀀꈂꍄꈂꀁ§0ꈃꄠ&r'
+size: 52
+items:
+  'mine':
+    material: DIAMOND_PICKAXE
+    data: 3
+    slot: 4
+    display_name: ' '
+    hide_attributes: true
+    lore:
+    - ' &6Ваш уровень профессии: &73          '
+    - ' &6Ваш текущий опыт профессии: &70.00/1500   '
+    - ''
+    - ''
+    - '&8[&7||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||&8]'
+    - ''
+    - ''
+    - ''
+    - '&6Награда за достижение'
+    - '&77 уровня &6профессии:'
+    - ''
+    - '&b&lКирка Каменщика'
+    - '&bКейс с валютой'
+    - '&bКейс с префиксами'
+    - '&b2 кейса с вещами'
+    - ''
+    click_commands:
+    - '[message] &6Работы &7⟫ &cИзвините, данная функция отсутствует на проекте'
+    - '[message] &6Работы &7⟫ &fУскорить процесс разработки - &6wardworld.fun'
+
+  'mine2':
+    material: granite
+    data: 3
+    slot: 20
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &715$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:granite% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% granite: 1'
+      - '[console] money give %player_name% 15'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine3':
+    material: diorite
+    data: 3
+    slot: 21
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &715$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:diorite% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% diorite: 1'
+      - '[console] money give %player_name% 15'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine4':
+    material: flint
+    data: 3
+    slot: 22
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &720$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:flint% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% flint: 1'
+      - '[console] money give %player_name% 20'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine5':
+    material: stone
+    data: 3
+    slot: 23
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &75$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:stone% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% stone: 1 '
+      - '[console] money give %player_name% 5'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine6':
+    material: andesite
+    data: 3
+    slot: 24
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &715$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:andesite% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% andesite: 1'
+      - '[console] money give %player_name% 15'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine7':
+    material: iron_ingot
+    data: 3
+    slot: 29
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7200$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:iron_ingot% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% iron_ingot: 1 '
+      - '[console] money give %player_name% 200'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine8':
+    material: gold_ore
+    data: 3
+    slot: 30
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7350$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:gold_ore% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% gold_ore: 1 '
+      - '[console] money give %player_name% 350'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine9':
+    material: redstone
+    data: 3
+    slot: 31
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &765$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:redstone% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% redstone: 1 '
+      - '[console] money give %player_name% 60'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine10':
+    material: coal_ore
+    data: 3
+    slot: 32
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7150$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:coal_ore% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% coal_ore: 1 '
+      - '[console] money give %player_name% 150'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine11':
+    material: lapis_lazuli
+    data: 3
+    slot: 33
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &780$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:lapis_lazuli% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% lapis_lazuli: 1 '
+      - '[console] money give %player_name% 80'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine12':
+    material: nether_gold_ore
+    data: 3
+    slot: 38
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7250$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:nether_gold_ore% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% nether_gold_ore: 1 '
+      - '[console] money give %player_name% 250'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine13':
+    material: diamond
+    data: 3
+    slot: 39
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7250$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:diamond% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% diamond: 1'
+      - '[console] money give %player_name% 250'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine15':
+    material: wet_sponge
+    data: 3
+    slot: 41
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7550$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:wet_sponge% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% wet_sponge: 1 '
+      - '[console] money give %player_name% 550'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'   
+
+  'mine16':
+    material: obsidian
+    data: 3
+    slot: 42
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7225$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:obsidian% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% obsidian: 1 '
+      - '[console] money give %player_name% 225'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'        
+      
+      

@@ -1,0 +1,103 @@
+name: §c§lПаучее Чутьё
+glow: false
+lore:
+- §9Скорость III (1:00)
+- §9Спешка (0:15)
+- §9Сила III (1:00)
+- §9Огнестойкость (10:00)
+- §cТошнота (0:40)
+- ''
+- '§5При применении:'
+- §9+60% Скорость
+- §9+10% Скорость атаки
+- §9+9 Урон
+material: POTION
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+usageFeatures:
+  usage: 0
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment0:
+    enchantment: Sharpness
+    level: 1
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: true
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+potionSettings:
+  potionColor: 16711680
+  potionType: WATER
+  potionExtended: false
+  potionUpgraded: false
+  potionEffects:
+    pEffect0:
+      isAmbient: false
+      duration: 1200
+      potionEffectType: INCREASE_DAMAGE
+      amplifier: 2
+      hasParticles: true
+      hasIcon: true
+    pEffect1:
+      isAmbient: false
+      duration: 1200
+      potionEffectType: SPEED
+      amplifier: 2
+      hasParticles: true
+      hasIcon: true
+    pEffect2:
+      isAmbient: false
+      duration: 300
+      potionEffectType: FAST_DIGGING
+      amplifier: 0
+      hasParticles: true
+      hasIcon: true
+    pEffect3:
+      isAmbient: false
+      duration: 800
+      potionEffectType: CONFUSION
+      amplifier: 0
+      hasParticles: true
+      hasIcon: true
+    pEffect4:
+      isAmbient: false
+      duration: 12000
+      potionEffectType: FIRE_RESISTANCE
+      amplifier: 0
+      hasParticles: true
+      hasIcon: true
+attributes: {}

@@ -1,0 +1,391 @@
+menu_title: '§fꈁꀀꈂꍄꈂꀁ§0ꈃꄠ&r'
+size: 54
+items:
+  'mine':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmMzI4Yzg3YjA2ODUwOWFjYTk4MzRlZmFjZTE5NzcwNWZlNWQ0ZjA4NzE3MzFiN2IyMWNkOTliOWZkZGMifX19
+    data: 3
+    slot: 4
+    hide_attributes: true
+    display_name: ' '
+    lore:
+    - ' &6Ваш уровень профессии: &71          '
+    - ' &6Ваш текущий опыт профессии: &70.00/50   '
+    - ''
+    - ''
+    - '&8[&7||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||&8]'
+    - ''
+    - ''
+    - ''
+    - '&6Награда за достижение'
+    - '&77 уровня &6профессии:'
+    - ''
+    - '&aШар Огородника'
+    - '&bКейс с валютой'
+    - '&bКейс с префиксами'
+    - '&bДва кейса с вещами'
+    - ''
+    click_commands:
+    - '[message] &6Работы &7⟫ &cИзвините, данная функция отсутствует на проекте'
+    - '[message] &6Работы &7⟫ &fУскорить процесс разработки - &6wardworld.fun'
+
+  'mine2':
+    material: sweet_berries
+    data: 3
+    slot: 20
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &730$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:sweet_berries% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% sweet_berries: 1'
+      - '[console] money give %player_name% 30'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали продукт.'
+      
+  'mine3':
+    material: melon_seeds
+    data: 3
+    slot: 21
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &725$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:melon_seeds% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% melon_seeds: 1'
+      - '[console] money give %player_name% 25'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine4':
+    material: beetroot_seeds
+    data: 3
+    slot: 22
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &735$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:beetroot_seeds% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% beetroot_seeds: 1'
+      - '[console] money give %player_name% 35'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine5':
+    material: pumpkin_seeds
+    data: 3
+    slot: 23
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &765$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:pumpkin_seeds% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% pumpkin_seeds: 1'
+      - '[console] money give %player_name% 65'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine6':
+    material: sugar_cane
+    data: 3
+    slot: 24
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &730$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:sugar_cane% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% sugar_cane: 1'
+      - '[console] money give %player_name% 30'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine7':
+    material: nether_wart
+    data: 3
+    slot: 29
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &760$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:nether_wart% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% nether_wart: 1'
+      - '[console] money give %player_name% 60'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine8':
+    material: melon
+    data: 3
+    slot: 30
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7150$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:melon% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% melon: 1 '
+      - '[console] money give %player_name% 150'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine9':
+    material: beetroot
+    data: 3
+    slot: 31
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7115$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:beetroot% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% beetroot: 1'
+      - '[console] money give %player_name% 115'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine10':
+    material: cocoa_beans
+    data: 3
+    slot: 32
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7125$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:cocoa_beans% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% cocoa_beans: 1'
+      - '[console] money give %player_name% 125'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine11':
+    material: pumpkin
+    data: 3
+    slot: 33
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7150$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:pumpkin% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% pumpkin: 1 '
+      - '[console] money give %player_name% 150'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine12':
+    material: cake
+    data: 3
+    slot: 38
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7800$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:cake% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% cake: 1 '
+      - '[console] money give %player_name% 800'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine13':
+    material: popped_chorus_fruit
+    data: 3
+    slot: 39
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7150$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:popped_chorus_fruit% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% popped_chorus_fruit: 1'
+      - '[console] money give %player_name% 150'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine14':
+    material: pumpkin_pie
+    data: 3
+    slot: 40
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7350$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:pumpkin_pie% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% pumpkin_pie: 1'
+      - '[console] money give %player_name% 350'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine15':
+    material: poisonous_potato
+    data: 3
+    slot: 41
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7750$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:dried_kelp% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% dried_kelp: 1'
+      - '[console] money give %player_name% 750'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'   
+
+  'mine16':
+    material: dried_kelp
+    data: 3
+    slot: 42
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7150$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:dried_kelp% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% dried_kelp: 1'
+      - '[console] money give %player_name% 150'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'        
+      
+      

@@ -1,0 +1,68 @@
+name: §e§lПасхальное яйцо
+glow: false
+lore:
+- '§7Когда во второй руке:'
+- §e +2.5 к урону
+- §e +6.5 к броне
+material: PLAYER_HEAD
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+headValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYyYTUxNzM4NzkwNDMyOTAxNmE4ZTI1NmM0YjU1MTkyYTZjOWIxNzIwZTQ5YjVhNDQwMTkyNzZjOWMyZmJiMyJ9fX0=
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+usageFeatures:
+  usage: 1
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments: {}
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-place: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 2.5
+    slot: OFF_HAND
+    name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+    uuid: c4c3733d-191a-4100-bd5b-81ada0b92d77
+  attribute1:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 6.5
+    slot: OFF_HAND
+    name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+    uuid: 65607afb-f70c-477d-952d-235b19d23b83

@@ -1,0 +1,226 @@
+menu_title: '&fꈁꀀꈂꌶꈂꀁ&0ꈃꄅ'
+size: 54
+items:
+  # Вернуться.
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    click_commands:
+    - '[openguimenu] gameShopDonateshop'
+  # Информация.
+  'info':
+    display_name: '&#ffaa00ИНФОРМАЦИЯ'
+    slot: 53
+    model_data: 10001
+    material: structure_void
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &x&F&F&B&A&0&0ꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6wardworld.fun'
+    click_commands:
+    - '[close]'
+  # Магазин.
+  'start':
+    material: light_gray_shulker_box
+    slot: 20
+    display_name: '&7Начальный набор'
+    lore:
+    - ''
+    - '&fЦена: &69 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    click_commands:
+    - '[console] points take %player_name% 9'
+    - '[console] kit start %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 9
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'hero':
+    material: blue_shulker_box
+    slot: 21
+    display_name: '&7Набор &fꔄ'
+    lore:
+    - ''
+    - '&fЦена: &619 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    click_commands:
+    - '[console] points take %player_name% 19'
+    - '[console] kit hero %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 19
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'titan':
+    material: yellow_shulker_box
+    slot: 22
+    display_name: '&7Набор &fꔈ'
+    lore:
+    - ''
+    - '&fЦена: &649 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    click_commands:
+    - '[console] points take %player_name% 49'
+    - '[console] xkit titan %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 49
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'avenger':
+    material: lime_shulker_box
+    slot: 23
+    display_name: '&7Набор &fꔒ'
+    lore:
+    - ''
+    - '&fЦена: &679 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    click_commands:
+    - '[console] points take %player_name% 79'
+    - '[console] xkit avenger %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'overlord':
+    material: cyan_shulker_box
+    slot: 24
+    display_name: '&7Набор &fꔖ'
+    lore:
+    - ''
+    - '&fЦена: &6109 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    click_commands:
+    - '[console] points take %player_name% 109'
+    - '[console] xkit overlord %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 109
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'magister':
+    material: orange_shulker_box
+    slot: 29
+    display_name: '&7Набор &fꔠ'
+    lore:
+    - ''
+    - '&fЦена: &6249 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    click_commands:
+    - '[console] points take %player_name% 249'
+    - '[console] xkit magister %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 249
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'imperator':
+    material: red_shulker_box
+    slot: 30
+    display_name: '&7Набор &fꔤ'
+    lore:
+    - ''
+    - '&fЦена: &6499 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    click_commands:
+    - '[console] points take %player_name% 499'
+    - '[console] xkit imperator %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 499
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'dragon':
+    material: purple_shulker_box
+    slot: 31
+    display_name: '&7Набор &fꔨ'
+    lore:
+    - ''
+    - '&fЦена: &6699 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    click_commands:
+    - '[console] points take %player_name% 699'
+    - '[console] xkit dragon %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 699
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'plus':
+    material: orange_shulker_box
+    slot: 32
+    display_name: '&7Набор &4&lPLUS'
+    lore:
+    - ''
+    - '&fЦена: &6399 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    click_commands:
+    - '[console] points take %player_name% 399'
+    - '[console] xkit plus %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 399
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'pluspro':
+    material: red_shulker_box
+    slot: 33
+    display_name: '&7Набор &4&lPLUSPRO'
+    lore:
+    - ''
+    - '&fЦена: &6999 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    click_commands:
+    - '[console] points take %player_name% 999'
+    - '[console] xkit pluspro %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 999
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 

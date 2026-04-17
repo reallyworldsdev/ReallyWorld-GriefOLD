@@ -1,0 +1,83 @@
+name: '&6&lГолова Щелкунчика'
+glow: false
+lore: []
+material: PLAYER_HEAD
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+headValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDFjOTA1ZDg3OTM1MzFhNDNkZDUzNDAyODEyYmMzYWQ2YmM5NWM1OWRjNWIzMTgxMWZiZGY5ZmEwIn19fQ==
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+  '1':
+    key: SkullOwner
+    type: COMPOUND
+    value:
+      nbt:
+        '0':
+          key: Properties
+          type: COMPOUND
+usageFeatures:
+  usage: 0
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment0:
+    enchantment: Vanishing_curse
+    level: 1
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: true
+  hideAttributes: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute0:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: 0.3
+    slot: OFF_HAND
+    uuid: e84ad121-be17-4546-9019-60094a3f5515
+  attribute1:
+    attribute: GENERIC_MAX_HEALTH
+    operation: ADD_NUMBER
+    amount: -8.0
+    slot: OFF_HAND
+    uuid: e63e28a6-e1df-49cf-a64f-27415d47ae1d
+  attribute2:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 2.0
+    slot: OFF_HAND
+    uuid: d25153ae-1f1d-499c-ae1b-c221440c928b

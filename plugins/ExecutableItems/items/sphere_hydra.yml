@@ -1,0 +1,76 @@
+name: §a§lГолова Гидры
+glow: false
+lore:
+- '§7Когда во второй руке:'
+- §2 +10 Максимальное здоровье
+- §2 +5 к Броня
+- §2 +20% Скорость
+material: PLAYER_HEAD
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+headValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg5ZTgwNWJkNmYxNmVjYzI0NTJhZGQxOGU4Zjg2YTIxN2RlNjZmYjRiY2U0MTkwNDZmMWI5NjExYWJkOGYifX19
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+usageFeatures:
+  usage: 1
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments: {}
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-place: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute0:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 5.0
+    slot: OFF_HAND
+    name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+    uuid: 66bf69d9-09d5-463c-8573-a629d30d802e
+  attribute1:
+    attribute: GENERIC_MAX_HEALTH
+    operation: ADD_NUMBER
+    amount: 10.0
+    slot: OFF_HAND
+    name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+    uuid: 5d4dc5b9-bba3-474b-ad43-7ae5db1715b6
+  attribute2:
+    attribute: GENERIC_MOVEMENT_SPEED
+    operation: ADD_SCALAR
+    amount: 0.2
+    slot: OFF_HAND
+    name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+    uuid: 9830deb7-a414-49cf-a6e4-e6f4e8742a80

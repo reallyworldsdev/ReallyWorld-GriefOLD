@@ -1,0 +1,325 @@
+menu_title: '&fꈁꀀꈂꍄꈂꀁ&0ꈃꄠ'
+size: 53
+items:
+  'mine':
+    material: structure_void
+    model_data: 10001
+    slot: 4
+    display_name: ' '
+    hide_attributes: true
+    lore:
+    - ' &6Ваш уровень профессии: &71          '
+    - ' &6Ваш текущий опыт профессии: &70.00/50   '
+    - ''
+    - ''
+    - '&8[&7||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||&8]'
+    - ''
+    - ''
+    - ''
+    - '&6Награда за достижение'
+    - '&77 уровня &6профессии:'
+    - ''
+    - '&bФарм Меч'
+    - '&bКейс с валютой'
+    - '&bКейс с префиксами'
+    - '&bДва кейса с вещами'
+    - ''
+    click_commands:
+    - '[message] &6Работы &7⟫ &cИзвините, данная функция отсутствует на проекте'
+    - '[message] &6Работы &7⟫ &fУскорить процесс разработки - &6wardworld.fun'
+
+      
+      
+  'mine4':
+    material: bone
+    data: 3
+    slot: 29
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &790$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:bone% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% bone: 1'
+      - '[console] eco give %player_name% 90'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+      
+  'mine6':
+    material: leather
+    data: 3
+    slot: 30
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7160$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:leather% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% leather: 1'
+      - '[console] eco give %player_name% 160'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine7':
+    material: gunpowder
+    data: 3
+    slot: 20
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &770$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:gunpowder% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% gunpowder: 1'
+      - '[console] eco give %player_name% 70'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine8':
+    material: magma_cream
+    data: 3
+    slot: 24
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7120$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:magma_cream% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% magma_cream: 1'
+      - '[console] eco give %player_name% 120'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine9':
+    material: blaze_rod
+    data: 3
+    slot: 38
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7100$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:blaze_rod% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% blaze_rod: 1'
+      - '[console] eco give %player_name% 100'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine10':
+    material: lime_wool
+    data: 3
+    slot: 23
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7200$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:lime_wool% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% lime_wool: 1'
+      - '[console] eco give %player_name% 200'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine11':
+    material: cobweb
+    data: 3
+    slot: 32
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7400$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:cobweb% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% cobweb: 1'
+      - '[console] eco give %player_name% 400'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine12':
+    material: ender_eye
+    data: 3
+    slot: 39
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7350$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:ender_eye% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% ender_eye: 1'
+      - '[console] eco give %player_name% 350'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine13':
+    material: dragon_breath
+    data: 3
+    slot: 41
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &71200$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:dragon_breath% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% dragon_breath: 1'
+      - '[console] eco give %player_name% 1200'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+      
+  'mine15':
+    material: nether_star
+    data: 3
+    slot: 42
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &710000$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:nether_star% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% nether_star: 1'
+      - '[console] eco give %player_name% 10000'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'   
+
+  'mine11111':
+    material: spider_eye
+    data: 3
+    slot: 21
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7110$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:spider_eye% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% spider_eye: 1'
+      - '[console] eco give %player_name% 110'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'   
+      
+  'mine1111123423':
+    material: phantom_membrane
+    data: 3
+    slot: 33
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7700$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:phantom_membrane% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% phantom_membrane: 1'
+      - '[console] eco give %player_name% 700'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'   
+
+
+      
+      

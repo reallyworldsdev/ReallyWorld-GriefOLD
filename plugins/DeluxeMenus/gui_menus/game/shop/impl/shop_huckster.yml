@@ -1,0 +1,837 @@
+menu_title: '§fꈁꀀꈂꍈꈂꀁ§0ꈃꄅ&r'
+size: 53
+items:
+  # Информация.
+  'info':
+    display_name: '&6ИНФОРМАЦИЯ'
+    slot: 401
+    material: structure_void
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%mobcoinsplus_playerbalance% &x&F&F&B&A&0&0ꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6wardworld.fun'
+    click_commands:
+    - '[close]'
+  # Магазин.
+  'shield_roma':
+    display_name: '&r&#ffaa00Цыганский щит&r'
+    slot: 10
+    material: shield
+    lore:
+    - '&7Шипы X'
+    - '&cПроклятие утраты '
+    - '&#5555ffНеразрушаемый'
+    - ''
+    - '&fЦена:&#ffaa00 99 &fꐄ'
+    - ''
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 99'
+    - '[console] ei give %player_name% shieldGypsy'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 99
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun'
+  'shovel':
+    display_name: '&r&#ffaa00&lЛопата &r&#555555Песочника &r'
+    slot: 11
+    material: netherite_shovel
+    lore:
+    - '&r&#aaaaaaЭффективность VIII&r'
+    - '&r&#aaaaaaУдача III&r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0059 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 59
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 59'
+    - '[console] xkit shovel %player_name%' 
+  'pickaxe_lucky':
+    display_name: '&r&l&#aa00aaВезунчик&r'
+    slot: 12
+    material: netherite_pickaxe
+    lore:
+    - '&r&#aaaaaaУдача V&r'
+    - '&r&#aaaaaaПочинка &r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00149 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 149
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 149'
+    - '[console] xkit pickaxe_lucky %player_name%' 
+  'LIGHTNER_BOOK':
+    display_name: '&r&#ffaa00Чародейская книга&r'
+    slot: 13
+    material: enchanted_book
+    lore:
+    - '&r&#aaaaaaСветлячок (Подсвечивает игрока)&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0039 &rꐄ&r'
+    - '&r'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 39
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 39'
+    - '[console] topkaenchants LIGHTNER_BOOK %player_name%' 
+  'crossbow_domer':
+    display_name: '&r&#ffaa00Арбалет Домера&r'
+    slot: 14
+    material: crossbow
+    lore:
+    - '&r&#aaaaaaПочинка &r'
+    - '&r&#aaaaaaТройной выстрел &r'
+    - '&r&#aaaaaaПронзание IV&r'
+    - '&r&#aaaaaaСила V&r'
+    - '&r&#aaaaaaБыстрая перезарядка III&r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00199 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 199
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 199'
+    - '[console] xkit crossbow_domer %player_name%' 
+  'potion_spider':
+    display_name: '&r&l&#ff5555Паучее Чутьё&r'
+    slot: 15
+    material: potion
+    lore:
+    - '&r&#5555ffСкорость III (01:00)&r'
+    - '&r&#5555ffСпешка (00:15)&r'
+    - '&r&#5555ffСила III (01:00)&r'
+    - '&r&#5555ffТошнота (00:40)&r'
+    - '&r&#5555ffОгнестойкость (10:00)&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0059 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 59
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 59'
+    - '[console] xkit potion_spider %player_name%' 
+  'arrow_klirik':
+    display_name: '&r&l&#ffffffКлирик&r'
+    slot: 16
+    material: tipped_arrow
+    amount: 2
+    lore:
+    - '&r&#5555ffОчищает все эффекты c врага&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0059 &rꐄ&r'
+    - '&r'
+    hide_attributes: true
+  'DRILL_BOOK':
+    display_name: '&r&#ffaa00Чародейская книга&r'
+    slot: 19
+    material: enchanted_book
+    lore:
+    - '&r&#aaaaaaБур (Копает 3х3)&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0059 &rꐄ&r'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 59
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 59'
+    - '[console] topkaenchants DRILL_BOOK %player_name%' 
+  'axe_sekira2':
+    display_name: '&r&#ffaa00&l&lСекира&r'
+    slot: 20
+    material: netherite_axe
+    lore:
+    - '&r&#aaaaaaЭффективность X&r'
+    - '&r&#aaaaaaУдача III&r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00119 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 119
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 119'
+    - '[console] xkit axe_sekira %player_name%' 
+  'antifly':
+    display_name: '&r&#aa00aaАнти Полет&r'
+    slot: 21
+    material: firework_star
+    lore:
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r&#aaaaaa&r'
+    - '&r&#aaaaaaКогда во второй руке&r'
+    - '&r&#aaaaaaПри нажатии SHIFT:&r'
+    - '&r&#5555ffЗапрещает полеты в радиусе 16 блоков&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00239 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 239
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 239'
+    - '[console] nitems ANTI_FLY %player_name%'
+  'pickaxe_stone':
+    display_name: '&r&#ffaa00Кирка Каменщика&r'
+    slot: 22
+    material: netherite_pickaxe
+    lore:
+    - '&r&#aaaaaaЭффективность X&r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00119 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 119
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 119'
+    - '[console] xkit pickaxe_stone %player_name%' 
+  'bow_push':
+    display_name: '&r&l&#aaaaaaПушечка&r'
+    slot: 23
+    material: bow
+    lore:
+    - '&r&#aaaaaaВоспламенение &r'
+    - '&r&#aaaaaaБесконечность &r'
+    - '&r&#aaaaaaПочинка &r'
+    - '&r&#aaaaaaСила V&r'
+    - '&r&#aaaaaaОтбрасывание V&r'
+    - '&r&#aaaaaaПрочность II&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00159 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 159
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 159'
+    - '[console] xkit bow_push %player_name%' 
+  'sword_frostmorn':
+    display_name: '&r&l&#55ffffФростморн&r'
+    slot: 24
+    material: netherite_sword
+    lore:
+    - '&r&#aaaaaaЗаговор огня II&r'
+    - '&r&#aaaaaaОстрота VI&r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r&#5555ffНеразрушаемый&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00299 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 299
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 299'
+    - '[console] xkit sword_frostmorn %player_name%' 
+  'axe_egg':
+    display_name: '&r&l&#55ff55&lПасхальный топор&r'
+    slot: 25
+    model_data: 101
+    material: netherite_axe
+    lore:
+    - '&r&#aaaaaaЗаговор огня II&r'
+    - '&r&#aaaaaaОстрота VI&r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00299 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 299'
+    - '[console] ei give %player_name% axe_egg'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 299
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun'
+  'sphere_grade':
+    display_name: '&r&#55ff55Шар огородника&r'
+    slot: 28
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmMzI4Yzg3YjA2ODUwOWFjYTk4MzRlZmFjZTE5NzcwNWZlNWQ0ZjA4NzE3MzFiN2IyMWNkOTliOWZkZGMifX19
+    lore:
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r&#aaaaaaУдача III (На растения)&r'
+    - '&r&#aaaaaa&r'
+    - '&r&#aaaaaaКогда во второй руке&r'
+    - '&r&#aaaaaaПри нажатии SHIFT:&r'
+    - '&r&#5555ffВыращивает растения вокруг вас&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00229 &rꐄ&r'
+    - '&r'
+    hide_attributes: true
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 229'
+    - '[console] nitems FARM_BALL %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 229
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun'
+  'enchanted_golden_apple':
+    display_name: '&r&#ffaa00Зачарованное золотое яблоко&r'
+    slot: 29
+    material: enchanted_golden_apple
+    lore:
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0089 &rꐄ&r'
+    - '&r'
+    hide_attributes: true
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 89'
+    - '[console] give %player_name% enchanted_golden_apple 1'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 89
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun'
+  'sword_farm':
+    display_name: '&r&#ffaa00Фарм Меч&r&#aa0000&r'
+    slot: 30
+    material: netherite_sword
+    lore:
+    - '&r&#aaaaaaДобыча V&r'
+    - '&r&#aaaaaaПрочность V&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00179 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 179
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 179'
+    - '[console] xkit sword_farm %player_name%' 
+  'sphere_water':
+    display_name: '&r&l&#5555ffШар Воды&r'
+    slot: 31
+    material: player_head
+    model_data: 5005
+    lore:
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r&#aaaaaa&r'
+    - '&r&#aaaaaaКогда во второй руке&r'
+    - '&r&#aaaaaaПри нажатии SHIFT:&r'
+    - '&r&#aaaaaaПодводное дыхание (01:00)&r'
+    - '&r&#aaaaaaГрация дельфина (00:10)&r'
+    - '&r'
+    - '&r&#aaaaaaПри экипировке в левой руке:&r'
+    - '&r&#5555ff +12 Макс. здоровье&r'
+    - '&r&#5555ff +30% Скорость передвижения&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00129 &rꐄ&r'
+    - '&r'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 129
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 129'
+    - '[console] xkit sphere_water %player_name%' 
+  'furnace':
+    display_name: '&r&#aa00aaКомбинированая Печь&r'
+    slot: 32
+    material: furnace
+    lore:
+    - '&r&#aaaaaaИмеет &r&#ffaa00100% &r&#aaaaaaшанс удвоить ресурс&r'
+    - '&r&#aaaaaaРаботает на &r&#ffaa0030% &r&#aaaaaaбыстрее&r'
+    - '&r&#aaaaaaПотребляет &r&#ff5555очень много &r&#aaaaaaтоплива&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00229 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 229
+          deny_commands:
+            - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+            - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun'    
+    click_commands:  
+      - '[message] &6Риллики &7» &fУспешная покупка!'
+      - '[console] Mobcoins remove %player_name% 229'
+      - '[console] nfurnace %player_name% FURNACE COMBINATION'
+  'SCROLL_OF_EXPERIENCE':
+    display_name: '&r&#ffff55Свиток опыта&r'
+    slot: 33
+    material: flower_banner_pattern
+    lore:
+    - '&r&#aaaaaa&r'
+    - '&r&#aaaaaa  &r&#aaaaaa||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  &r'
+    - '&r&#aaaaaa  &r&#aaaaaa0 &r&#ffffffꐇ  &r'
+    - '&r&#aaaaaa&r'
+    - '&r&#aaaaaa&r'
+    - '&r&#5555ffКогда во второй руке:&r'
+    - '&r&#aaaaaa  &r&#ffff55Собирает в себя весь опыт&r'
+    - '&r&#aaaaaa&r'
+    - '&r&#5555ffКогда в основной руке&r'
+    - '&r&#5555ffПри нажатии ПКМ:&r'
+    - '&r&#aaaaaa  &r&#ffff55Дает вам 5 опыта&r'
+    - '&r&#aaaaaa&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00199 &rꐄ&r'
+    - '&r'
+    hide_attributes: true
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 199'
+    - '[console] nitems SCROLL_OF_EXPERIENCE %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 199
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun'
+  'sphere_bunny':
+    display_name: '&r&l&#555555Шар BUNNY&r'
+    slot: 34
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNhMDNmN2U2Mzg1MTJjNzBhNDRjNDI5OTQyZTc4YzM2YTNkYWY5ZDBhNTMyOThhOWU4NjYyYzJiNjMyZTEyOSJ9fX0=
+    lore:
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r&#aaaaaa&r'
+    - '&r&#aaaaaaОгнестойкость&r'
+    - '&r'
+    - '&r&#aaaaaaПри экипировке в левой руке:&r'
+    - '&r&#5555ff +3.9 Броня&r'
+    - '&r&#5555ff +21% Скорость передвижения&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00319 &rꐄ&r'
+    - '&r'
+    hide_attributes: true
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 319'
+    - '[console] xkit sphere_bunny %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 319
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'sphere_order':
+    display_name: '&r&l&#ff55ffШар Порядка&r'
+    slot: 37
+    material: player_head
+    model_data: 5006
+    lore:
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r&#aaaaaa&r'
+    - '&r&#aaaaaaКогда во второй руке&r'
+    - '&r&#aaaaaaПри нажатии SHIFT:&r'
+    - '&r&#aaaaaaРегенерация II (00:08)&r'
+    - '&r'
+    - '&r&#aaaaaaПри экипировке в левой руке:&r'
+    - '&r&#5555ff +2 Броня&r'
+    - '&r&#5555ff +20 Макс. здоровье&r'
+    - '&r&#5555ff +15% Скорость передвижения&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00149 &rꐄ&r'
+    - '&r'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 149
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 149'
+    - '[console] xkit sphere_order %player_name%'
+  'totem_draconide':
+    display_name: '&r&#ffaa00Тотем Драконида&r'
+    slot: 38
+    material: totem_of_undying
+    lore:
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r&#aaaaaa&r'
+    - '&r&#aaaaaaСрабатывает, когда&r'
+    - '&r&#aaaaaaлежит в инвентаре&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0099 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 99'
+    - '[console] nitems DRACONID_TOTEM %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 99
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun'
+  'sphere_earth':
+    display_name: '&r&#ffaa00&lШар Земли&r'
+    slot: 39
+    material: player_head
+    model_data: 5002
+    lore:
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r&#aaaaaa&r'
+    - '&r&#aaaaaaКогда во второй руке&r'
+    - '&r&#aaaaaaПри нажатии SHIFT:&r'
+    - '&r&#aaaaaaСпешка II (00:08)&r'
+    - '&r'
+    - '&r&#aaaaaaПри экипировке в левой руке:&r'
+    - '&r&#5555ff +4.5 Броня&r'
+    - '&r&#5555ff +2 Сопротивление отбрасыванию&r'
+    - '&r&#5555ff +4 Прочность брони&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00169 &rꐄ&r'
+    - '&r'
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 169
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 169'
+    - '[console] xkit sphere_earth %player_name%' 
+  'aura_none_two':
+    display_name: '&r&#55ffffАура Богача&r'
+    slot: 40
+    material: gold_nugget
+    lore:
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r&#aaaaaaУвеличивает множитель добычи денег&r'
+    - '&r&#aaaaaaс мобов на &r&#ffaa001.0&r'
+    - '&r&#aaaaaa&r'
+    - '&r&#555555Одновременно работает только одна аура!&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00139 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[message] &6Риллики &7⟫ &cИзвините, данный товар отсуствует на проекте'
+    - '[message] &6Риллики &7⟫ &fУскорить процесс разработки - &6wardworld.fun'
+  'aura_none_one':
+    display_name: '&r&#55ffffАура Твёрдости Брони&r'
+    slot: 41
+    material: clay_ball
+    lore:
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r&#aaaaaaУменьшает входящий урон от игрока&r'
+    - '&r&#aaaaaa&r'
+    - '&r&#555555Одновременно работает только одна аура!&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00419 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[message] &6Риллики &7⟫ &cИзвините, данный товар отсуствует на проекте'
+    - '[message] &6Риллики &7⟫ &fУскорить процесс разработки - &6wardworld.fun' 
+  'elytra_angel':
+    display_name: '&3&lКрылья Ангела'
+    slot: 42
+    material: elytra
+    lore:
+    - '&7Починка '
+    - '&7Шипы '
+    - '&7Прочность V'
+    - '&cПроклятие утраты '
+    - ''
+    - '&r&#ffffffЦена: &r&#ffaa00399 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 399'
+    - '[console] xkit elytra_angel %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 399
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'sphere_tiger':
+    display_name: '&r&#ffaa00&lТигринная голова&r'
+    slot: 43
+    material: basehead-ewogICJ0aW1lc3RhbXAiIDogMTY0MDM0NTUwMTk5MSwKICAicHJvZmlsZUlkIiA6ICI2MmJiNjAyZjE0Nzk0NzZiYjlkMmQ0MWZiNDc0NDA1YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb2NpYWxpc21vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJjMTYyYzE2ZTAxNDMzYjNkYTY2NzRkNjQyYzNlYWI0YmU5ZTZkNzFlMjBhMzMyNTU2NGM0ZDAzYTgxMjYwNmEiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+    lore:
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r&#ff5555Когда во второй руке:&r'
+    - '&r&#ffaa00+2.5 к урону&r'
+    - '&r&#ffaa00+25% к скорости&r'
+    - '&r&#ffaa00+1 здоровье&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00439 &rꐄ&r'
+    - '&r'
+    hide_attributes: true
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 439'
+    - '[console] xkit sphere_tiger %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 439
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'potion_faster':
+    display_name: '&r&#ffaa00Быстрее ветра&r'
+    slot: 46
+    material: potion
+    lore:
+    - '&r&#ffaa00Случайный предмет&r'
+    - '&r'
+    - '&r&#5555ffЛевитация II (00:12)&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0079 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 79'
+    - '[console] xkit potion_fly %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'sword_diamond':
+    display_name: '&r&#ffaa00Алмазный меч&r'
+    slot: 49
+    material: diamond_sword
+    lore:
+    - '&r&#ffaa00Случайный предмет&r'
+    - '&r'
+    - '&r&#aaaaaaЗаговор огня &r'
+    - '&r&#aaaaaaОстрота III&r'
+    - '&r&#aaaaaaПрочность II&r'
+    - '&r&#ffffffЦена: &r&#ffaa00149 &rꐄ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%mobcoinsplus_playerbalance%'
+          output: 149
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно ромашек для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] Mobcoins remove %player_name% 149'
+    - '[console] xkit sword_diamond %player_name%' 
+  'sphere_santa':
+    display_name: '&5Голова Джека'
+    slot: 52
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg0Y2JlMzVmYzBiNTdjNTA5N2M0Njg1YzNkN2Q0ODk0NmE4ZmZkZjFlYWNiZmYzMjJlNmJhNzVlMTUxMGQzNiJ9fX0=
+    lore:
+    - '&r&#ffaa00Случайный предмет&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true

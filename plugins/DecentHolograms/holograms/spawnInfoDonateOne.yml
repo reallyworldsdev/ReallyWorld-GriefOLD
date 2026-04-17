@@ -1,0 +1,44 @@
+location: spawn:11.522:66.000:12.545
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fДонат на сервере &6&lFURYWORLD'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&7[&6&lTIGER&7] &8- &c&l&m100&cр &f&l70&fр'
+    height: 0.3
+  - content: '&7[&8&lBUNNY&7] &8- &c&l&m210&cр &f&l147&fр'
+    height: 0.3
+  - content: '&7[&e&lD.HELPER&7] &8- &c&l&m359&cр &f&l251&fр'
+    height: 0.3
+  - content: '&7[&f&lRABBIT&7] &8- &c&l&m420&cр &f&l294&fр'
+    height: 0.3
+  - content: '&7[&2&lHYDRA&7] &8- &c&l&m579&cр &f&l405&fр'
+    height: 0.3
+  - content: '&7[&A&lCOBRA&7] &8- &c&l&m706&cр &f&l494&fр'
+    height: 0.3
+  - content: '&7[&c&lVAMPIRE&7] &8- &c&l&m813&cр &f&l569&fр'
+    height: 0.3
+  - content: '&7[&6&lPEGAS&7] &8- &c&l&m902&cр &f&l631&fр'
+    height: 0.3
+  - content: '&7[&4&lD.ADMIN&7] &8- &c&l&m1000&cр &f&l700&fр'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&7[&61 супер кейс&7] - &c&l&m129&cp &f&l90&fр'
+    height: 0.3
+  - content: '&7[&63 кейс с рилликами&7] - &c&l&m99&cp &f&l69&fр'
+    height: 0.3
+  - content: '&7[&63 кейса с монетами&7] - &c&l&m67&cp &f&l46&fр'
+    height: 0.3
+  - content: ''
+    height: 0.1
+  - content: '&7Покупка на сайте: &6&lFURYWORLD.RU'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,89 @@
+name: '&f&lГолова Санты'
+glow: false
+lore: []
+material: PLAYER_HEAD
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+headValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc2ODdmYTc4YWVlZmNhMGMwNmM1YzlkZjU1YWJlNWVmYjQ5ZmRkNmVlOTRhZWIwNjg5ZDM5ZDIxMGM2OSJ9fX0=
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+  '1':
+    key: SkullOwner
+    type: COMPOUND
+    value:
+      nbt:
+        '0':
+          key: Properties
+          type: COMPOUND
+usageFeatures:
+  usage: 1
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment1:
+    enchantment: Vanishing_curse
+    level: 1
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: true
+  hideAttributes: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute0:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 4.0
+    slot: OFF_HAND
+    uuid: 7d4f31b6-b7a7-44b1-9341-fc2d1537c451
+  attribute1:
+    attribute: GENERIC_KNOCKBACK_RESISTANCE
+    operation: ADD_NUMBER
+    amount: 0.02
+    slot: OFF_HAND
+    uuid: 7d697b09-5ee0-4f30-8ef5-7848e118baca
+  attribute2:
+    attribute: GENERIC_MAX_HEALTH
+    operation: ADD_NUMBER
+    amount: 6.0
+    slot: OFF_HAND
+    uuid: 34be193c-a560-4eb9-9cda-d7fcc6e545c4
+  attribute3:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -0.3
+    slot: OFF_HAND
+    uuid: ac33e662-2a50-4fe3-b736-a5089e4b6f42

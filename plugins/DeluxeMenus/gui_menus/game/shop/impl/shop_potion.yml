@@ -1,0 +1,381 @@
+menu_title: '&fꈁꀀꈂꌘꈂꀁ&0ꈃꄅ'
+size: 54
+items:
+  # Вернуться.
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    click_commands:
+    - '[openguimenu] gameShopDonateshop'
+  # Информация.
+  'info':
+    display_name: '&#ffaa00ИНФОРМАЦИЯ'
+    slot: 53
+    model_data: 10001
+    material: structure_void
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &x&F&F&B&A&0&0ꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6wardworld.fun'
+    click_commands:
+    - '[close]'
+  # Зелья.
+  'potion_garmonia':
+    display_name: '&d&lЗелье Гармонии'
+    slot: 32
+    material: potion
+    nbt_int: CustomPotionColor:15395824
+    lore:
+    - '&r&#5555ffПрибавка здоровья III (00:17)&r'
+    - '&r&#5555ffРегенерация III (00:17)&r'
+    - '&r&#5555ffСопротивление (00:30)&r'
+    - '&r&#5555ffМедленное падение (00:30)&r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0079 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 79
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - wardworld.fun' 
+    left_click_commands:
+     - '[console] points take %player_name% 79'
+     - '[console] ei give %player_name% potion_garmonia'
+  'potion_fly':
+    material: potion
+    data: 95
+    amount: 1
+    slot: 30
+    nbt_int: CustomPotionColor:15395824
+    display_name: '&6Быстрее ветра'
+    lore:
+    - '&9Ливитация II (0:12)'
+    - ''
+    - '&7----------------------'
+    - '&7----------------------'
+    - ''
+    - '&fЦена: &649 &r&#ffffffꐃ&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    enchantments:
+    - PROTECTION_PROJECTILE;2
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 49
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - wardworld.fun' 
+    left_click_commands:
+     - '[console] points take %player_name% 49'
+     - '[console] ei give %player_name% potion_faster'
+  'potion_random':
+    material: potion
+    data: 97
+    amount: 1
+    slot: 23
+    display_name: '&b&lРандомное Зелье'
+    lore:
+    - '&9&k00000000 00000'
+    - '&9&9Дает 3 случайных эффекта'
+    - ''
+    - '&7----------------------'
+    - '&7----------------------'
+    - ''
+    - '&fЦена: &649 &r&#ffffffꐃ&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    enchantments:
+    - PROTECTION_PROJECTILE;2
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 49
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - wardworld.fun' 
+    left_click_commands:
+     - '[console] points take %player_name% 49'
+     - '[console] nitems RANDOM_POTION %player_name%'
+  'potion_razdor':
+    display_name: '&4&lФлакон Раздора&r'
+    slot: 13
+    material: potion
+    lore:
+    - '&r&#5555ffСила III (01:00)&r'
+    - '&r&#5555ffМедлительность (01:30)&r'
+    - '&r&#5555ffРегенерация (00:15)&r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0059 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 59
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - wardworld.fun' 
+    left_click_commands:
+     - '[console] points take %player_name% 59'
+     - '[console] ei give %player_name% potion_razdor'
+  'potion_bezdna':
+    display_name: '&c&lЗелье Бездны&r'
+    slot: 21
+    material: potion
+    lore:
+    - '&r&#5555ffСила III (00:45)&r'
+    - '&r&#5555ffСкорость III (00:45)&r'
+    - '&r&#5555ffОгнестойкость III (08:00)&r'
+    - '&r&#5555ffОтравление (00:45)&r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0089 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 89
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - wardworld.fun' 
+    left_click_commands:
+     - '[console] points take %player_name% 89'
+     - '[console] ei give %player_name% potion_bezdna'
+  'potion_celitel':
+    display_name: '&d&lЗелье Целителя'
+    slot: 22
+    material: potion
+    nbt_int: CustomPotionColor:7044492
+    lore:
+    - '&r&#5555ffПрибавка здоровья III (00:30)&r'
+    - '&r&#5555ffСкорость (01:20)&r'
+    - '&r&#5555ffРегенерация III (00:15)&r'
+    - '&r&#5555ffУсталость IV (00:15)&r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0069 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 69
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - wardworld.fun' 
+    left_click_commands:
+     - '[console] points take %player_name% 69'
+     - '[console] ei give %player_name% potion_celitel'
+  'potion_razlom':
+    display_name: '&5&lЗелье Разлома'
+    slot: 31
+    material: potion
+    nbt_int: CustomPotionColor:15395824
+    lore:
+    - '&r&#5555ffОгнестойкость (10:00)&r'
+    - '&r&#5555ffНевидимость (04:00)&r'
+    - '&r&#5555ffГолод IV (00:30)&r'
+    - '&r&#5555ffСила (01:30)&r'
+    - '&r&#5555ffСкорость (01:30)&r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0069 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_effects: true 
+    potion_effects:
+    - FIRE_RESISTANCE;1;1
+    hide_attributes: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 69
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - wardworld.fun' 
+    left_click_commands:
+     - '[console] points take %player_name% 69'
+     - '[console] ei give %player_name% potion_razlom'
+  # Стрелы.
+  'arrow_moment2':
+    material: tipped_arrow
+    data: 100
+    amount: 32
+    slot: 29
+    display_name: '&6Обработатанная стрела'
+    lore:
+    - '§cЗелье мгновенного урона II'
+    - ''
+    - '&7----------------------'
+    - '&7----------------------'
+    - ''
+    - '&fЦена: &649 &r&#ffffffꐃ&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 49
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - wardworld.fun' 
+    left_click_commands:
+     - '[console] points take %player_name% 49'
+     - '[console] ei give %player_name% arrow_moment2 32'
+  'arrow_cold':
+    material: tipped_arrow
+    data: 101
+    amount: 8
+    slot: 39
+    display_name: '&bСтрела обморожения'
+    lore:
+    - '&cСтан (0:04)'
+    - '&cСлепота (0:04)'
+    - ''
+    - '&7----------------------'
+    - '&7----------------------'
+    - ''
+    - '&fЦена: &6109 &r&#ffffffꐃ&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 109
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - wardworld.fun' 
+    left_click_commands:
+     - '[console] points take %player_name% 109'
+     - '[console] ei give %player_name% arrow_cold 8'
+  'arrow_buri':
+    material: tipped_arrow
+    data: 101
+    amount: 8
+    slot: 40
+    display_name: '&b&lСтрела Бури'
+    lore:
+    - '&4Тошнота &7(00:12)'
+    - '&4Регенрация &7(00:10)'
+    - '&4Слепота &7(00:12)'
+    - '&4Утомление &7(00:12)'
+    - ''
+    - '&7----------------------'
+    - '&7----------------------'
+    - ''
+    - '&fЦена: &6109 &r&#ffffffꐃ&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+  'arrow_fly':
+    material: tipped_arrow
+    data: 102
+    amount: 8
+    slot: 33
+    display_name: '&6Гравитационная стрела'
+    lore:
+    - '&cЛивитация II (0:12)'
+    - ''
+    - '&7----------------------'
+    - '&7----------------------'
+    - ''
+    - '&fЦена: &6599 &r&#ffffffꐃ&r'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 599
+          deny_commands:
+          - '[message] &6Риллики &7» &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7» &fПополнить баланс можно на сайте - wardworld.fun' 
+    left_click_commands:
+     - '[console] points take %player_name% 599'
+     - '[console] ei give %player_name% arrow_levital 8'
+  'arrow_klirik':
+    display_name: '&r&l&#ffffffКлирик&r'
+    slot: 41
+    material: tipped_arrow
+    amount: 2
+    lore:
+    - '&r&#5555ffНеудача (00:00)&r'
+    - '&r&#5555ffОчищает все эффекты c врага&r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0049 &r&#ffffffꐃ&r'
+    - '&r'
+    hide_attributes: true

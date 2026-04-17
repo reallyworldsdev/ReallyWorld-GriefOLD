@@ -1,0 +1,24 @@
+location: spawn:-0.499:64.188:4.664
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#FFC100&lF&#FFB804&lu&#FFAF08&lr&#FFA60B&ly&#FF9D0F&lW&#FF9413&lo&#FF8B17&lr&#FF821B&ll&#FF791F&ld&#FF7022&l.&#FF6726&lr&#FF5E2A&lu'
+    height: 0.3
+  - content: '&fОнлайн: &6%math_0:_{bungee_rw1}*2%'
+    height: 0.3
+  - content: '&fСнаряжение: &6/kit pvp'
+    height: 0.3
+  - content: '&fВайп был: &616.01.2026'
+    height: 0.3
+  - content: '&fДонат: &6/donate'
+    height: 0.3
+  - content: '&fСоц.сети: &6/links'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  actions: {}

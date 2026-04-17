@@ -1,0 +1,391 @@
+menu_title: '§fꈁꀀꈂꍄꈂꀁ§0ꈃꄠ&r'
+size: 52
+items:
+  'mine':
+    material: DIAMOND_AXE
+    data: 3
+    slot: 4
+    display_name: ' '
+    hide_attributes: true
+    lore:
+    - ' &6Ваш уровень профессии: &71          '
+    - ' &6Ваш текущий опыт профессии: &70.00/50   '
+    - ''
+    - ''
+    - '&8[&7||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||&8]'
+    - ''
+    - ''
+    - ''
+    - '&6Награда за достижение'
+    - '&77 уровня &6профессии:'
+    - ''
+    - '&b&lСекира'
+    - '&bКейс с валютой'
+    - '&bКейс с префиксами'
+    - '&b2 кейса с вещами'
+    - ''
+    click_commands:
+    - '[message] &6Работы &7⟫ &cИзвините, данная функция отсутствует на проекте'
+    - '[message] &6Работы &7⟫ &fУскорить процесс разработки - &6wardworld.fun'
+
+  'mine2':
+    material: acacia_log
+    data: 3
+    slot: 20
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &729$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:ACACIA_LOG% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% acacialog: 1'
+      - '[console] money give %player_name% 29'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine3':
+    material: spruce_log
+    data: 3
+    slot: 21
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &723$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:SPRUCE_LOG% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% spruce_log: 1 '
+      - '[console] money give %player_name% 23'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine4':
+    material: oak_log
+    data: 3
+    slot: 22
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &711$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:OAK_LOG% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% oak_log: 1 '
+      - '[console] money give %player_name% 11'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine5':
+    material: birch_log
+    data: 3
+    slot: 23
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &737$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:BIRCH_LOG% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% birch_log: 1 '
+      - '[console] money give %player_name% 37'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine6':
+    material: jungle_log
+    data: 3
+    slot: 24
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &737$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:JUNGLE_LOG% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% jungle_log: 1 '
+      - '[console] money give %player_name% 37'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine7':
+    material: acacia_sapling
+    data: 3
+    slot: 29
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &754$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:acacia_sapling% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% acacia_sapling: 1'
+      - '[console] money give %player_name% 54'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine8':
+    material: spruce_sapling
+    data: 3
+    slot: 30
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &746$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:spruce_sapling% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% spruce_sapling: 1'
+      - '[console] money give %player_name% 46'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine9':
+    material: oak_sapling
+    data: 3
+    slot: 31
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &747$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:oak_sapling% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% oak_sapling: 1 '
+      - '[console] money give %player_name% 47'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine10':
+    material: birch_sapling
+    data: 3
+    slot: 32
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &787$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:birch_sapling% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% birch_sapling: 1'
+      - '[console] money give %player_name% 87'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine11':
+    material: jungle_sapling
+    data: 3
+    slot: 33
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &779$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:jungle_sapling% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% jungle_sapling: 1 '
+      - '[console] money give %player_name% 79'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine12':
+    material: acacia_leaves
+    data: 3
+    slot: 38
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &713$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:acacia_leaves% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% acacia_leaves: 1 '
+      - '[console] money give %player_name% 13'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine13':
+    material: spruce_leaves
+    data: 3
+    slot: 39
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &711$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:spruce_leaves% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% spruce_leaves: 1 '
+      - '[console] money give %player_name% 11'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine14':
+    material: oak_leaves
+    data: 3
+    slot: 40
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &79$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:oak_leaves% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% oak_leaves: 1 '
+      - '[console] money give %player_name% 9'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'
+      
+  'mine15':
+    material: birch_leaves
+    data: 3
+    slot: 41
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &729$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:birch_leaves% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% birch_leaves: 1'
+      - '[console] money give %player_name% 29'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'   
+
+  'mine16':
+    material: jungle_leaves
+    data: 3
+    slot: 42
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &739$'
+    - ''
+    - ' &7Лимит &60&7/&60'
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:jungle_leaves% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% jungle_leaves: 1'
+      - '[console] money give %player_name% 39'
+      - '[message] &6Работы &7⟫ &fВы успешно сдали предмет.'        
+      
+      

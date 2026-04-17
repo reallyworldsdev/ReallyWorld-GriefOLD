@@ -1,0 +1,357 @@
+menu_title: '§fꈁꀀꈂꌰꈂꀁ§0ꈃꄅ&r'
+size: 54
+items:
+  # Вернуться.
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    click_commands:
+    - '[openguimenu] gameShopDonateshop'
+  # Информация.
+  'info':
+    display_name: '&#ffaa00ИНФОРМАЦИЯ'
+    slot: 53
+    model_data: 10001
+    material: structure_void
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &x&F&F&B&A&0&0ꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6wardworld.fun'
+    click_commands:
+    - '[close]'
+  # Магазин.
+  'trident_neptun':
+    display_name: '&#55ffff&lТрезубец Нептуна&r'
+    slot: 13
+    material: trident
+    lore:
+    - '&r&#aaaaaaГромовержец &r'
+    - '&r&#aaaaaaПронзание V&r'
+    - '&r&#aaaaaaВерность III&r'
+    - '&r&#aaaaaaПочинка &r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#aaaaaaДает рывок к цели, при успешном попадании&r'
+    - '&r&#aaaaaaтрезубцем на расстоянии&r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00319 &r&#ffffffрилликов&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[message] &6Риллики &7⟫ &cИзвините, данный товар отсуствует на проекте'
+    - '[message] &6Риллики &7⟫ &fУскорить процесс разработки - &6wardworld.fun' 
+  'sword_farm':
+    display_name: '&r&#ffaa00Фарм Меч&r&#aa0000&r'
+    slot: 20
+    material: netherite_sword
+    lore:
+    - '&r&#aaaaaaДобыча V&r'
+    - '&r&#aaaaaaПрочность V&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00222 &r&#ffffffрилликов&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 222'
+    - '[console] ei give %player_name% sword_farm'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 222
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'fishing_rod':
+    display_name: '&3&lРыбачок&r'
+    slot: 21
+    material: fishing_rod
+    lore:
+    - '&r&#aaaaaaВезение моря V&r'
+    - '&r&#aaaaaaПриманка V&r'
+    - '&r&#aaaaaaПочинка &r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00119 &r&#ffffffрилликов&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 119'
+    - '[console] ei give %player_name% fishing_rod'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 119
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'bow_push':
+    display_name: '&#aaaaaa&lПушечка&r'
+    slot: 22
+    material: bow
+    lore:
+    - '&r&#aaaaaaВоспламенение &r'
+    - '&r&#aaaaaaБесконечность &r'
+    - '&r&#aaaaaaПочинка &r'
+    - '&r&#aaaaaaСила V&r'
+    - '&r&#aaaaaaОтбрасывание V&r'
+    - '&r&#aaaaaaПрочность II&r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00239 &r&#ffffffрилликов&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 239'
+    - '[console] ei give %player_name% bow_push'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 239
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'axe_sekira':
+    display_name: '&#ffaa00&lСекира&r'
+    slot: 23
+    material: netherite_axe
+    lore:
+    - '&r&#aaaaaaЭффективность X&r'
+    - '&r&#aaaaaaУдача III&r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0099 &r&#ffffffрилликов&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 99'
+    - '[console] ei give %player_name% axe_sekira'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 99
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'pickaxe_stone':
+    display_name: '&#ffaa00Кирка Каменщика&r'
+    slot: 24
+    material: netherite_pickaxe
+    lore:
+    - '&r&#aaaaaaЭффективность X&r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00129 &r&#ffffffрилликов&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 129'
+    - '[console] ei give %player_name% pickaxe_stonemason'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 129
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'sword_frostmorn':
+    display_name: '&#55ffff&lФростморн&r'
+    slot: 29
+    material: netherite_sword
+    lore:
+    - '&r&#aaaaaaЗаговор огня II&r'
+    - '&r&#aaaaaaОстрота VI&r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r&#5555ffНеразрушаемый&r'
+    - '&r'
+    - '&r&#aaaaaa==================================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00329 &r&#ffffffрилликов&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 329'
+    - '[console] ei give %player_name% sword_frostmorn'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 329
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'shovel_sandbox':
+    display_name: '&#ffaa00&lЛопата &#555555Песочника &r'
+    slot: 30
+    material: netherite_shovel
+    lore:
+    - '&r&#aaaaaaЭффективность VIII&r'
+    - '&r&#aaaaaaУдача III&r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#aaaaaa===================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa0069 &r&#ffffffрилликов&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 69'
+    - '[console] ei give %player_name% shovel_sandbox'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 69
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'crossbow_domer':
+    display_name: '&#ffaa00Арбалет Домера&r'
+    slot: 31
+    material: crossbow
+    lore:
+    - '&r&#aaaaaaПочинка &r'
+    - '&r&#aaaaaaТройной выстрел &r'
+    - '&r&#aaaaaaПронзание IV&r'
+    - '&r&#aaaaaaСила V&r'
+    - '&r&#aaaaaaБыстрая перезарядка III&r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00239 &r&#ffffffрилликов&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 239'
+    - '[console] ei give %player_name% crossbow_domer'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 239
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'axe_kratos':
+    display_name: '&#ff5555&lТопор Кратоса&r'
+    slot: 32
+    material: netherite_axe
+    lore:
+    - '&r&#aaaaaaЗаговор огня II&r'
+    - '&r&#aaaaaaОстрота VI&r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#aaaaaa&r'
+    - '&r&#aaaaaaКогда в руке&r'
+    - '&r&#ff5555Замедление II&r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00319 &r&#ffffffрилликов&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 319'
+    - '[console] ei give %player_name% axe_kratos'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 319
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'pickaxe_lucky':
+    display_name: '&#aa00aa&lВезунчик&r'
+    slot: 33
+    material: netherite_pickaxe
+    lore:
+    - '&r&#aaaaaaУдача V&r'
+    - '&r&#aaaaaaПочинка &r'
+    - '&r&#aaaaaaПрочность III&r'
+    - '&r&#ff5555Проклятие утраты &r'
+    - '&r'
+    - '&r&#aaaaaa=====================&r'
+    - '&r'
+    - '&r&#ffffffЦена: &r&#ffaa00259 &r&#ffffffрилликов&r'
+    - '&r'
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 259'
+    - '[console] ei give %player_name% pickaxe_lucky'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 259
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 

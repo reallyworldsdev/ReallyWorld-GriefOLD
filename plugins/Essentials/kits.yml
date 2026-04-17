@@ -1,0 +1,94 @@
+kits:
+  tools:
+    delay: 10
+    items:
+    - stonesword 1
+    - stoneshovel 1
+    - stonepickaxe 1
+    - stoneaxe 1
+  dtools:
+    delay: 600
+    items:
+    - dpickaxe 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+    - dshovel 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
+    - lhelm 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
+    - daxe:780 1
+    - /broadcast {USERNAME} just got some fancy tools!
+  notch:
+    delay: 6000
+    items:
+    - playerhead 1 player:Notch
+  color:
+    delay: 6000
+    items:
+    - writtenbook 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes
+      book:Colors
+  firework:
+    delay: 6000
+    items:
+    - fireworkrocket 1 name:Angry_Creeper color:red fade:green type:creeper power:1
+    - fireworkrocket 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle
+      power:1
+    - fireworkrocket 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle
+      color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink
+      shape:star effect:trail power:1
+  cobra:
+    delay: 0
+    items: []
+  pegas:
+    delay: 0
+    items: []
+  moy:
+    delay: 1
+    items:
+    - netherite_sword 1 name:&c&lОкрававленный_Дзангэцу lore:&7Грабитель_(Крадет_часть_денег_убитого_игрока)
+      fire_aspect:2 sharpness:6 stealer:1 unbreaking:3
+    - ender_pearl 8
+    - netherite_axe 1 name:&#55FF55&lПасхальный_топор lore:&7Заговор_Огня_II|&7Острота_VI|&7Прочность_III|&cПроклятье_утраты|&7Светлячок_(Подсвечивает_игрока_при_ударе)
+      custom-model-data:101 fire_aspect:2 lightner:1 sharpness:6 unbreaking:3 itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_POTION_EFFECTS
+    - enchanted_golden_apple 64
+    - golden_apple 64
+    - golden_carrot 58
+    - flower_banner_pattern 1 name:&eСвиток_опыта lore:|&e\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|\|&7|&73,500_&fꐇ|||&9Когда_во_второй_руке:|__&eСобирает_в_себя_весь_опыт||&9Когда_в_основной_руке:|&9При_нажатии_ПКМ:|__&eДает_вам_5_опыта|
+      itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_DESTROYS,HIDE_PLACED_ON,HIDE_POTION_EFFECTS,HIDE_DYE
+    - bow 1 flame:1 infinity:1 mending:1 power:5 punch:2 unbreaking:2
+    - firework_star 1 name:&5Анти_Полет lore:&cПроклятье_утраты||&7Когда_во_второй_руке|&7При_нажатии_SHIFT:|&9Запрещает_полеты_в_радиусе_16_блоков
+      vanishing_curse:1 itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_DESTROYS,HIDE_PLACED_ON,HIDE_POTION_EFFECTS,HIDE_DYE
+    - strong_harming_tipped_arrow 45
+    - chorus_fruit 64
+    - strong_harming_tipped_arrow 64
+    - strong_harming_tipped_arrow 64
+    - netherite_pickaxe 1 name:&6Кирка_Каменщика lore:&7Бур_(Копает_3x3) drill:1 efficiency:10
+      unbreaking:3
+    - player_head 1 name:&b&lГолова_Пегаса lore:&#AAAAAAКогда_во_второй_руке|&b&lПри_нажатии_SHIFT:|&b&lВы_получаете_СКОРОСТЬ_III_(0:10)||&#AAAAAAПри_экипировке_в_левой_руке:||&#5555FF_+0.3_Скорость_атаки|&#5555FF_+5_Броня|&#5555FF_+2.5_Урон_атаки|&#5555FF_+15_Макс._здоровье|&0
+      vanishing_curse:1 itemflags:HIDE_ATTRIBUTES,HIDE_UNBREAKABLEplayer:test
+    - player_head 1 name:&f&lШар_Воздуха lore:|&#AAAAAAКогда_во_второй_руке|&#AAAAAAПри_нажатии_SHIFT:|&#AAAAAAЛевитация_II_(00:08)||&#AAAAAAПри_экипировке_в_левой_руке:|&#5555FF_+35%_Скорость_передвижения|&#5555FF_+2.3_Урон_атаки|&#5555FF_+1.5_Отбрасывание_атаки|
+      custom-model-data:5001 fire_aspect:2 sharpness:6 itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_POTION_EFFECTS
+    - player_head 1 name:&c&lГолова_Вампира vanishing_curse:1 itemflags:HIDE_UNBREAKABLE,HIDE_POTION_EFFECTSplayer:test
+    - player_head 1 name:&9&lШар_Воды lore:|&#AAAAAAКогда_в_руке|&#AAAAAAПри_нажатии_SHIFT:|&#AAAAAAПодводное_дыхание_(01:00)|&#AAAAAAГрация_дельфина_(00:10)||&#AAAAAAПри_экипировке_в_левой_руке:|&#5555FF_+12_Макс._здоровье|&#5555FF_+30%_Скорость_передвижения|
+      custom-model-data:5005 fire_aspect:2 sharpness:6 itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_POTION_EFFECTS
+    - elytra 1 name:&3&lКрылья_Ангела lore:&7Починка|&7Шипы_I|&7Прочность_V mending:1
+      thorns:1 unbreaking:5 itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_POTION_EFFECTS
+    - ender_pearl 16
+    - totem_of_undying 1 name:&6Тотем_Драконида lore:&7Срабатывает,_когда|&7лежит_в_инвентаре
+      vanishing_curse:1 itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_DESTROYS,HIDE_PLACED_ON,HIDE_POTION_EFFECTS,HIDE_DYE
+    - totem_of_undying 1 name:&6Тотем_Драконида lore:&7Срабатывает,_когда|&7лежит_в_инвентаре
+      vanishing_curse:1 itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_DESTROYS,HIDE_PLACED_ON,HIDE_POTION_EFFECTS,HIDE_DYE
+    - totem_of_undying 1 name:&6Тотем_Драконида lore:&7Срабатывает,_когда|&7лежит_в_инвентаре
+      vanishing_curse:1 itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_DESTROYS,HIDE_PLACED_ON,HIDE_POTION_EFFECTS,HIDE_DYE
+    - totem_of_undying 1 name:&6Тотем_Драконида lore:&7Срабатывает,_когда|&7лежит_в_инвентаре
+      vanishing_curse:1 itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_DESTROYS,HIDE_PLACED_ON,HIDE_POTION_EFFECTS,HIDE_DYE
+    - firework_rocket 63
+    - ender_pearl 16
+    - totem_of_undying 1 name:&6Тотем_Драконида lore:&7Срабатывает,_когда|&7лежит_в_инвентаре
+      vanishing_curse:1 itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_DESTROYS,HIDE_PLACED_ON,HIDE_POTION_EFFECTS,HIDE_DYE
+    - ghast_tear 1 name:&bАура_Защиты_От_Кристаллов lore:&7Уменьшает_урон_от_кристаллов_на_&640%
+      vanishing_curse:1
+    - gray_dye 1 name:&bАура_Твёрдости_Брони lore:&7Уменьшает_входящий_урон_от_игрока
+      vanishing_curse:1
+    - netherite_boots 1 depth_strider:3 feather_falling:2 mending:1 protection:4 unbreaking:3
+    - netherite_leggings 1 mending:1 protection:4 unbreaking:3
+    - netherite_chestplate 1 name:&f&lНАГРУДНИК_БОГА mending:1 protection:4 unbreaking:3
+    - player_head 1 name:&5Голова_Джека protection:4 vanishing_curse:1 itemflags:HIDE_UNBREAKABLEplayer:test
+    - player_head 1 name:&2&lГолова_Кобры lore:&7Когда_во_второй_руке:|&a_+3.5_к_Урону|&a_+20%_к_Скорости|&a_+2.5_к_Стойкости|_&aОтравляет_врагов_ядом
+      itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_POTION_EFFECTSplayer:test

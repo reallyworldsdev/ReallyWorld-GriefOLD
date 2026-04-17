@@ -1,0 +1,63 @@
+menu_title: '&fꈁꀀꈂꌆꈂꀁ&0ꈃꄃ'
+open_command: navigation
+size: 54
+items:
+  # Вернуться.
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    click_commands:
+    - '[openguimenu] generalMainMenu'
+  # Навигация.
+  'gameAwardsReward':
+    material: chest_minecart
+    slot: 21
+    display_name: '&#fb8800Награды'
+    lore:
+    - ''
+    - '&7  Получай награду за'
+    - '&7  отыгранное время'
+    click_commands:
+    - '[openguimenu] gameAwardsReward'
+  'gameGuidesEvents':
+    material: elytra
+    slot: 31
+    display_name: '&#fb8800Ивенты'
+    lore:
+    - ''
+    - '&7  Описание всех'
+    - '&7  ивентов на сервере'
+    click_commands:
+    - '[openguimenu] gameGuidesEvents'
+  'generalOtherJobs':
+    material: diamond_axe
+    slot: 23
+    display_name: '&#fb8800Работы'
+    lore:
+    - ''
+    - '&7  Получай деньги'
+    - '&7  за работу'
+    click_commands:
+    - '[openguimenu] generalOtherJobs'
+  'generalWebDonate':
+    material: EMERALD
+    slot: 30
+    display_name: '&#fb8800Донат услуги'
+    lore:
+    - ''
+    - '&7  Список донат'
+    - '&7  услуг на сервере'
+    click_commands:
+    - '[openguimenu] generalWebDonate'
+  'gameGuidesWarpSelector':
+    material: command_block
+    slot: 32
+    display_name: '&#fb8800Варпы'
+    lore:
+    - ''
+    - '&7  Список точек телепортации'
+    - '&7  на сервере'
+    click_commands:
+    - '[openguimenu] gameGuidesWarpSelector'

@@ -1,0 +1,127 @@
+blocks:
+- world: spawn
+  pos:
+    x: 3
+    y: 47
+    z: 83
+  on_click_menu: bcases:super
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &b&lСУПЕР ДОНАТ &7&k||||'
+  block: minecraft:light_blue_shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: -9
+    y: 47
+    z: 85
+  on_click_menu: bcases:fury
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &#bf393f&l&6&lКЕЙС ФУРИ &7&k||||'
+  block: minecraft:orange_shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: 10
+    y: 47
+    z: 89
+  on_click_menu: bcases:money
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &5&lКЕЙС С ВАЛЮТОЙ &7&k||||'
+  block: minecraft:purple_shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: -5
+    y: 47
+    z: 83
+  on_click_menu: bcases:rilik
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &e&lКЕЙС С РИЛЛИКАМИ &7&k||||'
+  block: minecraft:yellow_shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: 7
+    y: 47
+    z: 85
+  on_click_menu: bcases:allofthem
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &9&lВСЕ ИЛИ НИЧЕГО &7&k||||'
+  block: minecraft:blue_shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: -12
+    y: 47
+    z: 89
+  on_click_menu: bcases:kit
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &4&lКЕЙС С КИТАМИ  &7&k||||'
+  block: minecraft:red_shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: 43
+    y: 36
+    z: -10
+  on_click_menu: bcases:djamshut
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &d&lКЕЙС ДЖАМШУТА &7&k||||'
+  block: minecraft:pink_shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: -1
+    y: 47
+    z: 83
+  on_click_menu: bcases:donate
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &2&lКЕЙС ФРИ &7&k||||'
+  block: minecraft:lime_shulker_box[facing=up]
+- world: spawn
+  pos:
+    x: -1
+    y: 46
+    z: 94
+  on_click_menu: bcases:present
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.2
+      z: 0.5
+    lines:
+    - '&7&k|||| &#a60908&lНОВОГОДНИЙ КЕЙС &7&k||||'
+  block: minecraft:ender_chest

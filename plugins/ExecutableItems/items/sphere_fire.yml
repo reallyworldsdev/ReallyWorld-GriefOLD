@@ -1,0 +1,81 @@
+name: '&c&lШар Огня'
+glow: false
+lore:
+- §r
+- §x§a§a§a§a§a§aКогда в руке
+- §x§a§a§a§a§a§aОгнеупорность
+- §r
+- '§x§a§a§a§a§a§aПри экипировке в левой руке:'
+- §x§5§5§5§5§f§f +0.3 Скорость атаки
+- §x§5§5§5§5§f§f +4 Макс. здоровье
+- §x§5§5§5§5§f§f +2.5 Урон атаки
+- §r
+material: PLAYER_HEAD
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: true
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+customModelData: 5003
+config_5: true
+config_update: true
+usageFeatures:
+  usage: 1
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment0:
+    enchantment: Fire_protection
+    level: 1
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: true
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-place: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute0:
+    attribute: GENERIC_MAX_HEALTH
+    operation: ADD_NUMBER
+    amount: 4.0
+    slot: OFF_HAND
+    uuid: 4f34c330-cdcc-48f1-b79d-016b9b037a87
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: 0.3
+    slot: OFF_HAND
+    uuid: c9096822-58fb-46ec-928b-47e92f29c751
+  attribute2:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 2.5
+    slot: OFF_HAND
+    uuid: a39fd648-0ffd-4c50-b3f0-830410fbc8a1

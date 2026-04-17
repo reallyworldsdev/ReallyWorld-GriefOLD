@@ -1,0 +1,83 @@
+# DeluxeMenus 1.14.0-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+metas_list_page_size: 15
+use_admin_commands_in_menus_list: false
+menus_list_page_size: 10
+debug: HIGHEST
+check_updates: false
+gui_menus:
+  gameAwardsReward:
+    file: game/awards/reward.yml
+  gameAwardsFree:
+    file: game/awards/free.yml
+  gameNpcReallyWorldPlus:
+    file: game/npc/rwplus/rwplus.yml
+  gameNpcReallyWorldPlusImplType:
+    file: game/npc/rwplus/impl/rwplus_type.yml
+  gameNpcReallyWorldPlusImplBuyOne:
+    file: game/npc/rwplus/impl/rwplus_buyOne.yml
+  gameNpcReallyWorldPlusImplBuyTwo:
+    file: game/npc/rwplus/impl/rwplus_buyTwo.yml
+  gameNpcReallyWorldPlusImplBuyThree:
+    file: game/npc/rwplus/impl/rwplus_buyThree.yml
+  gameNpcEnderChest:
+    file: game/npc/enderchest/enderchest.yml
+  gameNpcEnderChestImplBuyOne:
+    file: game/npc/enderchest/impl/enderchest_buyOne.yml
+  gameNpcEnderChestImplBuyFourLine:
+    file: game/npc/enderchest/impl/enderchest_buyFourLine.yml
+  gameNpcEnderChestImplBuyFiveLine:
+    file: game/npc/enderchest/impl/enderchest_buyFiveLine.yml
+  gameNpcEnderChestImplBuySixLine:
+    file: game/npc/enderchest/impl/enderchest_buySixLine.yml
+  gameShopDonateshop:
+    file: game/shop/donateshop.yml
+  gameShopImpl_sphere:
+    file: game/shop/impl/shop_sphere.yml
+  gameShopImpl_kits:
+    file: game/shop/impl/shop_kits.yml
+  gameShopImpl_boost:
+    file: game/shop/impl/shop_boost.yml
+  gameShopImpl_spawner:
+    file: game/shop/impl/shop_spawner.yml
+  gameShopImpl_season:
+    file: game/shop/impl/shop_season.yml
+  gameShopImpl_potion:
+    file: game/shop/impl/shop_potion.yml
+  gameShopImpl_aura:
+    file: game/shop/impl/shop_aura.yml
+  gameShopImpl_furnace:
+    file: game/shop/impl/shop_furnace.yml
+  gameShopImpl_grief:
+    file: game/shop/impl/shop_grief.yml
+  gameShopImpl_huckster:
+    file: game/shop/impl/shop_huckster.yml
+  gameShopImpl_mag:
+    file: game/shop/impl/shop_mag.yml
+  gameShopImpl_weapon:
+    file: game/shop/impl/shop_weapon.yml
+  generalMainMenu:
+    file: general/main/menu.yml
+  gameGuidesWarpSelector:
+    file: game/guides/warp.yml
+  gameGuidesWarpServer:
+    file: game/guides/warp/warpserver.yml
+  generalOtherKits:
+    file: general/other/kits.yml
+  generalOtherRtp:
+    file: general/other/rtp.yml
+  generalOtherJobs:
+    file: general/other/jobs.yml
+  gameGuidesEvents:
+    file: game/guides/events.yml
+  gameGuidesNavigation:
+    file: game/guides/navigation.yml
+  gameGuidesQuest:
+    file: game/guides/quest.yml
+  gameGuidesQuest2:
+    file: game/guides/quest2.yml
+  gameGuidesQuest3:
+    file: game/guides/quest3.yml

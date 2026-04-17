@@ -1,0 +1,33 @@
+receiveItem: '&8[&aExecutable&7Items&8] &aВы получили &a%quantity%x &e%item%'
+fullInventory: '&8[&4Executable&7Items&8] &cВаши карманы забиты, &e%item% &cбыл(а)
+  сброшен(а).'
+timeLeft: '&8[&4Executable&7Items&8] &cПодожди &e%time% &cдо использования &6%activator%&c!'
+requirePermission: '&8[&4Executable&7Items&8] &cУ тебя нет прав чтобы использовать
+  &e%item%&c!'
+giveMessage: '&8[&aExecutable&7Items&8] &aВы получили &e&n%player%&r &a%quantity%x
+  &e%item%'
+use: '&7&oОсталось использований: '
+noHit: '&8[&4Executable&7Items&8] &cНи один игрок не поражён'
+noEntityHit: '&8[&4Executable&7Items&8] &cНи одна сущность не поражена'
+cancelCraft: '&8[&4Executable&7Items&8] &cТы не можешь скрафтить это с помощью EI!'
+pickupLimitMessage: '&8[&4Executable&7Items&8] &cТы не можешь иметь больше чем %limit%
+  EI!'
+disableWorld: '&8[&4Executable&7Items&8] &cТы не можешь использовать &e%item%&c в
+  этом мире!'
+requiredEIFirstPart: '&4Необходимый(ые) EI(s): '
+requiredEIQuantity: ' &cx &6'
+requiredEISeparator: '&c | '
+requiredItemsFirstPart: '&4Необходимый(ые)предмет(ы): '
+requiredItemsQuantity: ' &cx &6'
+requiredItemsSeparator: '&c | '
+requiredLevel: '&8[&4Executable&7Items&8] &cУ тебя должен быть минимум &6&l%level%&c
+  &6уровень чтобы использовать этот предмет!'
+waitProjectile: '&cВы должны подождать, пока снаряд во что-нибудь попадёт!'
+invalidOwner: '&8[&4Executable&7Items&8] &cЭта штука может быть использована только
+  её владельцем!'
+errorUPDItem: '&7[&4Executable&7Items] &cТы'
+errorUPDActivator: '&8[&4Executable&7Items&8]&c Ты'
+customCommandDamageKillMessage: '%player% стёр в порошок %target% используя %item%'
+noOwner: '&cНет владельца'
+refreshValid: '&2&l[ExecutableItems] &aExecutableItem(s) &e%id% &ain the inventory
+  of player(s) &e%player% &ais/are correctly reset !'

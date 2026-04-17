@@ -1,0 +1,93 @@
+name: '&#ffaa00&lГолова Пряника'
+glow: false
+lore:
+- §x§f§f§5§5§5§5Проклятие утраты
+- §r
+- '§7Когда во второй руке:'
+- §x§5§5§5§5§f§f +0.4 Скорость атаки
+- §x§5§5§5§5§f§f +2.5 Урон атаки
+- §x§5§5§5§5§f§f -6 Макс. здоровье
+material: PLAYER_HEAD
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+headValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RiNTQ0MjlkZWM1YjNmN2VmNDBlOGJjM2ZmMTk5NWNlZjY5NmEzNTAyOGY3ODJmNjM5MWMyYjU1MTFiYmUifX19
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+  '1':
+    key: SkullOwner
+    type: COMPOUND
+    value:
+      nbt:
+        '0':
+          key: Properties
+          type: COMPOUND
+usageFeatures:
+  usage: 1
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment0:
+    enchantment: Vanishing_curse
+    level: 1
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-place: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 2.5
+    slot: OFF_HAND
+    name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+    uuid: c7fbcf4a-0bc2-41c5-869c-ab20fb7ce19a
+  attribute1:
+    attribute: GENERIC_MAX_HEALTH
+    operation: ADD_NUMBER
+    amount: -12.0
+    slot: OFF_HAND
+    name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+    uuid: 45c8f072-6865-462e-82da-194b72d2f04b
+  attribute2:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_SCALAR
+    amount: 0.4
+    slot: OFF_HAND
+    name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+    uuid: 7eea37f0-7afc-427c-ab23-72d9cbecb912

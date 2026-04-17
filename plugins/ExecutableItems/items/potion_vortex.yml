@@ -1,0 +1,195 @@
+name: '&b&lСнежный вихрь'
+glow: false
+lore: []
+material: POTION
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: CustomPotionColor
+    type: INT
+    value: 16711680
+  '1':
+    key: PublicBukkitValues
+    type: COMPOUND
+  '2':
+    key: CustomPotionEffects
+    type: COMPOUND_LIST
+    value:
+      '0':
+        key: comp0
+        nbt:
+          '0':
+            type: COMPOUND
+            value:
+              nbt:
+                '0':
+                  key: Ambient
+                  type: BYTE
+                  value: 0
+                '1':
+                  key: ShowIcon
+                  type: BYTE
+                  value: 1
+                '2':
+                  key: ShowParticles
+                  type: BYTE
+                  value: 1
+                '3':
+                  key: Duration
+                  type: INT
+                  value: 1800
+                '4':
+                  key: Id
+                  type: BYTE
+                  value: 5
+                '5':
+                  key: Amplifier
+                  type: BYTE
+                  value: 2
+      '1':
+        key: comp1
+        nbt:
+          '0':
+            type: COMPOUND
+            value:
+              nbt:
+                '0':
+                  key: Ambient
+                  type: BYTE
+                  value: 0
+                '1':
+                  key: ShowIcon
+                  type: BYTE
+                  value: 1
+                '2':
+                  key: ShowParticles
+                  type: BYTE
+                  value: 1
+                '3':
+                  key: Duration
+                  type: INT
+                  value: 1800
+                '4':
+                  key: Id
+                  type: BYTE
+                  value: 1
+                '5':
+                  key: Amplifier
+                  type: BYTE
+                  value: 2
+      '2':
+        key: comp2
+        nbt:
+          '0':
+            type: COMPOUND
+            value:
+              nbt:
+                '0':
+                  key: Ambient
+                  type: BYTE
+                  value: 0
+                '1':
+                  key: ShowIcon
+                  type: BYTE
+                  value: 1
+                '2':
+                  key: ShowParticles
+                  type: BYTE
+                  value: 1
+                '3':
+                  key: Duration
+                  type: INT
+                  value: 700
+                '4':
+                  key: Id
+                  type: BYTE
+                  value: 11
+                '5':
+                  key: Amplifier
+                  type: BYTE
+                  value: 0
+  '3':
+    key: Potion
+    type: STRING
+    value: minecraft:water
+usageFeatures:
+  usage: 0
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment0:
+    enchantment: Sharpness
+    level: 1
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+potionSettings:
+  potionColor: 16711680
+  potionType: WATER
+  potionExtended: false
+  potionUpgraded: false
+  potionEffects:
+    pEffect0:
+      isAmbient: false
+      duration: 1500
+      potionEffectType: INVISIBILITY
+      amplifier: 0
+      hasParticles: false
+      hasIcon: false
+    pEffect1:
+      isAmbient: false
+      duration: 1500
+      potionEffectType: REGENERATION
+      amplifier: 0
+      hasParticles: false
+      hasIcon: false
+    pEffect2:
+      isAmbient: false
+      duration: 800
+      potionEffectType: SPEED
+      amplifier: 2
+      hasParticles: false
+      hasIcon: false
+    pEffect3:
+      isAmbient: false
+      duration: 800
+      potionEffectType: SLOW_DIGGING
+      amplifier: 2
+      hasParticles: false
+      hasIcon: false
+attributes: {}

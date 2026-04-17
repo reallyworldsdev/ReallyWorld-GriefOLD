@@ -1,0 +1,76 @@
+name: §6§lШар Д.Хелпера
+glow: false
+lore:
+- '§7Когда во второй руке:'
+- §6 +7.0 к здоровью
+- §6 +0.6 к скорости атаки
+- §6 +3 к стойкости
+material: PLAYER_HEAD
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+headValue: ewogICJ0aW1lc3RhbXAiIDogMTY1OTg5MTQyNjYxMiwKICAicHJvZmlsZUlkIiA6ICJlMTI0Zjg0ZWExY2Y0YzBmYjUyOTUwMWNmZTYyNzM4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJibG94bWFzdGVyMjAwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMDY1YjQ5NTc3N2JhODQyZDIyZGNhNjYzZTlmNzk2MTdkOGJkOWI5ODNkNDI0ZTM2ZGQ3ZDk5MzA0YmEyNTA4IgogICAgfQogIH0KfQ==
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+usageFeatures:
+  usage: 1
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments: {}
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-place: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute0:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: 0.599
+    slot: OFF_HAND
+    name: generic.attackSpeed
+    uuid: 0d9066bf-b90a-4143-b18f-0b7fcd406f40
+  attribute1:
+    attribute: GENERIC_MAX_HEALTH
+    operation: ADD_NUMBER
+    amount: 7.0
+    slot: OFF_HAND
+    name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+    uuid: e2acdfbe-d656-441e-b5f5-8f12fec0ecd6
+  attribute2:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: OFF_HAND
+    name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+    uuid: 26ed3cd9-3459-46f4-a1d0-089aae1a010c

@@ -1,0 +1,77 @@
+name: §2§lГолова Кобры
+glow: false
+lore:
+- '§7Когда во второй руке:'
+- §a +3.5 к Урону
+- §a +20% к Скорости
+- §a +2.5 к Стойкости
+- ' §aОтравляет врагов ядом'
+material: PLAYER_HEAD
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+headValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRhMjgxM2Q0ZjVhY2Q2OWVkNTkwYzFkOGE0NDJiNTk1NTE5ZGNiYzBlMTcxOThhZGZhYWFhZjE1Zjg5YjAifX19
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+usageFeatures:
+  usage: 1
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments: {}
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: true
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-place: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 3.5
+    slot: OFF_HAND
+    name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+    uuid: 610d82a4-e85a-4e5c-b94e-c2490c17992d
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: 0.6
+    slot: OFF_HAND
+    name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+    uuid: 2c9da2fb-5453-4895-a4bb-461b63f1cf84
+  attribute2:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 2.5
+    slot: OFF_HAND
+    name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+    uuid: 7699c6dc-abb6-4982-9512-1375f3ebbb49

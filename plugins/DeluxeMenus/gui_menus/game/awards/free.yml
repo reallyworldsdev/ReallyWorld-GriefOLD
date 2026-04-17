@@ -1,0 +1,42 @@
+menu_title: '&fꈁꀀꈂꌈꈂꀁ&0ꈃꄈ'
+open_command:
+- free
+- lazy
+- first
+size: 54
+items:
+  # Главное.
+  'gameawards':
+    material: chest_minecart
+    model_data: 10105
+    slot: 21
+    display_name: '&6&lНаграды'
+    lore:
+    - ''
+    - '&7Команда: &6/reward'
+    - ''
+    click_commands:
+    - '[openguimenu] gameAwardsReward' 
+  'kitpvp':
+    material: diamond_pickaxe
+    model_data: 10102
+    slot: 23
+    display_name: '&6&lКит для выживания'
+    lore:
+    - ''
+    - '&7Команда: &6/kit free'
+    - ''
+    click_commands:
+    - '[player] kit free'
+    - '[close]'
+  'gameShopDonateshop':
+    material: totem_of_undying
+    slot: 22
+    display_name: '&6&lКод от alzxmpic'
+    lore:
+    - ''
+    - '&7Команда: &6/alzxmpic'
+    - ''
+    click_commands:
+    - '[player] alzxmpic'
+    - '[close]'

@@ -1,0 +1,95 @@
+name: '§d§lЗелье Целителя '
+glow: false
+lore:
+- §9Прилив здоровья III (0:30)
+- §9Скорость (1:20)
+- §9Регенерация III (0:15)
+- §cУтомление IV (0:15)
+- ''
+- '§5При применении:'
+- §9+12 Максимальное здоровье
+- §9+20% Скорость
+- §c-40% Скорость атаки
+material: POTION
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+usageFeatures:
+  usage: 1
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment0:
+    enchantment: Sharpness
+    level: 1
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hidePotionEffects: true
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+potionSettings:
+  potionColor: 10398390
+  potionType: WATER
+  potionExtended: false
+  potionUpgraded: false
+  potionEffects:
+    pEffect0:
+      isAmbient: false
+      duration: 600
+      potionEffectType: HEALTH_BOOST
+      amplifier: 2
+      hasParticles: true
+      hasIcon: true
+    pEffect1:
+      isAmbient: false
+      duration: 1600
+      potionEffectType: SPEED
+      amplifier: 0
+      hasParticles: true
+      hasIcon: true
+    pEffect2:
+      isAmbient: false
+      duration: 300
+      potionEffectType: REGENERATION
+      amplifier: 2
+      hasParticles: true
+      hasIcon: true
+    pEffect3:
+      isAmbient: false
+      duration: 300
+      potionEffectType: SLOW_DIGGING
+      amplifier: 3
+      hasParticles: true
+      hasIcon: true
+attributes: {}

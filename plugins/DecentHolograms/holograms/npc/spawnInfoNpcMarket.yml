@@ -1,0 +1,18 @@
+location: spawn:-9.479:52.500:34.462
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6/market &7- Открыть маркет'
+    height: 0.3
+  - content: '&6/market my &7- Посмотреть свои товары'
+    height: 0.3
+  - content: '&6/market sell <цены за штуку> &7- Выставить предмет на продажу'
+    height: 0.3
+  - content: '&6/market search <запрос> &7- Поисск по предметам'
+    height: 0.3
+  actions: {}

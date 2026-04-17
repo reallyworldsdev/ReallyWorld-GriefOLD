@@ -1,0 +1,281 @@
+menu_title: '&fꈁꀀꈂꌩꈂꀁ&0ꈃꄅ'
+size: 54
+items:
+  # Вернуться.
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    click_commands:
+    - '[openguimenu] gameShopDonateshop'
+  # Информация.
+  'info':
+    display_name: '&#ffaa00ИНФОРМАЦИЯ'
+    slot: 53
+    model_data: 10001
+    material: structure_void
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &x&F&F&B&A&0&0ꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6wardworld.fun'
+    click_commands:
+    - '[close]'
+  # Магазин.
+  'elytra':
+    display_name: '&3&lКрылья Ангела'
+    slot: 13
+    material: elytra
+    lore:
+    - '&7Починка '
+    - '&7Шипы '
+    - '&7Прочность V'
+    - '&cПроклятие утраты '
+    - ''
+    - '&7====================='
+    - ''
+    - '&fЦена:&6 409 &fꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    enchantments:
+    - KNOCKBACK;1
+    click_commands:
+    - '[console] points take %player_name% 409'
+    - '[console] xkit elytra_angel %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 409
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+  'shield_roma':
+    display_name: '&6Цыганский щит'
+    slot: 21
+    material: shield
+    lore:
+    - '&7Шипы X'
+    - '&cПроклятие утраты '
+    - '&#5555ffНеразрушаемый'
+    - ''
+    - '&7========================================'
+    - ''
+    - '&fЦена:&6 149 &fꐃ'
+    - ''
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 149'
+    - '[console] ei give %player_name% shieldGypsy'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 149
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun'
+  'antifly':
+    display_name: '&5Анти Полет'
+    slot: 22
+    material: firework_star
+    lore:
+    - '&cПроклятие утраты '
+    - '&7'
+    - '&7Когда во второй руке'
+    - '&7При нажатии SHIFT:'
+    - '&#5555ffЗапрещает полеты в радиусе 16 блоков'
+    - ''
+    - '&7===================================='
+    - ''
+    - '&fЦена:&6 400 &fꐃ'
+    - ''
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 400'
+    - '[console] nitems ANTI_FLY %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 400
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun'
+  'supershears':
+    display_name: '&l&6Супер Ножницы &7- &63 &7использований'
+    slot: 23
+    material: shears
+    lore:
+    - '&7Эффективность 25'
+    - '&7Этими ножницами можно &6ломать &7спавнера'
+    - ''
+    - '&7====================='
+    - ''
+    - '&fЦена:&6 199 &fꐃ'
+    - ''
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 199'
+    - '[console] nitems SHEARS %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 199
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun'
+  'totem_witch':
+    display_name: '&5Тотем Ведьмы'
+    slot: 30
+    material: totem_of_undying
+    lore:
+    - '&cПроклятие утраты '
+    - '&7'
+    - '&7Сохраняет эффекты'
+    - ''
+    - '&7============================='
+    - ''
+    - '&fЦена:&6 99 &fꐃ'
+    - ''
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 99'
+    - '[console] nitems WITCH_TOTEM %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 99
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun'
+  'exp':
+    display_name: '&#ffff55Свиток опыта'
+    slot: 31
+    material: flower_banner_pattern
+    lore:
+    - '&7'
+    - '&7  &7||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  '
+    - '&7  &70 &fꐇ  '
+    - '&7'
+    - '&7'
+    - '&#5555ffКогда во второй руке:'
+    - '&7  &#ffff55Собирает в себя весь опыт'
+    - '&7'
+    - '&#5555ffКогда в основной руке'
+    - '&#5555ffПри нажатии ПКМ:'
+    - '&7  &#ffff55Дает вам 5 опыта'
+    - '&7'
+    - ''
+    - '&7====================================='
+    - ''
+    - '&fЦена:&6 199 &fꐃ'
+    - ''
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 199'
+    - '[console] nitems SCROLL_OF_EXPERIENCE %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 199
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun'
+  'draconid_totem':
+    display_name: '&6Тотем Драконида'
+    slot: 32
+    material: totem_of_undying
+    lore:
+    - '&cПроклятие утраты '
+    - '&7'
+    - '&7Срабатывает, когда'
+    - '&7лежит в инвентаре'
+    - ''
+    - '&7============================='
+    - ''
+    - '&fЦена:&6 129 &fꐃ'
+    - ''
+    hide_enchantments: true
+    enchantments:
+    - KNOCKBACK;1
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 129'
+    - '[console] nitems DRACONID_TOTEM %player_name%'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 129
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun'
+  'golden_apple':
+    display_name: '&#55ffffЗолотое яблоко'
+    slot: 39
+    material: golden_apple
+    amount: 32
+    lore:
+    - ''
+    - '&fЦена:&6 129 &fꐃ'
+    - ''
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 129'
+    - '[console] give %player_name% golden_apple 32 -s'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 129
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun'
+  'enchanted_golden_apple':
+    display_name: '&6Зачарованное золотое яблоко'
+    slot: 41
+    material: enchanted_golden_apple
+    lore:
+    - ''
+    - '&fЦена:&6 129 &fꐃ'
+    - ''
+    hide_attributes: true
+    click_commands:
+    - '[console] points take %player_name% 129'
+    - '[console] give %player_name% enchanted_golden_apple 1 -s'
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 129
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun'

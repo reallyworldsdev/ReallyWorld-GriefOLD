@@ -1,0 +1,186 @@
+menu_title: '&fꈁꀀꈂꌕꈂꀁ&0ꈃꄅ'
+size: 53
+items:
+  # Вернуться.
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    click_commands:
+    - '[openguimenu] gameShopDonateshop'
+  # Информация.
+  'info':
+    display_name: '&#ffaa00ИНФОРМАЦИЯ'
+    slot: 53
+    model_data: 10001
+    material: structure_void
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &x&F&F&B&A&0&0ꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6wardworld.fun'
+    click_commands:
+    - '[close]'
+  # Ауры
+  item-1:
+    amount: 1
+    material: white_dye
+    slot: 31
+    display_name: '&bАура Защита от Падения'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Уменьшает входящий урон от падения на &680%'
+    - ''
+    - '&8Одновременно работает только одна аура!'
+    - ''
+    - '&7====================='
+    - ''
+    - '&fЦена: &639 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 39
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] p take %player_name% 39' 
+    - '[console] nauras:naura FALL %player_name%'
+  item-2:
+    amount: 1
+    material: ghast_tear
+    slot: 32
+    display_name: '&bАура Защиты от Кристаллов'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Уменьшает урон от кристаллов на &640%'
+    - ''
+    - '&8Одновременно работает только одна аура!'
+    - ''
+    - '&7====================='
+    - ''
+    - '&fЦена: &6699 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 699
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] p take %player_name% 699' 
+    - '[console] nauras:naura CRYSTAL %player_name%'
+  item-3:
+    amount: 1
+    material: GRAY_DYE
+    slot: 22
+    display_name: '&bАура Твёрдости Брони'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Уменьшает входящий урон от игрока'
+    - ''
+    - '&8Одновременно работает только одна аура!'
+    - ''
+    - '&7====================='
+    - ''
+    - '&fЦена: &61199 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 1199
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6wardworld.fun' 
+    click_commands:
+    - '[console] p take %player_name% 1199' 
+    - '[console] nauras:naura DAMAGE %player_name%'    
+  item-4:
+    amount: 1
+    material: gold_nugget
+    slot: 30
+    display_name: '&bАура Богача'
+    lore:
+    - '&cПроклятье утраты'
+    - '&7Умножает множитель добычи денег с мобов на &61.0'
+    - ''
+    - '&8Одновременно работает только одна аура!'
+    - ''
+    - '&7====================='
+    - ''
+    - '&fЦена: &6389 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_commands:
+    - '[message] &6Риллики &7⟫ &cИзвините, данный товар отсуствует на проекте'
+    - '[message] &6Риллики &7⟫ &fУскорить процесс разработки - &6wardworld.fun'  
+  item-5:
+    amount: 1
+    material: sunflower
+    slot: 21
+    display_name: '&e&lАура Охотника'
+    lore:
+    - '&7Увеличивает количество'
+    - '&7ресурсов с убитого моба'
+    - ''
+    - '&8Одновременно работает только одна аура!'
+    - ''
+    - '&7====================='
+    - ''
+    - '&fЦена: &6279 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_commands:
+    - '[message] &6Риллики &7⟫ &cИзвините, данный товар отсуствует на проекте'
+    - '[message] &6Риллики &7⟫ &fУскорить процесс разработки - &6wardworld.fun' 
+  item-6:
+    amount: 1
+    material: popped_chorus_fruit
+    slot: 23
+    display_name: '&5&lАура Телепортации'
+    lore:
+    - '&7Увеличивает радиус'
+    - '&7телепортации хоруса'
+    - '&7до &616 блоков'
+    - ''
+    - '&8Одновременно работает только одна аура!'
+    - ''
+    - '&7====================='
+    - ''
+    - '&fЦена: &6299 &x&F&F&B&A&0&0ꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    click_commands:
+    - '[message] &6Риллики &7⟫ &cИзвините, данный товар отсуствует на проекте'
+    - '[message] &6Риллики &7⟫ &fУскорить процесс разработки - &6wardworld.fun'
