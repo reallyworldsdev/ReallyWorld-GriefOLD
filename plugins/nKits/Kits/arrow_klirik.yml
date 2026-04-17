@@ -1,0 +1,68 @@
+Name: arrow_klirik
+Cooldown: 0
+Permission: nKits.kits.arrow_klirik
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"text":"§f§lКлирик"}'
+      lore:
+      - '{"text":"§9Неудача (00:00)"}'
+      - '{"text":"§9Очищает все эффекты с врага"}'
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:slow_falling
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

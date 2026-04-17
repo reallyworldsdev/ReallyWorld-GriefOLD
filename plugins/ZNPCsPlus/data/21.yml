@@ -1,0 +1,26 @@
+id: '21'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: d3ec854c-595e-48e1-bfec-b0dbc19667c8
+world: spawn
+location:
+  x: 67.3976804989035
+  y: 45.0
+  z: 144.69999998807907
+  yaw: 156.00006
+  pitch: 11.700038
+type: player
+properties:
+  skin_left_leg: 'true'
+  skin_right_leg: 'true'
+  skin_jacket: 'true'
+  skin_right_sleeve: 'true'
+  skin_hat: 'true'
+  skin_left_sleeve: 'true'
+  skin_cape: 'true'
+hologram:
+  lines:
+  - '&b&lШахтер'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;dG9wa2Fqb2JzIHBhc3M=;1000;ANY_CLICK;0

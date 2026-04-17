@@ -1,0 +1,3873 @@
+LEGENDARY:
+- item: NETHERITE_AXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: EXPERIENCE_BOTTLE
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+- item: NETHERITE_PICKAXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+- item: EXPERIENCE_BOTTLE
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+- item: NETHERITE_BOOTS
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 2
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 3
+- item: NETHERITE_LEGGINGS
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- item: EXPERIENCE_BOTTLE
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+- item: LAPIS_BLOCK
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: LAPIS_BLOCK
+    amount: 64
+- item: NETHERITE_HELMET
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 1
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+- item: POTION
+  amount: 1
+  itemName: §x§5§5§F§F§F§F§lЗелье Эльфа
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#55FFFF","text":"Зелье
+        Эльфа"}],"text":""}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: potion_elf
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1800
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1800
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 11
+        duration: 700
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: GOLDEN_APPLE
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 64
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §x§F§F§5§5§5§5§lГолова Рудольфа
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Голова
+        Рудольфа"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"При
+        экипировке в левой руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +3.5 Броня"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        -0.4 Скорость атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +20 Макс. здоровье"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 20.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 45c8f072-6865-462e-82da-194b72d2f04b
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 7eea37f0-7afc-427c-ab23-72d9cbecb912
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.5
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 2a0ef67d-d3f6-4847-82a5-ccd025ce83d5
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Pu1KDQBhGfx2cQfRhFjLgpLBwBCfLhMUkwLLbkWQjlyVmuBigtdY3sdIHsPVR9AkspbT8zjnNpwFocLkqWinvq8ddJoUKCklKAUoj6kYDbcQHUTWZqM9BbUTXtJWoNQA4UeEsSmQr4EP0LuJxiraxKzc9tsYdrJD0cX64wvuoX99iC5ejn91Y8376rzWbhJqSTdyU7xftuozQfLKUYrbUN2X45BnO4NkMMXpXeLkrOWW9T9mE0PDIKTbIwDoyPBievRiY4ejETiUxnI5Qkvp2VJA8PLI8RMzgkgfY5AEvWOZOdzG6BriAU7wdjyjv+vPb96c3e/35/TJfzBTgD7d+mBQXAQAA
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: sphere_rudolf
+      skull-owner: test
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §x§5§5§F§F§5§5§lГолова Эльфа
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#55FF55","text":"Голова
+        Эльфа"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"При
+        экипировке в левой руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +1.5 Броня"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +10 Макс. здоровье"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +30% Скорость передвижения"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 10.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 45c8f072-6865-462e-82da-194b72d2f04b
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 7eea37f0-7afc-427c-ab23-72d9cbecb912
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.5
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 2a0ef67d-d3f6-4847-82a5-ccd025ce83d5
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PT06DQByFfxpMED0MWMF02UgsQzqDtvzfUTot0JnawCAwW9d6ExMTL+DWo+gJXMrS5XvfS748DUCDy9W+Zey+ftyWjKqgkIxTUARthAbaWB9pLUranIMqaC/amjYaAJyocBZmrKXwTgdXT+NC38Quywdkjdlf6cxD1fEGHcJhfYssxEfuzKzFMP23NUUWmSyZuEV6eGjXPNQXkyWjztLIefCUztGA7aAj3N0TGQyJnF1j+65KqrTA3GXEzw0cBTK1U0Yq1HlzUnk+lp6dd4kkReIXDMtdj6+CHkejo9qV29iYAlzAKdqMJ5QP4/nt+xM7rz+/X+aLWQD8AYkAFuoTAQAA
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: sphere_elf
+      skull-owner: test
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §x§F§F§A§A§0§0§lГолова Пряника
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFAA00","text":"Голова
+        Пряника"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +0.4 Скорость атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +2.5 Урон атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        -6 Макс. здоровье"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: c7fbcf4a-0bc2-41c5-869c-ab20fb7ce19a
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -12.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 45c8f072-6865-462e-82da-194b72d2f04b
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 7eea37f0-7afc-427c-ab23-72d9cbecb912
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Py06DQBhGfw0miD4Mlwymy2q1DOkMlnLf0XYaGGZqA4Mpbl3rm5iY+AJufRR9ApeydPmdczafAWDA5arphbhvH3a1YDpotJQMNMU6ZYAx4gNrVc26c9AVO6q+ZZ0BACc6nCWl6Bm8s8E3i6wyt5kvNgN2xx2tTBFgfrjC+2RY32AXy9F7U3cxTP61SJUpErnjV8V+2a9lYi6cUDAvtDYyfqR2WNNoaRIumiIlVs6ppHYi6exaBHOfE7uQJGoQTakoeI6ovH2i0XQI5rkTzHxJOUEkJUPOY4tEd3Uu43qXWROACzjF2/GE9mE9v31/Eu/15/cLvaAK4A/V4Qu7EwEAAA==
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: sphere_gingerbread
+      skull-owner: test
+- item: POTION
+  amount: 1
+  itemName: §x§F§F§5§5§F§F§lЗелье Гнома
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF55FF","text":"Зелье
+        Гнома"}],"text":""}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: potion_gnom
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 10
+        duration: 700
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 11
+        duration: 700
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 12000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 14
+        duration: 2400
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 21
+        duration: 1800
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: DIAMOND_BLOCK
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: DIAMOND_BLOCK
+    amount: 64
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: END_CRYSTAL
+  amount: 48
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: END_CRYSTAL
+    amount: 48
+- item: NETHERITE_CHESTPLATE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- item: OBSIDIAN
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: OBSIDIAN
+    amount: 64
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: SPLASH_POTION
+  amount: 1
+  itemName: §2§lЗелье Гринча
+  serialized_item:
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Зелье
+        Гринча"}],"text":""}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: potion_grinch
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 4
+        duration: 400
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 2
+        duration: 700
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 9
+        duration: 700
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: IRON_BLOCK
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: IRON_BLOCK
+    amount: 64
+- item: GOLDEN_CARROT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_CARROT
+    amount: 64
+- item: CHORUS_FRUIT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+- item: BOW
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        MENDING: 1
+        ARROW_DAMAGE: 5
+        DURABILITY: 2
+      repair-cost: 7
+- item: NETHERITE_SWORD
+  amount: 1
+  itemName: §f§lМЕЧ БОГА
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"МЕЧ
+        БОГА"}],"text":""}'
+      custom-model-data: 100
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 3
+        DAMAGE_ALL: 6
+        DURABILITY: 3
+      repair-cost: 1
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: god_sword
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: CHORUS_FRUIT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+- item: COOKED_BEEF
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: COOKED_BEEF
+    amount: 64
+- item: BOW
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        MENDING: 1
+        ARROW_DAMAGE: 5
+        ARROW_KNOCKBACK: 2
+        DURABILITY: 2
+      repair-cost: 15
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: ARROW
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ARROW
+    amount: 64
+- item: IRON_BLOCK
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: IRON_BLOCK
+    amount: 16
+- item: GOLDEN_APPLE
+  amount: 8
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 8
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: NETHERITE_SHOVEL
+  amount: 1
+  itemName: §6Лопата §8Песочника
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Лопата
+        "},{"italic":false,"color":"dark_gray","text":"Песочника"}],"text":""}'
+      enchants:
+        DIG_SPEED: 7
+        LOOT_BONUS_BLOCKS: 3
+        DURABILITY: 3
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: shovel_sandbox
+- item: NETHERITE_AXE
+  amount: 1
+  itemName: §6Секира
+  serialized_item:
+    v: 2586
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Секира"}],"text":""}'
+      enchants:
+        DIG_SPEED: 10
+        LOOT_BONUS_BLOCKS: 3
+        DURABILITY: 3
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: axe_sekira
+- item: EXPERIENCE_BOTTLE
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+- item: DIAMOND_BLOCK
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: DIAMOND_BLOCK
+    amount: 16
+- item: LAPIS_BLOCK
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: LAPIS_BLOCK
+    amount: 16
+- item: NETHERITE_PICKAXE
+  amount: 1
+  itemName: §5Везунчик
+  serialized_item:
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Везунчик"}],"text":""}'
+      enchants:
+        LOOT_BONUS_BLOCKS: 5
+        MENDING: 1
+        DURABILITY: 3
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: pickaxe_lucky
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §x§5§5§F§F§F§F§lГолова Пингвина
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#55FFFF","text":"Голова
+        Пингвина"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"При
+        экипировке в левой руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +3 Броня"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +3 Урон атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +-30% Скорость передвижения"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 45c8f072-6865-462e-82da-194b72d2f04b
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 7eea37f0-7afc-427c-ab23-72d9cbecb912
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 2a0ef67d-d3f6-4847-82a5-ccd025ce83d5
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PT06DQBxGfxpMED0MFMF00YWxRoZ0Bmn505kdbaeldAYbOpgOW9d6ExMTL+DWo+gJXMrS5ffe23wWgAWXs10rxEPzuN4KboJBCsnBUPygLLB6vOeN2vLDOZiKH1Xb8IMFACcmnGWFaDm8cx3abF7aq3kolhr5/U5mtohQtb9GdaYXt8hHsvfBjT/Rw3+tp4rcE9QNS1bH7UJm9sSdCh5MnaVMn1ielaRLPVbt3ChHHq1KQZNNh3NSkkGq2ZgO2D09kvFGRwmROL9zcBK7Ud/QKtW0i69YzgSWuMNJJlDtDNfxaARwAado1Z8wPpznt+9PHLz+/H55L14J8Ae6TkYlEwEAAA==
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: sphere_penguin
+      skull-owner: test
+MYTHIC:
+- item: GOLDEN_APPLE
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 64
+- item: RED_WOOL
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: RED_WOOL
+    amount: 64
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TIPPED_ARROW
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 16
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_healing
+- item: GOLD_BLOCK
+  amount: 36
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLD_BLOCK
+    amount: 36
+- item: ARROW
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ARROW
+    amount: 64
+- item: CHORUS_FRUIT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+- item: NETHERITE_SWORD
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+- item: GOLDEN_CARROT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_CARROT
+    amount: 64
+- item: NETHERITE_PICKAXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+- item: NETHERITE_SHOVEL
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 4
+        DURABILITY: 3
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: BOW
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        MENDING: 1
+        ARROW_DAMAGE: 5
+        DURABILITY: 2
+      repair-cost: 7
+- item: OBSIDIAN
+  amount: 24
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: OBSIDIAN
+    amount: 24
+- item: END_CRYSTAL
+  amount: 8
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: END_CRYSTAL
+    amount: 8
+- item: RED_STAINED_GLASS
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: RED_STAINED_GLASS
+    amount: 64
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: RED_SHULKER_BOX
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: RED_SHULKER_BOX
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §x§5§5§F§F§5§5§lГолова Эльфа
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#55FF55","text":"Голова
+        Эльфа"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"При
+        экипировке в левой руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +1.5 Броня"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +10 Макс. здоровье"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +30% Скорость передвижения"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 10.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 45c8f072-6865-462e-82da-194b72d2f04b
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 7eea37f0-7afc-427c-ab23-72d9cbecb912
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.5
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 2a0ef67d-d3f6-4847-82a5-ccd025ce83d5
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PT06DQByFfxpMED0MWMF02UgsQzqDtvzfUTot0JnawCAwW9d6ExMTL+DWo+gJXMrS5XvfS748DUCDy9W+Zey+ftyWjKqgkIxTUARthAbaWB9pLUranIMqaC/amjYaAJyocBZmrKXwTgdXT+NC38Quywdkjdlf6cxD1fEGHcJhfYssxEfuzKzFMP23NUUWmSyZuEV6eGjXPNQXkyWjztLIefCUztGA7aAj3N0TGQyJnF1j+65KqrTA3GXEzw0cBTK1U0Yq1HlzUnk+lp6dd4kkReIXDMtdj6+CHkejo9qV29iYAlzAKdqMJ5QP4/nt+xM7rz+/X+aLWQD8AYkAFuoTAQAA
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: sphere_elf
+      skull-owner: test
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: LAPIS_BLOCK
+  amount: 30
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: LAPIS_BLOCK
+    amount: 30
+- item: IRON_BLOCK
+  amount: 36
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: IRON_BLOCK
+    amount: 36
+- item: DIAMOND_BLOCK
+  amount: 30
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: DIAMOND_BLOCK
+    amount: 30
+- item: NETHERITE_AXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+- item: NETHERITE_CHESTPLATE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- item: NETHERITE_HELMET
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+- item: NETHERITE_BOOTS
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 2
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 3
+- item: NETHERITE_LEGGINGS
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: ARROW
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ARROW
+    amount: 64
+- item: LIME_SHULKER_BOX
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: LIME_SHULKER_BOX
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §x§F§F§A§A§0§0§lГолова Пряника
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFAA00","text":"Голова
+        Пряника"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +0.4 Скорость атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +2.5 Урон атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        -6 Макс. здоровье"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: c7fbcf4a-0bc2-41c5-869c-ab20fb7ce19a
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -12.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 45c8f072-6865-462e-82da-194b72d2f04b
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 7eea37f0-7afc-427c-ab23-72d9cbecb912
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Py06DQBhGfw0miD4Mlwymy2q1DOkMlnLf0XYaGGZqA4Mpbl3rm5iY+AJufRR9ApeydPmdczafAWDA5arphbhvH3a1YDpotJQMNMU6ZYAx4gNrVc26c9AVO6q+ZZ0BACc6nCWl6Bm8s8E3i6wyt5kvNgN2xx2tTBFgfrjC+2RY32AXy9F7U3cxTP61SJUpErnjV8V+2a9lYi6cUDAvtDYyfqR2WNNoaRIumiIlVs6ppHYi6exaBHOfE7uQJGoQTakoeI6ovH2i0XQI5rkTzHxJOUEkJUPOY4tEd3Uu43qXWROACzjF2/GE9mE9v31/Eu/15/cLvaAK4A/V4Qu7EwEAAA==
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: sphere_gingerbread
+      skull-owner: test
+- item: NETHERITE_PICKAXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+- item: NETHERITE_CHESTPLATE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §x§F§F§5§5§5§5§lГолова Рудольфа
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Голова
+        Рудольфа"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"При
+        экипировке в левой руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +3.5 Броня"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        -0.4 Скорость атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +20 Макс. здоровье"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 20.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 45c8f072-6865-462e-82da-194b72d2f04b
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 7eea37f0-7afc-427c-ab23-72d9cbecb912
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.5
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 2a0ef67d-d3f6-4847-82a5-ccd025ce83d5
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Pu1KDQBhGfx2cQfRhFjLgpLBwBCfLhMUkwLLbkWQjlyVmuBigtdY3sdIHsPVR9AkspbT8zjnNpwFocLkqWinvq8ddJoUKCklKAUoj6kYDbcQHUTWZqM9BbUTXtJWoNQA4UeEsSmQr4EP0LuJxiraxKzc9tsYdrJD0cX64wvuoX99iC5ejn91Y8376rzWbhJqSTdyU7xftuozQfLKUYrbUN2X45BnO4NkMMXpXeLkrOWW9T9mE0PDIKTbIwDoyPBievRiY4ejETiUxnI5Qkvp2VJA8PLI8RMzgkgfY5AEvWOZOdzG6BriAU7wdjyjv+vPb96c3e/35/TJfzBTgD7d+mBQXAQAA
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: sphere_rudolf
+      skull-owner: test
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: NETHERITE_SWORD
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+- item: GOLDEN_APPLE
+  amount: 32
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 32
+- item: ENCHANTED_GOLDEN_APPLE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+- item: NETHERITE_HELMET
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+- item: CHORUS_FRUIT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+- item: GOLDEN_CARROT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_CARROT
+    amount: 64
+- item: BOW
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        MENDING: 1
+        ARROW_DAMAGE: 5
+        DURABILITY: 2
+      repair-cost: 7
+- item: NETHERITE_BOOTS
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 2
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 3
+- item: NETHERITE_SHOVEL
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 4
+        DURABILITY: 3
+- item: NETHERITE_AXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §x§5§5§F§F§F§F§lГолова Пингвина
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#55FFFF","text":"Голова
+        Пингвина"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"При
+        экипировке в левой руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +3 Броня"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +3 Урон атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +-30% Скорость передвижения"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 45c8f072-6865-462e-82da-194b72d2f04b
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 7eea37f0-7afc-427c-ab23-72d9cbecb912
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 2a0ef67d-d3f6-4847-82a5-ccd025ce83d5
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PT06DQBxGfxpMED0MFMF00YWxRoZ0Bmn505kdbaeldAYbOpgOW9d6ExMTL+DWo+gJXMrS5ffe23wWgAWXs10rxEPzuN4KboJBCsnBUPygLLB6vOeN2vLDOZiKH1Xb8IMFACcmnGWFaDm8cx3abF7aq3kolhr5/U5mtohQtb9GdaYXt8hHsvfBjT/Rw3+tp4rcE9QNS1bH7UJm9sSdCh5MnaVMn1ielaRLPVbt3ChHHq1KQZNNh3NSkkGq2ZgO2D09kvFGRwmROL9zcBK7Ud/QKtW0i69YzgSWuMNJJlDtDNfxaARwAado1Z8wPpznt+9PHLz+/H55L14J8Ae6TkYlEwEAAA==
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: sphere_penguin
+      skull-owner: test
+- item: SPLASH_POTION
+  amount: 1
+  itemName: §2§lЗелье Гринча
+  serialized_item:
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Зелье
+        Гринча"}],"text":""}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: potion_grinch
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 4
+        duration: 400
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 2
+        duration: 700
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 9
+        duration: 700
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: POTION
+  amount: 1
+  itemName: §x§F§F§5§5§F§F§lЗелье Гнома
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF55FF","text":"Зелье
+        Гнома"}],"text":""}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: potion_gnom
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 10
+        duration: 700
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 11
+        duration: 700
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 12
+        duration: 12000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 14
+        duration: 2400
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 21
+        duration: 1800
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: POTION
+  amount: 1
+  itemName: §x§5§5§F§F§F§F§lЗелье Эльфа
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#55FFFF","text":"Зелье
+        Эльфа"}],"text":""}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: potion_elf
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1800
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1800
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 11
+        duration: 700
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §x§F§F§A§A§0§0§lГолова Пряника
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFAA00","text":"Голова
+        Пряника"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +0.4 Скорость атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +2.5 Урон атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        -6 Макс. здоровье"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: c7fbcf4a-0bc2-41c5-869c-ab20fb7ce19a
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -12.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 45c8f072-6865-462e-82da-194b72d2f04b
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 7eea37f0-7afc-427c-ab23-72d9cbecb912
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Py06DQBhGfw0miD4Mlwymy2q1DOkMlnLf0XYaGGZqA4Mpbl3rm5iY+AJufRR9ApeydPmdczafAWDA5arphbhvH3a1YDpotJQMNMU6ZYAx4gNrVc26c9AVO6q+ZZ0BACc6nCWl6Bm8s8E3i6wyt5kvNgN2xx2tTBFgfrjC+2RY32AXy9F7U3cxTP61SJUpErnjV8V+2a9lYi6cUDAvtDYyfqR2WNNoaRIumiIlVs6ppHYi6exaBHOfE7uQJGoQTakoeI6ovH2i0XQI5rkTzHxJOUEkJUPOY4tEd3Uu43qXWROACzjF2/GE9mE9v31/Eu/15/cLvaAK4A/V4Qu7EwEAAA==
+      PublicBukkitValues:
+        score:usage: 0i
+        executableitems:ei-id: sphere_gingerbread
+      skull-owner: test
+EPIC:
+- item: WHITE_SHULKER_BOX
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: WHITE_SHULKER_BOX
+- item: NETHERITE_AXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+- item: NETHERITE_SHOVEL
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 4
+        DURABILITY: 3
+- item: NETHERITE_PICKAXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+- item: WHITE_STAINED_GLASS
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: WHITE_STAINED_GLASS
+    amount: 64
+- item: WHITE_CONCRETE
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: WHITE_CONCRETE
+    amount: 64
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: WHITE_WOOL
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: WHITE_WOOL
+    amount: 64
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: IRON_BLOCK
+  amount: 15
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: IRON_BLOCK
+    amount: 15
+- item: TIPPED_ARROW
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 16
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_healing
+- item: ARROW
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ARROW
+    amount: 64
+- item: GOLD_BLOCK
+  amount: 15
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLD_BLOCK
+    amount: 15
+- item: DIAMOND_BLOCK
+  amount: 15
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: DIAMOND_BLOCK
+    amount: 15
+- item: LAPIS_BLOCK
+  amount: 15
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: LAPIS_BLOCK
+    amount: 15
+- item: BOW
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        MENDING: 1
+        ARROW_DAMAGE: 5
+        DURABILITY: 2
+      repair-cost: 7
+- item: GOLDEN_APPLE
+  amount: 58
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 58
+- item: NETHERITE_SWORD
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+- item: GOLDEN_CARROT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_CARROT
+    amount: 64
+- item: EXPERIENCE_BOTTLE
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+- item: END_CRYSTAL
+  amount: 4
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: END_CRYSTAL
+    amount: 4
+- item: OBSIDIAN
+  amount: 12
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: OBSIDIAN
+    amount: 12
+- item: CHORUS_FRUIT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: NETHERITE_HELMET
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 1
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+- item: NETHERITE_CHESTPLATE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- item: NETHERITE_BOOTS
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 2
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 3
+- item: NETHERITE_LEGGINGS
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: §6Тотем Драконида
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Тотем
+        Драконида"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Срабатывает,
+        когда"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"лежит
+        в инвентаре"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      - HIDE_DYE
+      PublicBukkitValues:
+        minecraft:draconid_totem: DRACONID_TOTEM
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: §5Тотем Ведьмы
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        Ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      - HIDE_DYE
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: NETHERITE_SWORD
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: GOLDEN_CARROT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_CARROT
+    amount: 64
+- item: POTION
+  amount: 5
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: POTION
+    amount: 5
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      custom-model-data: 1343
+      potion-type: minecraft:long_fire_resistance
+- item: WHITE_DYE
+  amount: 1
+  itemName: §bАура Защиты От Падения
+  serialized_item:
+    v: 2586
+    type: WHITE_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Аура
+        Защиты От Падения"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Уменьшает
+        входящий урон от падения на "},{"italic":false,"color":"gold","text":"80%"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      PublicBukkitValues:
+        nauras:fall: aura
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: CHORUS_FRUIT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: NETHERITE_PICKAXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+- item: POTION
+  amount: 5
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: POTION
+    amount: 5
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      custom-model-data: 382
+      potion-type: minecraft:strong_swiftness
+- item: POTION
+  amount: 5
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: POTION
+    amount: 5
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      custom-model-data: 1995
+      potion-type: minecraft:strong_strength
+RARE:
+- item: SHULKER_SPAWN_EGG
+  amount: 3
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: SHULKER_SPAWN_EGG
+    amount: 3
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: IRON_BLOCK
+  amount: 42
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: IRON_BLOCK
+    amount: 42
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: ARROW
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ARROW
+    amount: 64
+- item: ENCHANTED_GOLDEN_APPLE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+- item: GOLDEN_APPLE
+  amount: 56
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 56
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: DIAMOND_BLOCK
+  amount: 28
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: DIAMOND_BLOCK
+    amount: 28
+- item: YELLOW_CONCRETE
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: YELLOW_CONCRETE
+    amount: 64
+- item: GOLDEN_CARROT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_CARROT
+    amount: 64
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: GOLD_BLOCK
+  amount: 49
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLD_BLOCK
+    amount: 49
+- item: ORANGE_CONCRETE
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ORANGE_CONCRETE
+    amount: 64
+- item: END_CRYSTAL
+  amount: 7
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: END_CRYSTAL
+    amount: 7
+- item: OBSIDIAN
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: OBSIDIAN
+    amount: 16
+- item: NETHERITE_SHOVEL
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 4
+        DURABILITY: 3
+- item: NETHERITE_AXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+- item: NETHERITE_PICKAXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+- item: BOW
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        MENDING: 1
+        ARROW_DAMAGE: 5
+        DURABILITY: 2
+      repair-cost: 7
+- item: NETHERITE_SWORD
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+- item: SHIELD
+  amount: 1
+  itemName: Цыганский щит
+  serialized_item:
+    v: 2586
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"text":"Цыганский щит"}],"text":""}'
+      enchants:
+        THORNS: 10
+      blockMaterial: SHIELD
+- item: NETHERITE_CHESTPLATE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- item: NETHERITE_HELMET
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 1
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+- item: NETHERITE_BOOTS
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 2
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 3
+- item: NETHERITE_LEGGINGS
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TIPPED_ARROW
+  amount: 32
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 32
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_harming
+- item: ARROW
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ARROW
+    amount: 64
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: OAK_LOG
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: OAK_LOG
+    amount: 64
+- item: NETHERITE_INGOT
+  amount: 3
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_INGOT
+    amount: 3
+- item: NETHERITE_CHESTPLATE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- item: NETHERITE_HELMET
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+- item: LIGHT_GRAY_STAINED_GLASS
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: LIGHT_GRAY_STAINED_GLASS
+    amount: 64
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: LIGHT_GRAY_WOOL
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: LIGHT_GRAY_WOOL
+    amount: 64
+- item: NETHERITE_SWORD
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 3
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+      repair-cost: 1
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: GOLDEN_CARROT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_CARROT
+    amount: 64
+- item: CHORUS_FRUIT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+- item: BOW
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        MENDING: 1
+        ARROW_DAMAGE: 5
+        ARROW_KNOCKBACK: 2
+        DURABILITY: 2
+      repair-cost: 15
+- item: NETHERITE_PICKAXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+- item: NETHERITE_AXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+- item: NETHERITE_SHOVEL
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §8§lШар BUNNY
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Шар
+        BUNNY"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"
+        +3.9 к броне"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"
+        +21% к скорости"}],"text":""}'
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.9
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 94a508b8-12ca-4983-83ed-2013b97efe93
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.21
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 6423b763-9559-4ed4-96fd-29b126c3f904
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      internal: H4sIAAAAAAAA/02PMVKDQBhGf504g+hhgGRxUlioOLJMdjFkgSxdQjYuZIkZAhmX1lpvYqUHsPUoegJLKS2/917zmQAmnM82rVL39eO6UMKAAV1UAgaN2DcmmD3eibopxP4UjEY8NW0t9iYAHBlwkixUK+BD6MDK5tJazQOVa+z2m80sFeJyd4G3iV7eYBdXvfev3Ike/2tRs0iR4sNAZttpu6wSazKMlPAjO6/iQ3hHJfFoRZ3YId2DTVhQ0u5aUi8qqYdRyKY6Y/mId8ThjG54ylHm9Z4RHTIpwzQe0ZJr3gUFLUnf3upwFozXc+sS4AyO8ao/Mni3n9++P4n/+vP7hV6QBPgDuAS87RcBAAA=
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_bunny
+      skull-owner: test
+- item: NETHERITE_BOOTS
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 2
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 3
+- item: NETHERITE_LEGGINGS
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- item: BIRCH_LOG
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: BIRCH_LOG
+    amount: 64
+COMMON:
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: ARROW
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ARROW
+    amount: 64
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: DIAMOND_BLOCK
+  amount: 15
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: DIAMOND_BLOCK
+    amount: 15
+- item: GOLD_BLOCK
+  amount: 21
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLD_BLOCK
+    amount: 21
+- item: NETHERITE_SWORD
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+- item: GOLDEN_APPLE
+  amount: 56
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 56
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: ENCHANTED_GOLDEN_APPLE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+- item: OBSIDIAN
+  amount: 12
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: OBSIDIAN
+    amount: 12
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §e§lКолокольчик
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Колокольчик"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: d967953e-33a4-4888-a47e-935e5f0e67db
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.15
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 43e54858-8693-42ef-b156-13d9a627e78d
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 316fa2ff-8ccf-4eee-9b8e-fea51680284f
+          operation: 0
+      ItemFlags:
+      - HIDE_UNBREAKABLE
+      internal: H4sIAAAAAAAA/02Pu1KDQBiFfx2cQfRhNkRwUlhkQpRlshtNgMB2JNnIZTdmuGSA1lrfxEofwNZH0SewdEuLb86cS3MMAAMul0UjxH35tMsE10GjieSg1byqDTBUfOBlnfHqHPSat3VT8soAgBMdzsJENBw+eOchFqVoG3li02FbeX+JxBznh2u8D7v1BNtYqt4d27Nu9G9r1cnKEvHQS9n+oVnLEM2GC8HdxWAjgyNzHq24FxnLbwu6CovYpAqWMskKqnTuFIhJ0pIeI3IX9MzxcmpOr2IF84OeOOOemgEiPpVxPm2ZE6Zs4o12EboBuIBTvFVHtPfB89v3J3Fff36/rBcrBfgDGStBhBcBAAA=
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_bell
+      skull-owner: test
+- item: END_CRYSTAL
+  amount: 4
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: END_CRYSTAL
+    amount: 4
+- item: BOW
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        MENDING: 1
+        ARROW_DAMAGE: 5
+        DURABILITY: 2
+      repair-cost: 7
+- item: CHORUS_FRUIT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+- item: NETHERITE_HELMET
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1
+- item: NETHERITE_LEGGINGS
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- item: NETHERITE_AXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+- item: NETHERITE_CHESTPLATE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §x§F§F§5§5§5§5§lГолова Рудольфа
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Голова
+        Рудольфа"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"При
+        экипировке в левой руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +3.5 Броня"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        -0.4 Скорость атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +20 Макс. здоровье"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 20.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 45c8f072-6865-462e-82da-194b72d2f04b
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 7eea37f0-7afc-427c-ab23-72d9cbecb912
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.5
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 2a0ef67d-d3f6-4847-82a5-ccd025ce83d5
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Pu1KDQBhGfx2cQfRhFjLgpLBwBCfLhMUkwLLbkWQjlyVmuBigtdY3sdIHsPVR9AkspbT8zjnNpwFocLkqWinvq8ddJoUKCklKAUoj6kYDbcQHUTWZqM9BbUTXtJWoNQA4UeEsSmQr4EP0LuJxiraxKzc9tsYdrJD0cX64wvuoX99iC5ejn91Y8376rzWbhJqSTdyU7xftuozQfLKUYrbUN2X45BnO4NkMMXpXeLkrOWW9T9mE0PDIKTbIwDoyPBievRiY4ejETiUxnI5Qkvp2VJA8PLI8RMzgkgfY5AEvWOZOdzG6BriAU7wdjyjv+vPb96c3e/35/TJfzBTgD7d+mBQXAQAA
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_rudolf
+      skull-owner: test
+- item: NETHERITE_PICKAXE
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §x§5§5§F§F§F§F§lГолова Пингвина
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#55FFFF","text":"Голова
+        Пингвина"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"При
+        экипировке в левой руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +3 Броня"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +3 Урон атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +-30% Скорость передвижения"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 45c8f072-6865-462e-82da-194b72d2f04b
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 7eea37f0-7afc-427c-ab23-72d9cbecb912
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 2a0ef67d-d3f6-4847-82a5-ccd025ce83d5
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PT06DQBxGfxpMED0MFMF00YWxRoZ0Bmn505kdbaeldAYbOpgOW9d6ExMTL+DWo+gJXMrS5ffe23wWgAWXs10rxEPzuN4KboJBCsnBUPygLLB6vOeN2vLDOZiKH1Xb8IMFACcmnGWFaDm8cx3abF7aq3kolhr5/U5mtohQtb9GdaYXt8hHsvfBjT/Rw3+tp4rcE9QNS1bH7UJm9sSdCh5MnaVMn1ielaRLPVbt3ChHHq1KQZNNh3NSkkGq2ZgO2D09kvFGRwmROL9zcBK7Ud/QKtW0i69YzgSWuMNJJlDtDNfxaARwAado1Z8wPpznt+9PHLz+/H55L14J8Ae6TkYlEwEAAA==
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_penguin
+      skull-owner: test
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §2§lГолова Гринча
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Голова
+        Гринча"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"При
+        экипировке в левой руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +2 Броня"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +0.2 Скорость атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +-30% Скорость передвижения"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        -4 Макс. здоровье"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 2a0ef67d-d3f6-4847-82a5-ccd025ce83d5
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.2
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 89fcbbf8-2e18-46a5-98e2-c1105c5ec330
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 26d1f9c4-769b-44c6-ba40-f9e5a4503f77
+          operation: 1
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -4.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 1df5a8e6-1204-4eac-bbe0-a322f8968eb5
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PMVKDQBhGfx2cQfQwkAw4KVI4ksjuhMUQAlk6EjYDyy5myKJCa603sdID2HoUPYGllJbvva/5DAADLldVK8Rdc78vBdNBI5lkoCl2VAYYgz6wRpXseA66Yk+qbdjRAIATHc7iTLQMPliHzXRTmPkGi12HnIGjlSkCxA9XqI677Q1ykBy6d+0susm/ra2yxBZ0jIu0XrZbGZuLcSiYF1o7uX4gLuoon1c0QX2QhBUdzSz/dt3TUSz9aPYYuKLweV5RiSs/mQvCSUncoqCD8yMsSU8ETWJOolQGEZGU4xLV1mS/nE4BLuAU5cMR7d16fvv+9L3Xn98v+8UuAP4AfzuDVhcBAAA=
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_grinch
+      skull-owner: test
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §c§lШар Огня
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Шар
+        Огня"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"Когда
+        в руке"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"Огнеупорность"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"При
+        экипировке в левой руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +0.3 Скорость атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +4 Макс. здоровье"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +2.5 Урон атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}'
+      custom-model-data: 5003
+      enchants:
+        PROTECTION_FIRE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 4f34c330-cdcc-48f1-b79d-016b9b037a87
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: c9096822-58fb-46ec-928b-47e92f29c751
+          operation: 0
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: a39fd648-0ffd-4c50-b3f0-830410fbc8a1
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_POTION_EFFECTS
+      Unbreakable: true
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_fire
+- item: IRON_BLOCK
+  amount: 21
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: IRON_BLOCK
+    amount: 21
+- item: LAPIS_BLOCK
+  amount: 15
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: LAPIS_BLOCK
+    amount: 15
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: CHORUS_FRUIT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §e§lШар Света
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Шар
+        Света"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"Когда
+        во второй руке"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"При
+        нажатии SHIFT:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"В
+        радиусе 16 блоков"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"Светлячок
+        (01:00)"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"При
+        экипировке в левой руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +3.5 Удача"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +3 Броня"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +2 Урон атаки"}],"text":""}'
+      - '{"text":""}'
+      custom-model-data: 5004
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 6
+      attribute-modifiers:
+        GENERIC_LUCK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.5
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: e7fc94fa-b74a-42fd-805e-f252dd399342
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: af3b00e2-e92d-4ca9-90f8-1ab7b145fdf2
+          operation: 0
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 40a19714-7fd7-44e5-8cd3-19ee2dc4f939
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_POTION_EFFECTS
+      Unbreakable: true
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_light
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: POTION
+  amount: 5
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: POTION
+    amount: 5
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      custom-model-data: 398
+      potion-type: minecraft:strong_swiftness
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: §5Тотем Ведьмы
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Тотем
+        Ведьмы"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Сохраняет
+        эффекты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      - HIDE_DYE
+      PublicBukkitValues:
+        minecraft:witch_totem: WITCH_TOTEM
+- item: POTION
+  amount: 5
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: POTION
+    amount: 5
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      custom-model-data: 439
+      potion-type: minecraft:strong_strength
+- item: POTION
+  amount: 5
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: POTION
+    amount: 5
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      custom-model-data: 1678
+      potion-type: minecraft:long_fire_resistance
+- item: GOLDEN_CARROT
+  amount: 64
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: GOLDEN_CARROT
+    amount: 64
+- item: TOTEM_OF_UNDYING
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: TOTEM_OF_UNDYING
+- item: ENDER_PEARL
+  amount: 16
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+- item: NETHERITE_SWORD
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 3
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+      repair-cost: 1
+- item: NETHERITE_SWORD
+  amount: 1
+  itemName: ''
+  serialized_item:
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+- item: PLAYER_HEAD
+  amount: 2
+  itemName: §f§lГолова Санты
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Голова
+        Санты"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 7d4f31b6-b7a7-44b1-9341-fc2d1537c451
+          operation: 0
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.02
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 7d697b09-5ee0-4f30-8ef5-7848e118baca
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 34be193c-a560-4eb9-9cda-d7fcc6e545c4
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.3
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: ac33e662-2a50-4fe3-b736-a5089e4b6f42
+          operation: 0
+      ItemFlags:
+      - HIDE_UNBREAKABLE
+      internal: H4sIAAAAAAAA/02PwU6DQBiEfw0miD4MtILpwYOxiSzpggUK3b1R2Erh39rAYotXz/omJia+gFcfRZ/Aoxw9zGHmmzmMAWDAeVR3iHfNw3qDQgfNz6QATYlWGWAM8U40aiPaU9CVOKiuEa0BAEc6nCQZdgLeRe+ZfFmaxdLDvCfO4OPIxIBUu0uyTfrVDXGIHLh77cz6yb+urbLURjb2Sr6ddyuZmLNxiMINrVwuHmmcj4JpIVmcX7A0QS79kt7SvS+pxZ6w5tXCYqmHfppIVs1tLsPalwkGcVjylOz96t7mUzqIHIbdKIi8yXppXgGcwTEphhPah/X89v1J3def3y/7xS4B/gAqrIeiEwEAAA==
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_santa
+      skull-owner: test
+- item: POTION
+  amount: 1
+  itemName: §b§lСнежный вихрь
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Снежный
+        вихрь"}],"text":""}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: potion_vortex
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 14
+        duration: 1500
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 10
+        duration: 1500
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 800
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 4
+        duration: 800
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: POTION
+  amount: 1
+  itemName: §5§lЗелье Ледяной Крепости
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Зелье
+        Ледяной Крепости"}],"text":""}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: potion_fortress
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 11
+        duration: 1000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 21
+        duration: 1000
+        amplifier: 3
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 23
+        duration: 1000
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 20
+        duration: 600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 2
+        duration: 1000
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: SPLASH_POTION
+  amount: 1
+  itemName: §f§lНовогодний ужас
+  serialized_item:
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Новогодний
+        ужас"}],"text":""}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: potion_newyear
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 4
+        duration: 300
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 27
+        duration: 300
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 19
+        duration: 300
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 9
+        duration: 300
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: SPLASH_POTION
+  amount: 1
+  itemName: §2§lЗелье Гринча
+  serialized_item:
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Зелье
+        Гринча"}],"text":""}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: potion_grinch
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 4
+        duration: 400
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 2
+        duration: 700
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 9
+        duration: 700
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: POTION
+  amount: 1
+  itemName: §x§5§5§F§F§F§F§lЗелье Эльфа
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#55FFFF","text":"Зелье
+        Эльфа"}],"text":""}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: potion_elf
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 5
+        duration: 1800
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 1
+        duration: 1800
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 11
+        duration: 700
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §x§F§F§A§A§0§0§lГолова Пряника
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFAA00","text":"Голова
+        Пряника"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +0.4 Скорость атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +2.5 Урон атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        -6 Макс. здоровье"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: c7fbcf4a-0bc2-41c5-869c-ab20fb7ce19a
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -12.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 45c8f072-6865-462e-82da-194b72d2f04b
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 7eea37f0-7afc-427c-ab23-72d9cbecb912
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Py06DQBhGfw0miD4Mlwymy2q1DOkMlnLf0XYaGGZqA4Mpbl3rm5iY+AJufRR9ApeydPmdczafAWDA5arphbhvH3a1YDpotJQMNMU6ZYAx4gNrVc26c9AVO6q+ZZ0BACc6nCWl6Bm8s8E3i6wyt5kvNgN2xx2tTBFgfrjC+2RY32AXy9F7U3cxTP61SJUpErnjV8V+2a9lYi6cUDAvtDYyfqR2WNNoaRIumiIlVs6ppHYi6exaBHOfE7uQJGoQTakoeI6ovH2i0XQI5rkTzHxJOUEkJUPOY4tEd3Uu43qXWROACzjF2/GE9mE9v31/Eu/15/cLvaAK4A/V4Qu7EwEAAA==
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_gingerbread
+      skull-owner: test
+- item: SPLASH_POTION
+  amount: 1
+  itemName: §d§lЭссенция Кромешника
+  serialized_item:
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Эссенция
+        Кромешника"}],"text":""}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: potion_essence
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 2
+        duration: 1200
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 7
+        duration: 30
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 20
+        duration: 900
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 15
+        duration: 900
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 9
+        duration: 1200
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: POTION
+  amount: 1
+  itemName: §1§lЗелье Полярной Ловкости
+  serialized_item:
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_blue","text":"Зелье
+        Полярной Ловкости"}],"text":""}'
+      enchants:
+        DAMAGE_ALL: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: potion_polar
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 0
+        GREEN: 0
+      custom-effects:
+      - ==: PotionEffect
+        effect: 1
+        duration: 900
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 5
+        duration: 900
+        amplifier: 2
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 26
+        duration: 900
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §x§5§5§F§F§5§5§lГолова Эльфа
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#55FF55","text":"Голова
+        Эльфа"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF5555","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAAAAA","text":"При
+        экипировке в левой руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +1.5 Броня"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +10 Макс. здоровье"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#5555FF","text":"
+        +30% Скорость передвижения"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 10.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 45c8f072-6865-462e-82da-194b72d2f04b
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 7eea37f0-7afc-427c-ab23-72d9cbecb912
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.5
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: 2a0ef67d-d3f6-4847-82a5-ccd025ce83d5
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PT06DQByFfxpMED0MWMF02UgsQzqDtvzfUTot0JnawCAwW9d6ExMTL+DWo+gJXMrS5XvfS748DUCDy9W+Zey+ftyWjKqgkIxTUARthAbaWB9pLUranIMqaC/amjYaAJyocBZmrKXwTgdXT+NC38Quywdkjdlf6cxD1fEGHcJhfYssxEfuzKzFMP23NUUWmSyZuEV6eGjXPNQXkyWjztLIefCUztGA7aAj3N0TGQyJnF1j+65KqrTA3GXEzw0cBTK1U0Yq1HlzUnk+lp6dd4kkReIXDMtdj6+CHkejo9qV29iYAlzAKdqMJ5QP4/nt+xM7rz+/X+aLWQD8AYkAFuoTAQAA
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_elf
+      skull-owner: test
+- item: PLAYER_HEAD
+  amount: 1
+  itemName: §6§lГолова Щелкунчика
+  serialized_item:
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Голова
+        Щелкунчика"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: e84ad121-be17-4546-9019-60094a3f5515
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -8.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: e63e28a6-e1df-49cf-a64f-27415d47ae1d
+          operation: 0
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: '&eDefault name'
+          slot: OFF_HAND
+          uuid: d25153ae-1f1d-499c-ae1b-c221440c928b
+          operation: 0
+      ItemFlags:
+      - HIDE_UNBREAKABLE
+      internal: H4sIAAAAAAAA/02PP1KDQByFfzo4g+hhWBlwUqRgJJFlsiCEsGE7kmwCZMEMf2KgtdaTaOUFbD2KnsBSSqs373tf8xQABa7n+1aIh+pxmwkug+QmBQep4XWjgDLgA6+ajNeXIDf81LQVrxUAOJPhIkpEy+GNd47Klqm6WTpi3WFj6OFcFR7OD7e4jLrVHTZwMey2acy60T9XbxKqi1hzUlb67aqI1JkWCG4HaF0sjsya5l5oImbtNC8kiPTT1LXcPbMWvWuZnWdNurggfUz9myF1lxLk0SB3Ke5JuDsRyjJ2H+usmDzhEo22/ngMcAXneDMckD7Q8/v3J7Fff36/9Bc9BfgDgyFpmw8BAAA=
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_nutcracker
+      skull-owner: test

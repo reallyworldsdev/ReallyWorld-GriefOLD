@@ -1,0 +1,96 @@
+Name: sphere_bunny
+Cooldown: 0
+Permission: nKits.kits.sphere_bunny
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"Шар
+        BUNNY"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"
+        +3.9 к броне"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"
+        +21% к скорости"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.9
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 94a508b8-12ca-4983-83ed-2013b97efe93
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.21
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 6423b763-9559-4ed4-96fd-29b126c3f904
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      internal: H4sIAAAAAAAA/02PMVKDQBhGf504g+hhgGRxUlioOLJMdjFkgSxdQjYuZIkZAhmX1lpvYqUHsPUoegJLKS2/917zmQAmnM82rVL39eO6UMKAAV1UAgaN2DcmmD3eibopxP4UjEY8NW0t9iYAHBlwkixUK+BD6MDK5tJazQOVa+z2m80sFeJyd4G3iV7eYBdXvfev3Ike/2tRs0iR4sNAZttpu6wSazKMlPAjO6/iQ3hHJfFoRZ3YId2DTVhQ0u5aUi8qqYdRyKY6Y/mId8ThjG54ylHm9Z4RHTIpwzQe0ZJr3gUFLUnf3upwFozXc+sS4AyO8ao/Mni3n9++P4n/+vP7hV6QBPgDuAS87RcBAAA=
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_bunny
+      skull-owner: test
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

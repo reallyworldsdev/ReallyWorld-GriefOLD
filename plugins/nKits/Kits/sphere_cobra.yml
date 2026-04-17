@@ -1,0 +1,108 @@
+Name: sphere_cobra
+Cooldown: 0
+Permission: nKits.kits.sphere_cobra
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Голова
+        Кобры"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+        +3.5 к Урону"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+        +20% к Скорости"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+        +2.5 к Стойкости"}],"text":""}'
+      - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Отравляет
+        врагов ядом"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 610d82a4-e85a-4e5c-b94e-c2490c17992d
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.6
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+          slot: OFF_HAND
+          uuid: 2c9da2fb-5453-4895-a4bb-461b63f1cf84
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 7699c6dc-abb6-4982-9512-1375f3ebbb49
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAA/02PT06DQBxGfxpMED3MQDOYLqtS/qSAUARmdpROO8BQGwoK3brWm5iYeAG3HkVP4FKWLt/3vs1TABS4XFadEHfNw6YQTAbJy2oGUssOrQLKOO9Z0xbscA5yy/q2a9hBAYATGc7iTHQM3tngIJpytE4dkQ+2PnK0RMK3y/2VvYuH1Y2t2/XorZm+GKb/vrjNEizIxOF0F3SrOkaLSSiYFap5ff/oJyF3y23vagGiZcyJFmh+EldeVD2R47zyTQN5t04xsupFBqamV5DjtXCjvPcjzqlJOUnmnJaGSsstJuWs2KTqFOACTu31GCF9qM9v35+u9frz+4VfMAf4AyxkogwTAQAA
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_cobra
+      skull-owner: test
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

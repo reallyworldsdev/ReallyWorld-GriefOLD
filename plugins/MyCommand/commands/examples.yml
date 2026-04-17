@@ -1,0 +1,224 @@
+# 
+
+grant:
+  command: /grant
+  type: RUN_CONSOLE
+  runcmd:
+  - $Script$%if%%luckperms_has_permission_grant.give%==yes
+  - $text$
+  - $text$ &c✕ Вы уже использовали эту возможность!
+  - $text$
+  - $Script$%elseif%$arg1==$player
+  - $text$
+  - $text$ &c✕ Нельзя выдать донат самому себе
+  - $text$
+  - $Script$%elseif%$arg2==mlmoder
+  - lp user $arg1 parent add mlmoder
+  - $text$
+  - $text$ &6✔ &fВы успешно выдали &6Мл.Модер &fигроку &e$arg1
+  - $text$
+  - $Script$%elseif%$arg2==moder
+  - lp user $arg1 parent add moder
+  - $text$
+  - $text$ &6✔ &fВы успешно выдали &9Модер &fигроку &e$arg1
+  - $text$
+  - $Script$%elseif%$arg2==moderplus
+  - lp user $arg1 parent set moder+
+  - $text$
+  - $text$ &6✔ &fВы успешно выдали &6Модер+ &fигроку &e$arg1
+  - $text$
+  - $Script$%elseif%$arg2==stmoder
+  - lp user $arg1 parent set stmoder
+  - $text$
+  - $text$ &6✔ &fВы успешно выдали &6Ст.Модер &fигроку &e$arg1
+  - $text$
+  - $Script$%elseif%$arg2==glmoder
+  - lp user $arg1 parent set glmoder
+  - $text$
+  - $text$ &6✔ &fВы успешно выдали &6Гл.Поддержка &fигроку &e$arg1
+  - $text$
+  - $Script$%elseif%$arg2==media
+  - lp user $arg1 parent add media
+  - $text$
+  - $text$ &6✔ &fВы успешно выдали &6Media &fигроку &e$arg1
+  - $text$
+  - $Script$%elseif%$arg2==mediaplus
+  - lp user $arg1 parent add media+
+  - $text$
+  - $text$ &6✔ &fВы успешно выдали &6Media+ &fигроку &e$arg1
+  - $text$
+  - $Script$%elseif%$arg2==remove
+  - lp user $arg1 parent remove mlmoder
+  - lp user $arg1 parent remove moder
+  - lp user $arg1 parent remove moder+
+  - lp user $arg1 parent remove stmoder
+  - lp user $arg1 parent remove glmoder
+  - lp user $arg1 parent remove media
+  - lp user $arg1 parent remove media+
+  - $text$
+  - $text$ &6✔ &fВы успешно сняли &fигрока &e$arg1
+  - $text$
+  permission-required: true
+  permission-node: gr.giverank
+  required_args: 2
+  register: true
+  error-message: '&6FuryWorld &7» &fИспользование: &e/grant <ник> <донат>'
+  tab_completer:
+    '1':
+    - $player_list
+    '2':
+    - mlmoder
+    - moder
+    - moder+
+    - stmoder
+    - glmoder
+    - media
+    - media+
+    - remove
+# 
+donate23:
+  command: /donate
+  type: TEXT
+  text:
+  - '&x&F&F&7&B&2&3ꐃ &6Сайт для пожертвования - &x&F&F&C&1&0&0&lF&x&F&F&B&9&0&4&lu&x&F&F&B&1&0&7&lr&x&F&F&A&8&0&B&ly&x&F&F&A&0&0&E&lW&x&F&F&9&8&1&2&lo&x&F&F&9&0&1&5&lr&x&F&F&8&7&1&9&ll&x&F&F&7&F&1&C&ld&x&F&F&7&7&2&0&l.&x&F&F&6&F&2&3&lp&x&F&F&6&6&2&7&lr&x&F&F&5&E&2&A&lo'
+  register: true
+  permission-required: false 
+glist:
+  command: /glist1
+  type: RUN_COMMAND
+  runcmd:
+  - '$text$&7» &aСбор информации. Пожалуйста, подождите...'
+  - '$text$ &fИгроков на &6хабе&f: &6%bungee_hub-1%'
+  - '$text$ &fИгроков на &6рв1&f: &6%bungee_rw1%'
+  - '$text$ &fОбщий онлайн: &6%bungee_total%'
+  permission-required: true
+  permission-node: group.vlad
+  register: true
+resourcepack:
+  command: /resourcepack
+  type: TEXT
+  text:
+  - '&6FuryWorld &7» &fМожно скачать по ссылке &7(https://t.me/furyworlds/6)'
+  - ''
+  register: true
+  permission-required: false
+bc:
+  command: /bc
+  type: BROADCAST_TEXT
+  text:
+  - '&8[&6&lОБЪЯВЛЕНИЕ&8] &7Говорит $player: &6$multiargs'
+  permission-required: true
+  permission-node: furyworld.broadcast
+  permission-error: "&6FuryWorld &7» &fУ тебя недостаточно прав!"
+  cooldown: 120
+  cooldown-message: "&6FuryWorld &7» &fВы слишком часто пишите, подождите"
+  required_args: 1
+  register: true
+  regex_pattern: "^[-a-zA-Z0-9-а-яА-Я()!?№;%:*+@#$%^*+._/ ]+"
+  regex_error_message: "&6FuryWorld &7» &fСимволы запрещены для использования в объявлении."
+ping:
+  command: /ping
+  type: TEXT
+  text:
+  - '&6FuryWorld &7» &fВаш пинг&7: &6%player_ping%'
+  register: true
+  permission-required: false
+seller:
+  command: /seller
+  type: ALIAS
+  alias: /buyer
+  register: true
+  permission-required: false
+voice:
+  command: /voice
+  type: RUN_COMMAND
+  register: true
+  runcmd:
+  - '$text$&6FuryWorld &7» &fСкачать голосовой чат можно тут:'
+  - $text$&6FuryWorld &7» &b&nforge 1.16.5&r &f| &b&nhttps://goo.su/2r9DfcC&r
+  - $text$&6FuryWorld &7» &b&nfabric 1.16.5&r &f| &b&nhttps://goo.su/PFQppo6&r
+  - $text$&6FuryWorld &7» &fДругие версии можно найти &b&nтут&r &f| &b&nhttps://goo.su/YU6txJr&r 
+  permission-required: false
+hub:
+  command: /hub
+  type: BUNGEE_TP
+  server_name: hub-1
+  register: true
+  permission-required: false
+bet:
+  command: /bet 
+  type: ALIAS
+  alias: /casino bet
+  register: true
+  tab_completer:
+    1:
+    - $player_list
+  permission-required: false
+# cod
+codess1:
+  command: /codes
+  type: ALIAS
+  alias: /alzxmpic
+  register: true
+  permission-required: true
+  permission-node: code.codes
+code2:
+  command: /fury
+  type: ALIAS
+  alias: /alzxmpic
+  register: true
+  permission-required: true
+  permission-node: code.code2
+code:
+  command: /code 
+  type: ALIAS
+  alias: /alzxmpic
+  register: true
+  permission-required: true
+  permission-node: code.code
+code3:
+  command: /alzxmpic
+  type: RUN_CONSOLE 
+  register: true
+  runcmd:
+# Выдача пермишиона (если уже ввел команду)
+  - 'case give $player rilik 3'
+  - 'case give $player donate 1'
+  - 'p give $player 1500'
+  - '$text$&fИз промокода от Алземпика вы получили:'
+  - '$text$ &7» &6Кейс с рилликами х3'
+  - '$text$ &7» &6Кейс с донатом х1'
+  - '$text$ &7» &6Риллики x1500'
+  - '$text$ '
+  cooldown: 172800
+  cooldown-message: "&6FuryWorld &7» &fПопробуйте немного позже"
+  permission-required: true
+  permission-node: code.code3
+sorry:
+  command: /sorry
+  type: RUN_CONSOLE 
+  register: true
+  runcmd:
+# Выдача пермишиона (если уже ввел команду)
+  - 'case give $player rilik 2'
+  - 'p give $player 5000'
+  - '$text$&fИз промокода &9#ИЗВИНИТЕ:'
+  - '$text$ &7» &6Кейс с рилликами х2'
+  - '$text$ &7» &6Риллики x5000'
+  - '$text$ '
+  cooldown: 172800
+  cooldown-message: "&6FuryWorld &7» &fПопробуйте немного позже"
+  permission-required: true
+  permission-node: code.sorry2
+ping:
+  command: /links
+  type: TEXT
+  text:
+  - '&6FuryWorld &7» &fСсылки сервера'
+  - ''
+  - ' &7» &6Дискорд сервер &b&ndd.furyworld.pro'
+  - ' &7» &6Поддержка &b&nsup.furyworld.pro'
+  - ' &7» &6Телеграм канал &b&ntg.furyworld.pro'
+  - ''
+  register: true
+  permission-required: false

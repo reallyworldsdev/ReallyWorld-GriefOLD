@@ -1,0 +1,25 @@
+id: '3'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: c026b40b-6321-455d-8281-e05e0b7dde45
+world: spawn
+location:
+  x: 20.360796512168925
+  y: 45.0
+  z: 85.55708714322394
+  yaw: -310.38412
+  pitch: 3.2426271
+type: player
+properties:
+  skin_left_leg: 'true'
+  skin_right_leg: 'true'
+  skin_jacket: 'true'
+  skin_right_sleeve: 'true'
+  skin_hat: 'true'
+  skin_left_sleeve: 'true'
+  skin_cape: 'true'
+hologram:
+  lines:
+  - '&9&lОпытный кузнец'
+actions: []

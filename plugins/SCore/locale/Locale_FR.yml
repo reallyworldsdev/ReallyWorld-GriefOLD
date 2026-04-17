@@ -1,0 +1,15 @@
+noEntityHit: '&cAucune entité n''a été touché'
+haveActionbarOff: '&cTa barre d''action est déjà &4&lOFF'
+damageCommandKill: '&8%target% &7is dead by a damage command'
+haveActionbarOn: '&aTa barre d''action est déjà &a&lON'
+actionbarEnd: '&c&lDESACTIVATION DE &e&l%item%'
+newBalancePositiveMsg: '&6&l[SCore] &eTransaction: &a%amount%$ &eTa nouvelle balance:
+  &a%balance%$'
+actionbarMessage: '&a&lTemps restant pour &e&l%item% &a&l: &e&l%time%'
+errorMoneyMsg: '&4&l[SCore] &cTu n''as pas: &6%amount%$ &csur ton compte ! &6(&eTu
+  as actuellement: &a%balance%$&6)'
+noPlayerHit: '&cAucun joueur n''a été touché'
+variableDefaultValueSet: '&e&l[SCore] &aDefault value set !'
+setActionbarOn: '&aTa barre d''action est  désormais &a&lON'
+newBalanceMsg: '&6&l[SCore] &eTransaction: &c-%amount%$ &eTa nouvelle balance: &a%balance%$'
+variableValueSet: '&aValue set !'

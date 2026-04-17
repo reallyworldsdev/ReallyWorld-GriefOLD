@@ -1,0 +1,27 @@
+id: '27'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 2c744f93-8215-4dde-8ac4-b4eaf7633ee6
+world: spawn
+location:
+  x: 18.490255115694424
+  y: 61.0
+  z: -6.297836175774876
+  yaw: 39.00006
+  pitch: -1.1999946
+type: player
+properties:
+  skin_left_leg: 'true'
+  skin_right_leg: 'true'
+  skin: prefetched;textures;ewogICJ0aW1lc3RhbXAiIDogMTc1NzY4NTM1NDk2NSwKICAicHJvZmlsZUlkIiA6ICJjZjRhZWVjNTYxNjQ0ZGRjOTAzOTgzZGVhOGNjYjdiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJWb29yaGVlcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYzJlMmNmYTY0ZTM4NjdlYWU5ZGNjNjY0NmFmMjQxY2Y3ZmQ0OThlZWU5OTQyZDQ3ZDVlODBiZjgyYzVkYzUyIgogICAgfQogIH0KfQ==;NG9GWQdzY1UZSZsvmerpi2+5Aa2Jc67WzdAN9B3ufhlqoxqvRYA2lzsgCpQaVZ7rIMNCgl1tVtNp01iTq/FgWRCZi7b/vOfk8qm2i/jeMzipAjm8t6DiEMsmDgnd0ea5fmnwSSeYJH3UGfE0a0Axt4Vg0GuK6gm9lWPPH4vnk9+mL9PErYMxTO5kfdoWlhTxcgau/WH3SN9TjhbWXqxiWHhxY6q5c6uFT3hPzL7gTIpJlP0JrhqoXPuGWqFFw22mox8Qmr/GmGo32IAUQGiW+W/9EYJhK42X9c2+iP0O7Vch4RW7cz4L14yI/n/g7pb8C+zuc5FVwafJPp+SmgN+mwlkZjnJaLz2rdY6T/2WAxRl9xqXT8AaRZzvmMAE+jndiVJ8wemRFRjHXeb2wbhVY3C6QVwoR9j7+62sfynypE+M1lhQILUo/82Wc00SsKfGcyT5T8SNFDNyL9a1tGG+zCuU5Ii0YkgTXWwBok+FdHIcHOS0MSlmVMvJ08uOEKMjZokRRcJxWrBX66Sz/cN3/yMCn2u2tCLleN4QkFVhbfOm8+kCAAZ3AhOoiYmK0mxV/KyL5RMSDWODlSg5zx6K4KmXosrx5CS2j7jSr1MXYUJ2xYtTmbb6mUKIlDbbaPEZ5sM6HRomen/FLhsy1R5Bty3zO1O4VctM9v9x/Ymg8Ms=;
+  skin_jacket: 'true'
+  skin_right_sleeve: 'true'
+  skin_hat: 'true'
+  skin_left_sleeve: 'true'
+  skin_cape: 'true'
+hologram:
+  lines:
+  - '&c&lКиллер'
+actions:
+- lol.pyr.znpcsplus.interaction.playercommand.PlayerCommandAction;a2lsbGVy;1000;ANY_CLICK;0

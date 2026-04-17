@@ -1,0 +1,105 @@
+Name: sphere_dhelper
+Cooldown: 0
+Permission: nKits.kits.sphere_dhelper
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Шар
+        Д.Хелпера"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        +7.0 к здоровью"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        +0.6 к скорости атаки"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"
+        +3 к стойкости"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.599
+          name: generic.attackSpeed
+          slot: OFF_HAND
+          uuid: 0d9066bf-b90a-4143-b18f-0b7fcd406f40
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 7.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: e2acdfbe-d656-441e-b5f5-8f12fec0ecd6
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 26ed3cd9-3459-46f4-a1d0-089aae1a010c
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      internal: H4sIAAAAAAAA/1VRy3KbQBBcp5QqheRjAIlU+eADBhsWe5eAVqDdm3iI125QCfRYrj4nX+GrT/mBXPMpyRfkGGS7ksppqnp6enp6FAAU8GHR7Dn/tGs3Fc+nYILXIgeTPu96BSgjvM13fZV378C0z0/9fpd3CgDgYgreRmu+zy8e82NbQMtT17HG01lYJiuzgnZbIEI1nxQGIoHENT2h6ngHLbNKXe/ABO/YkjewMj+OsxwRqLK6UFl8c6I6VelwLWi9lD5ZHlGMBSNU4gHNmQU7qzIL+PlaJjrbJk7k03Hvq06VOJfzJL4dMieSqDaP6C8fb5lulJkbSRZ5PF1F21REL/vdUGbx8pUX8twNtbE3vPS6s+fzfWShcv9/7MyPZGLBwq/Mau2Gamq3h/vZP417oW0TEdWpuBWZZezZKjiM3ubPPhaXDbKpRuvAwCSdYd0rfTuQzIaSObgcMxsY4QIPjY5I1viO1/gxNHwbN9ge8yJIZ04wY3ZjoMFUqbiRmJhzWLTP3jbBWF31bhNcXQHwHryB2fi4yTft4ennd+R+/fX7h/HFKAH4Ax7VlkYHAgAA
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_dhelper
+      skull-owner: test
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

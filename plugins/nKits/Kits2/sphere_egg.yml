@@ -1,0 +1,96 @@
+Name: sphere_egg
+Cooldown: 0
+Permission: nKits.kits.sphere_egg
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Пасхальное
+        яйцо"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"
+        +2.5 к урону"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"
+        +6.5 к броне"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: c4c3733d-191a-4100-bd5b-81ada0b92d77
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 65607afb-f70c-477d-952d-235b19d23b83
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      internal: H4sIAAAAAAAA/02Pu1KDQBhGfx2cQfRhYBJwUlhkjCPLZJeQLAToSLIZLrsxw0VYWmt9Eyt9AFsfRZ/AUtJZfuec5tMANLheFQ3ni/Jxn3GmgkISwUCpWVVroA34yMo6Y9UlqDXr6qZklQYAZypcBAlvGHww6ehxmOq70OFbiaxh05XOXZQfb9AhkJs7ZCExeHtqzeXkX2vWydrk0chJ44PXbESgz0dLzuylsRX+k/sQyYj6HenxmPRFS2ZYunTaEXE/jikyiMB6lPsGpsXQxbm7RkOL2ph6ZpQHKZl57cmR/uSwjIWTYelM9qF+C3AF52g3HFHejee3709sv/78fpkvZgrwB7hKOR0XAQAA
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_egg
+      skull-owner: test
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

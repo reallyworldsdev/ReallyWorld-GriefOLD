@@ -1,0 +1,100 @@
+Name: djeck
+Cooldown: 18000
+Permission: nKits.kits.djeck
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Голова
+        Джека"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: '&eDefault name'
+          slot: HEAD
+          uuid: 7d4f31b6-b7a7-44b1-9341-fc2d1537c451
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: '&eDefault name'
+          slot: HEAD
+          uuid: 34be193c-a560-4eb9-9cda-d7fcc6e545c4
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.2
+          name: '&eDefault name'
+          slot: HEAD
+          uuid: ac33e662-2a50-4fe3-b736-a5089e4b6f42
+          operation: 1
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: '&eDefault name'
+          slot: HEAD
+          uuid: 5f522478-e4eb-4181-ba3d-6c7879e2f615
+          operation: 0
+      ItemFlags:
+      - HIDE_UNBREAKABLE
+      internal: H4sIAAAAAAAA/02PP1KDQBxGfzo4g+hhFhhwUlhkZBKWyYIkgOx2CdkMgd2Y4Y/KttZ6Eys9gK1H0RNYSmn5vvc1zwAw4HJV90LcNve7veA6aOFactA63nYGGON85E235+056B1/6vqGtwYAnOhwlq1Fz+GDDwFieYm2eSCKAbsjJyskIlwdr/AhGzY32MVy9P7UXQyTf1+nW985gtpByQ5xv5EZWthLwf2lWcj0gaqyCiVGTM5KolJEEjqwiqjQKyyWsJqo2Ay92mLz0VtMUlVYxJvt2Ty1SbWU1IpRlBSPkTe1aTWToapNOgSTXY6uAS7gFG/HEO3dfH77/iT+68/vl/PilAB/F4N5xRcBAAA=
+      PublicBukkitValues:
+        score:usage: 1i
+        executableitems:ei-id: sphere_djeck
+      skull-owner: test
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

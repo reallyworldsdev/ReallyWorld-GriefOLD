@@ -1,0 +1,27 @@
+id: '5'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 2c1442a4-fbb0-4c8c-8c2c-146fcfde01b1
+world: spawn
+location:
+  x: -0.4494459914827763
+  y: 49.0
+  z: 21.553594979719644
+  yaw: -0.28878862
+  pitch: 0.1500765
+type: player
+properties:
+  skin_left_leg: 'true'
+  skin_right_leg: 'true'
+  skin_jacket: 'true'
+  skin_right_sleeve: 'true'
+  skin_hat: 'true'
+  skin_left_sleeve: 'true'
+  skin_cape: 'true'
+hologram:
+  lines:
+  - '&a&lЛегкий'
+  - '&2&lДжамшут'
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;ZG0gb3BlbiBnYW1lR3VpZGVzUXVlc3QgJXBsYXllcl9uYW1lJQ==;1000;ANY_CLICK;0

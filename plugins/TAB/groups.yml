@@ -1,0 +1,18 @@
+_DEFAULT_:
+  customtabname: '%condition:nick%%vault_suffix%'
+  tabprefix: '&c● &f%vault_prefix% &7' # &c●&f
+  tagprefix: '&c● &f%vault_prefix% &7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+admin+:
+  customtabname: '%condition:nick%'
+  tabprefix: '&c● %vault_prefix% &7'
+  tagprefix: '&c● %vault_prefix% &7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: '&0&l[&a&lOwner&0&l] &a'
+      tagprefix: '&2&lOwner &a'

@@ -1,0 +1,26 @@
+id: '14'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 010b90ca-601d-4fce-80f8-39753bb554ad
+world: spawn
+location:
+  x: -11.316663924068534
+  y: 45.0
+  z: 75.59860104350213
+  yaw: -46.084015
+  pitch: 2.3426232
+type: player
+properties:
+  skin_left_leg: 'true'
+  skin_right_leg: 'true'
+  skin_jacket: 'true'
+  skin_right_sleeve: 'true'
+  skin_hat: 'true'
+  skin_left_sleeve: 'true'
+  skin_cape: 'true'
+hologram:
+  lines:
+  - '&5&lТемный маг'
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;ZG0gb3BlbiBnYW1lU2hvcEltcGxfbWFnICVwbGF5ZXJfbmFtZSU=;1000;ANY_CLICK;0

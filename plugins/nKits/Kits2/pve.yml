@@ -1,0 +1,146 @@
+Name: pve
+Cooldown: 0
+Permission: nKits.kits.pve
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+      repair-cost: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: COOKED_PORKCHOP
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BREWING_STAND
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Зельеварка
+        ведьмы "},{"italic":false,"color":"gold","text":"2 "},{"italic":false,"color":"white","text":"уровня"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Скорость
+        варки "},{"italic":false,"color":"gold","text":"15 сек"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Тратит
+        в "},{"italic":false,"color":"gold","text":"2 "},{"italic":false,"color":"gray","text":"раза
+        больше порошка"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      PublicBukkitValues:
+        nfurnace:nfurnace-block: WITCH
+        nfurnace:nfurnace-level: 2i
+      blockMaterial: BREWING_STAND
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: FURNACE
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Скоростная
+        Печь"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Работает
+        на "},{"italic":false,"color":"gold","text":"75%"},{"italic":false,"color":"gray","text":"
+        быстрее"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Потребляет
+        на "},{"italic":false,"color":"red","text":"75%,"},{"italic":false,"color":"gray","text":"
+        больше топлива"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_UNBREAKABLE
+      PublicBukkitValues:
+        nfurnace:nfurnace-block: SPEED
+        nfurnace:nfurnace-level: 1i
+      blockMaterial: FURNACE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CARROT
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTATO
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: FARMLAND
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPAWNER
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: COW_SPAWN_EGG
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Шар
+        огородника"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Удача
+        III (На растения)"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"При
+        нажатии SHIFT:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Выращивает
+        растения вокруг вас"}],"text":""}'
+      internal: H4sIAAAAAAAA/02Py26CQBiF/94Si6678iFQLo1L0kodIkNFZGB2imMFfqxB0DJP0V233TVp0sRX6puUZXfnfOfbHAVAgd48rxGfy9dNikIBpU17UVapONxCpxJvVV2KgwIAFx24CZdYCziLxlF5tFXXkYNJQ8y2B3MVPZLt78kubFYPxCRFu08sc9qM/rlGtWQGxpqz5btZvSpCdar5KCb+ICkWR4/ZhSuJHssXLc6sofe4OLUsi4Ncd6WPvLAzHowNKpMTZRwpm6k8s3Qqx5or7ZQOSeMymnsBph7jOX9y0000GAF04ZKs2xPX773v3/7Z/vn8+OreXZl9gD+OIuURBgEAAA==
+      PublicBukkitValues:
+        minecraft:farm_ball: FARM_BALL
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

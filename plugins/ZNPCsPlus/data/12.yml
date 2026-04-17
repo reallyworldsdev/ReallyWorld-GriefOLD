@@ -1,0 +1,26 @@
+id: '12'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: f92a5b7a-0cf8-4577-bcad-bb51c68f6bf0
+world: spawn
+location:
+  x: 10.439518576012308
+  y: 45.0
+  z: 75.45335007405046
+  yaw: -324.63406
+  pitch: -7.107366
+type: player
+properties:
+  skin_left_leg: 'true'
+  skin_right_leg: 'true'
+  skin_jacket: 'true'
+  skin_right_sleeve: 'true'
+  skin_hat: 'true'
+  skin_left_sleeve: 'true'
+  skin_cape: 'true'
+hologram:
+  lines:
+  - '&6&lКУЗНЕЦ'
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;ZG0gb3BlbiBnYW1lU2hvcEltcGxfZnVybmFjZSAlcGxheWVyX25hbWUl;1000;ANY_CLICK;0

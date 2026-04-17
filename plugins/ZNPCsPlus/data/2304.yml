@@ -1,0 +1,27 @@
+id: '2304'
+is-processed: true
+allow-commands: true
+enabled: true
+uuid: 29e85376-76d9-4be3-89d3-b915127045ae
+world: spawn
+location:
+  x: -0.5088176660536899
+  y: 62.0
+  z: 10.010216831628517
+  yaw: -179.49902
+  pitch: 2.0998883
+type: player
+properties:
+  skin_left_leg: 'true'
+  skin_right_leg: 'true'
+  skin: prefetched;textures;ewogICJ0aW1lc3RhbXAiIDogMTc2ODMzMTc1NzI3NCwKICAicHJvZmlsZUlkIiA6ICI0OGRlNGJjMTExOWI0ZTgyYmRjYzMyOTVmNzJjNTgxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZW1waGlzMjUyNiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZjczOGQ4Y2IxODI2NDQwZWY3ZjFkOTg5OWNlYzdkOWNkZDg3MDMyMThlNWNlMzkwY2VhOTMyMDg0NmRkODNmIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOGRlNGE4MTY4OGFkMThiNDllNzM1YTI3M2UwODZjMThmMWUzOTY2OTU2MTIzY2NiNTc0MDM0YzA2ZjVkMzM2IgogICAgfQogIH0KfQ==;SUkhIhsVoFKZy0fVnYx/NCnmPvrjwMsAsVlGqkdUOeezksWLaLN90C3Ar8X/ZbzDrJjYIt5fyFyFsNH6cMz8HLFc2EQ+2MVlS3Ozd09l/VtXBpcO966h41UfbCGUx9dG5XQrbdbpfTHjEf6LUJW5wlBbBqiih3rI4LoAm/Uz+ylyaMkhG6c4ViwTrY1ilNtXQ2qrLgjLPargMsMJhIH9OVppjA57Vn+kgQ/tHXKO0mk67EduLT2JpEUMlv9KTT1u2+7uXMU5eaH7377bZSh/mHZcpUbQqlgXjSVSuDQGBsA0HLD4yrPappmVMKoX+aZptVizduKrjr+oZoQ2Hlwh6Fw1RIqbeKu2nbaqwjyHzI00QGepZoseoUTuh2cvme3v3lssYDe6+O8sELdU4P3AdIPZYCLReXjSlLHrQlQ4kDwvHVpzM08UA58UuItEf0z2nK45qweEju2i3qrghTUiN+5XjgHD4P9Z/zvkduTnWTkQGUq2p9JKT0KO67DqbsHs0inoaRDj7+AUEKsaf+Z/+WDogzz3dYlSf0aGYiCcsXtSuU0J7coKYmBZaheZNNdh6x8dYVbo5hfGMeke68LycLngRbLgYkWkKUOVydf523139eLc/UnnCWQZKPXZLszuk6GKAnRwBBY93Mo9Vn9hy61M2aS3lhI1TNcEGFbQW18=;
+  skin_jacket: 'true'
+  skin_right_sleeve: 'true'
+  skin_hat: 'true'
+  skin_left_sleeve: 'true'
+  skin_cape: 'true'
+hologram:
+  lines:
+  - '&6&lФРИШКА'
+actions:
+- lol.pyr.znpcsplus.interaction.consolecommand.ConsoleCommandAction;ZG0gb3BlbiBnYW1lQXdhcmRzRnJlZSAlcGxheWVyX25hbWUl;1000;ANY_CLICK;0
